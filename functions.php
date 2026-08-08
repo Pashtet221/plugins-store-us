@@ -52,7 +52,7 @@ add_theme_support( 'custom-logo', [
 
 /**
  * Shortcode: [why_plugins]
- * Блок "Бесплатно — не значит без качества?"
+ * Блок "Free does not mean low quality?"
  */
 add_shortcode('why_plugins', function () {
 
@@ -60,7 +60,7 @@ add_shortcode('why_plugins', function () {
 
     <section class="whyPlugins">
         <div class="whyPlugins__container">
-            <h2 class="whyPlugins__title">Бесплатно — не значит без качества</h2>
+            <h2 class="whyPlugins__title">Free does not mean low quality</h2>
 
             <div class="whyPlugins__grid wpds-fade-group" data-step="120">
 
@@ -71,10 +71,10 @@ add_shortcode('why_plugins', function () {
                             <path d="M19.4 13.1c.04-.36.06-.73.06-1.1 0-.37-.02-.74-.06-1.1l2-1.55a.7.7 0 0 0 .17-.9l-1.9-3.29a.7.7 0 0 0-.85-.3l-2.35.95a8.1 8.1 0 0 0-1.9-1.1l-.35-2.5a.7.7 0 0 0-.7-.6h-3.8a.7.7 0 0 0-.7.6l-.35 2.5a8.1 8.1 0 0 0-1.9 1.1l-2.35-.95a.7.7 0 0 0-.85.3L2.43 7.46a.7.7 0 0 0 .17.9l2 1.55c-.04.36-.06.73-.06 1.1 0 .37.02.74.06 1.1l-2 1.55a.7.7 0 0 0-.17.9l1.9 3.29a.7.7 0 0 0 .85.3l2.35-.95c.6.44 1.23.8 1.9 1.1l.35 2.5a.7.7 0 0 0 .7.6h3.8a.7.7 0 0 0 .7-.6l.35-2.5c.67-.3 1.3-.66 1.9-1.1l2.35.95a.7.7 0 0 0 .85-.3l1.9-3.29a.7.7 0 0 0-.17-.9l-2-1.55Z"/>
                         </svg>
                     </div>
-                    <h3 class="whyPlugins__cardTitle">SEO-оптимизация</h3>
+                    <h3 class="whyPlugins__cardTitle">SEO optimized</h3>
                     <p class="whyPlugins__cardText">
-                        Чистый код, быстрая загрузка, правильная семантическая структура.
-                        Плагины используют SEO-специалисты и агентства.
+                        Clean code, fast loading, and proper semantic structure.
+                        Our plugins are used by SEO professionals and agencies.
                     </p>
                 </article>
 
@@ -84,10 +84,10 @@ add_shortcode('why_plugins', function () {
                             <path d="M13 2 4 14h7l-1 8 10-13h-7l0-7Z"/>
                         </svg>
                     </div>
-                    <h3 class="whyPlugins__cardTitle">Минимальный вес</h3>
+                    <h3 class="whyPlugins__cardTitle">Lightweight</h3>
                     <p class="whyPlugins__cardText">
-                        Никаких тяжёлых фреймворков. Каждый плагин написан вручную —
-                        только необходимый код, максимальная скорость.
+                        No heavy frameworks. Every plugin is handcrafted—
+                        only essential code for maximum speed.
                     </p>
                 </article>
 
@@ -98,10 +98,10 @@ add_shortcode('why_plugins', function () {
                             <path d="M4.5 20.5c1.8-4.1 13.2-4.1 15 0"/>
                         </svg>
                     </div>
-                    <h3 class="whyPlugins__cardTitle">Поддержка от разработчика</h3>
+                    <h3 class="whyPlugins__cardTitle">Developer support</h3>
                     <p class="whyPlugins__cardText">
-                        Базовые вопросы по установке можно задать напрямую разработчику.
-                        Оплата нужна только для индивидуальной доработки.
+                        Ask the developer directly about installation and setup.
+                        You only pay when you need custom development.
                     </p>
                 </article>
 
@@ -113,10 +113,10 @@ add_shortcode('why_plugins', function () {
                             <path d="M9.5 17l2.5 2.5L14.5 17"/>
                         </svg>
                     </div>
-                    <h3 class="whyPlugins__cardTitle">Регулярные обновления</h3>
+                    <h3 class="whyPlugins__cardTitle">Regular updates</h3>
                     <p class="whyPlugins__cardText">
-                        Выпускаем обновления с 2022 года.
-                        Плагины всегда совместимы с актуальными версиями WordPress и WooCommerce.
+                        We have released regular updates since 2022.
+                        Plugins stay compatible with current WordPress and WooCommerce releases.
                     </p>
                 </article>
 
@@ -127,10 +127,10 @@ add_shortcode('why_plugins', function () {
                             <path d="m8.2 12 2.5 2.6 5.1-5.4"/>
                         </svg>
                     </div>
-                    <h3 class="whyPlugins__cardTitle">Совместимость с любой темой</h3>
+                    <h3 class="whyPlugins__cardTitle">Works with any theme</h3>
                     <p class="whyPlugins__cardText">
-                        Работают с любой темой без конфликтов и правок CSS.
-                        Проверено на десятках проектов.
+                        Works with any theme without conflicts or CSS fixes.
+                        Proven on dozens of projects.
                     </p>
                 </article>
 
@@ -144,10 +144,10 @@ add_shortcode('why_plugins', function () {
                             <path d="M9 17h4.5"/>
                         </svg>
                     </div>
-                    <h3 class="whyPlugins__cardTitle">Простая настройка</h3>
+                    <h3 class="whyPlugins__cardTitle">Easy setup</h3>
                     <p class="whyPlugins__cardText">
-                        Понятный интерфейс без лишнего.
-                        Установили — настроили за 10 минут, не нужен разработчик.
+                        A clear, streamlined interface.
+                        Install and configure it in 10 minutes—no developer required.
                     </p>
                 </article>
 
@@ -257,20 +257,20 @@ add_shortcode('wps_hero', function () {
 
             <div class="wpsHero__content">
     <h2 class="wpsHero__title">
-        Бесплатные плагины<br>
-        для WordPress и WooCommerce
+        Free plugins<br>
+        for WordPress and WooCommerce
         <span class="wpsHero__titleLine"></span>
     </h2>
 
     <p class="wpsHero__text">
-        Скачивайте готовые решения без оплаты и подписки: автозаполнение,
-        чекаут, доставка, карты и другие инструменты.<br>
-        Платить нужно только за индивидуальную доработку, если она понадобится.
+        Download ready-made solutions with no fees or subscriptions: autocomplete,
+        checkout, shipping, maps, and more.<br>
+        You only pay if you need custom development.
     </p>
 
     <p class="wpsHero__trust">
-        <a class="wpsHero__btn wpsHero__btn--primary" href="/wp-plugins/">Выбрать плагин бесплатно →</a>
-        <a class="wpsHero__btn wpsHero__btn--ghost" href="/contacts/">Заказать доработку</a>
+        <a class="wpsHero__btn wpsHero__btn--primary" href="/wp-plugins/">Choose a free plugin →</a>
+        <a class="wpsHero__btn wpsHero__btn--ghost" href="/contacts/">Request customization</a>
     </p>
 </div>
         </div>
@@ -402,13 +402,13 @@ add_shortcode('top_month_plugins', function () {
 
     <section class="topMonth">
         <div class="topMonth__container">
-            <h2 class="topMonth__title">Популярные бесплатные плагины</h2>
+            <h2 class="topMonth__title">Popular free plugins</h2>
 
             <div class="topMonth__grid wpds-fade-group" data-step="120">
 
                 <!-- DaData -->
                 <article class="pCard pCard--green wpds-fade-item">
-                    <span class="pCard__badge pCard__badge--green">Бесплатно</span>
+                    <span class="pCard__badge pCard__badge--green">Free</span>
 
                     <div class="pCard__row">
                         <div class="pCard__iconBox pCard__iconBox--green">
@@ -418,19 +418,19 @@ add_shortcode('top_month_plugins', function () {
                         <div class="pCard__body">
                             <h3 class="pCard__title">DaData WooCommerce</h3>
                             <p class="pCard__text">
-                                Умное автозаполнение адреса, ИНН и реквизитов компании прямо в чекауте.
-                                Клиент вводит первые буквы — система подбирает остальное.
-                                Меньше ошибок в заказах, меньше ручной работы для вас.
+                                Smart autocomplete for addresses, tax IDs, and company details directly at checkout.
+                                Customers type a few letters and the system completes the rest.
+                                Fewer order errors and less manual work.
                             </p>
 
                             <div class="pCard__meta">
                                 <span class="pCard__star">★</span>
                                 <strong>5.0</strong>
                                 <span class="pCard__dot">·</span>
-                                <span>Автозаполнение</span><span class="pCard__dot">·</span><span>WooCommerce</span>
+                                <span>Autocomplete</span><span class="pCard__dot">·</span><span>WooCommerce</span>
                             </div>
 
-                            <a class="pCard__btn pCard__btn--green" href="https://plugins-store.ru/wp-plugins/dadata-dlya-woocommerce-avtozapolnenie-adresa-i-inn/">Скачать бесплатно →</a>
+                            <a class="pCard__btn pCard__btn--green" href="https://plugins-store.com/wp-plugins/dadata-dlya-woocommerce-avtozapolnenie-adresa-i-inn/">Download free →</a>
                         </div>
                     </div>
                 </article>
@@ -443,21 +443,21 @@ add_shortcode('top_month_plugins', function () {
                         </div>
 
                         <div class="pCard__body">
-                            <h3 class="pCard__title pCard__title--purple">Кастомный Checkout</h3>
+                            <h3 class="pCard__title pCard__title--purple">Custom Checkout</h3>
                             <p class="pCard__text">
-                                Многошаговое оформление заказа с раздельной логикой для физических
-                                и юридических лиц. Автоматическое определение страны, адаптивный
-                                интерфейс, рост конверсии без A/B-тестов.
+                                A multi-step checkout with separate flows for individual
+                                and business customers, automatic country detection, a responsive
+                                interface, and improved conversion without A/B testing.
                             </p>
 
                             <div class="pCard__meta">
                                 <span class="pCard__star">★</span>
                                 <strong>5.0</strong>
                                 <span class="pCard__dot">·</span>
-                                <span>Чекаут</span><span class="pCard__dot">·</span><span>Конверсия</span>
+                                <span>Checkout</span><span class="pCard__dot">·</span><span>Conversion</span>
                             </div>
 
-                            <a class="pCard__btn pCard__btn--purple" href="https://plugins-store.ru/wp-plugins/kastomnyj-checkout-dlya-woocommerce-razrabotka-pod-vash-proekt/">Скачать бесплатно →</a>
+                            <a class="pCard__btn pCard__btn--purple" href="https://plugins-store.com/wp-plugins/kastomnyj-checkout-dlya-woocommerce-razrabotka-pod-vash-proekt/">Download free →</a>
                         </div>
                     </div>
                 </article>
@@ -472,26 +472,26 @@ add_shortcode('top_month_plugins', function () {
                         <div class="pCard__body">
                             <h3 class="pCard__title">CDEK Delivery UX</h3>
                             <p class="pCard__text">
-                                Исправляет стандартные проблемы с выбором ПВЗ CDEK в WooCommerce:
-                                автоподбор города, корректный расчёт стоимости доставки,
-                                оформление без ошибок.
+                                Fixes common CDEK pickup-point issues in WooCommerce:
+                                automatic city detection, accurate shipping rates,
+                                and error-free checkout.
                             </p>
 
                             <div class="pCard__meta">
                                 <span class="pCard__star">★</span>
                                 <strong>4.9</strong>
                                 <span class="pCard__dot">·</span>
-                                <span>Доставка</span><span class="pCard__dot">·</span><span>WooCommerce</span>
+                                <span>Shipping</span><span class="pCard__dot">·</span><span>WooCommerce</span>
                             </div>
 
-                            <a class="pCard__btn pCard__btn--blue" href="https://plugins-store.ru/wp-plugins/integracziya-cdek-dlya-woocommerce-podklyuchenie-i-dorabotka-dostavki/">Скачать бесплатно →</a>
+                            <a class="pCard__btn pCard__btn--blue" href="https://plugins-store.com/wp-plugins/integracziya-cdek-dlya-woocommerce-podklyuchenie-i-dorabotka-dostavki/">Download free →</a>
                         </div>
                     </div>
                 </article>
 
                 <!-- HivePress Map -->
                 <article class="pCard pCard--purple wpds-fade-item">
-                    <span class="pCard__badge pCard__badge--purple">Карта объявлений</span>
+                    <span class="pCard__badge pCard__badge--purple">Listings map</span>
 
                     <div class="pCard__row">
                         <div class="pCard__iconBox pCard__iconBox--purple">
@@ -501,18 +501,18 @@ add_shortcode('top_month_plugins', function () {
                         <div class="pCard__body">
                             <h3 class="pCard__title">HivePress Map Listings</h3>
                             <p class="pCard__text">
-                                Отображение объявлений на карте Яндекс с фильтрами, карточками
-                                и синхронизацией с поиском. Работает быстро даже при тысячах объявлений.
+                                Displays listings on an interactive map with filters, cards,
+                                and synchronized search. Fast even with thousands of listings.
                             </p>
 
                             <div class="pCard__meta">
                                 <span class="pCard__star">★</span>
                                 <strong>5.0</strong>
                                 <span class="pCard__dot">·</span>
-                                <span>Маркетплейсы</span><span class="pCard__dot">·</span><span>HivePress</span>
+                                <span>Marketplaces</span><span class="pCard__dot">·</span><span>HivePress</span>
                             </div>
 
-                            <a class="pCard__btn pCard__btn--purpleOutline" href="https://plugins-store.ru/wp-plugins/hivepress-map-listings-obyavleniya-na-karte/">Скачать бесплатно →</a>
+                            <a class="pCard__btn pCard__btn--purpleOutline" href="https://plugins-store.com/wp-plugins/hivepress-map-listings-obyavleniya-na-karte/">Download free →</a>
                         </div>
                     </div>
                 </article>
@@ -577,10 +577,10 @@ add_action('wp_enqueue_scripts', function () {
  */
 add_shortcode('wpds_trust', function () {
     $items = [
-        ['num' => '4+', 'label' => 'года в разработке WordPress-плагинов'],
-        ['num' => '0 ₽', 'label' => 'за скачивание и использование готовых плагинов'],
-        ['num' => '5.0 ★', 'label' => 'средний рейтинг продуктов'],
-        ['num' => '0', 'label' => 'шаблонных ответов — только живой разработчик'],
+        ['num' => '4+', 'label' => 'years developing WordPress plugins'],
+        ['num' => '0 ₽', 'label' => 'to download and use ready-made plugins'],
+        ['num' => '5.0 ★', 'label' => 'average product rating'],
+        ['num' => '0', 'label' => 'canned responses—talk directly to a developer'],
     ];
     ob_start(); ?>
     <section class="wpdsTrust">
@@ -598,19 +598,19 @@ add_shortcode('wpds_trust', function () {
 
 /**
  * Shortcode: [wpds_workflow]
- * Секция "От бесплатного плагина к готовому решению".
+ * Секция "From a free plugin to a complete solution".
  */
 add_shortcode('wpds_workflow', function () {
     $steps = [
-        ['title' => 'Выбираете плагин', 'text' => 'Находите подходящее решение в каталоге и смотрите описание, видео и системные требования.'],
-        ['title' => 'Скачиваете бесплатно', 'text' => 'Получаете готовый плагин без оплаты, лицензионного ключа и обязательной подписки.'],
-        ['title' => 'Устанавливаете и проверяете', 'text' => 'Добавляете плагин на сайт, настраиваете его и проверяете на реальных сценариях. Базовая установка не требует разработчика.'],
-        ['title' => 'Заказываете только нужное', 'text' => 'Если проекту нужна особая логика, интеграция или адаптация, отдельно обсуждаем и оцениваем доработку.'],
+        ['title' => 'Choose a plugin', 'text' => 'Find the right solution in the catalog and review its description, video, and system requirements.'],
+        ['title' => 'Download it free', 'text' => 'Get a ready-to-use plugin with no fee, license key, or mandatory subscription.'],
+        ['title' => 'Install and test', 'text' => 'Add the plugin to your site, configure it, and test real-world scenarios. Basic installation requires no developer.'],
+        ['title' => 'Request only what you need', 'text' => 'If your project needs custom logic, an integration, or an adaptation, we will discuss and estimate it separately.'],
     ];
     ob_start(); ?>
     <section class="wpdsWorkflow">
         <div class="wpdsWorkflow__container">
-            <h2 class="wpdsWorkflow__title">От бесплатного плагина к готовому решению</h2>
+            <h2 class="wpdsWorkflow__title">From a free plugin to a complete solution</h2>
             <div class="wpdsWorkflow__grid wpds-fade-group" data-step="120">
                 <?php foreach ($steps as $index => $step): ?>
                     <article class="wpdsWorkflow__card wpds-fade-item">
@@ -631,16 +631,16 @@ add_shortcode('wpds_workflow', function () {
  */
 add_shortcode('wpds_faq', function () {
     $items = [
-        ['q' => 'Плагины подойдут к моей теме?', 'a' => 'Да. Плагины разработаны без привязки к конкретным темам и не переопределяют стили без необходимости. Работают с Astra, Flatsome, OceanWP, кастомными темами и большинством других.'],
-        ['q' => 'Плагины действительно бесплатные?', 'a' => 'Да. Готовые версии можно скачать и использовать без оплаты и обязательной подписки. Деньги берём только за индивидуальную разработку или доработку под ваш проект.'],
-        ['q' => 'Возможна ли доработка под мой проект?', 'a' => 'Да, это основное направление работы. Опишите задачу — разберём, что нужно изменить или добавить, и назовём стоимость.'],
-        ['q' => 'Как часто выходят обновления?', 'a' => 'Регулярно, с 2022 года. При обновлении WordPress или WooCommerce проверяем совместимость и выпускаем патч при необходимости.'],
-        ['q' => 'Можно ли самому установить плагин?', 'a' => 'Конечно. Скачайте архив со страницы плагина и установите его через панель WordPress. Если готового функционала не хватит, можно заказать доработку.'],
+        ['q' => 'Will the plugins work with my theme?', 'a' => 'Yes. They are theme-independent and do not override styles unnecessarily. They work with Astra, Flatsome, OceanWP, custom themes, and most others.'],
+        ['q' => 'Are the plugins really free?', 'a' => 'Yes. Download and use ready-made versions without payment or a mandatory subscription. We only charge for custom development for your project.'],
+        ['q' => 'Can you customize one for my project?', 'a' => 'Yes—custom work is our specialty. Describe your requirements and we will recommend changes and provide a quote.'],
+        ['q' => 'How often are updates released?', 'a' => 'Regularly since 2022. We test new WordPress and WooCommerce releases and issue compatibility patches when needed.'],
+        ['q' => 'Can I install a plugin myself?', 'a' => 'Absolutely. Download the archive from the plugin page and install it through WordPress. You can request customization if you need more features.'],
     ];
     ob_start(); ?>
     <section class="wpdsFaq">
         <div class="wpdsFaq__container">
-            <h2 class="wpdsFaq__title">Частые вопросы</h2>
+            <h2 class="wpdsFaq__title">Frequently asked questions</h2>
             <div class="wpdsFaq__list">
                 <?php foreach ($items as $item): ?>
                     <details class="wpdsFaq__item">
@@ -662,11 +662,11 @@ add_shortcode('wpds_cta', function () {
     ob_start(); ?>
     <section class="wpdsCta">
         <div class="wpdsCta__box">
-            <h2>Начните с бесплатного решения</h2>
-            <p>Скачайте готовый плагин из каталога. Если потребуется новая функция, интеграция или решение с нуля — обсудим индивидуальную разработку.</p>
+            <h2>Start with a free solution</h2>
+            <p>Download a ready-made plugin from the catalog. If you need a new feature, integration, or a solution built from scratch, let’s discuss custom development.</p>
             <div class="wpdsCta__actions">
-                <a class="wpdsCta__btn wpdsCta__btn--primary" href="/wp-plugins/">Скачать плагин бесплатно →</a>
-                <a class="wpdsCta__btn wpdsCta__btn--ghost" href="/contacts/">Обсудить доработку</a>
+                <a class="wpdsCta__btn wpdsCta__btn--primary" href="/wp-plugins/">Download a plugin free →</a>
+                <a class="wpdsCta__btn wpdsCta__btn--ghost" href="/contacts/">Discuss customization</a>
             </div>
         </div>
     </section>
@@ -753,7 +753,7 @@ add_action('acf/init', function () {
                         'label' => 'Кто / сайт',
                         'name' => 'meta',
                         'type' => 'text',
-                        'instructions' => 'Напр.: "Блоггер / vn-travel.ru"',
+                        'instructions' => 'Напр.: "Blogгер / vn-travel.ru"',
                     ],
                     [
                         'key' => 'field_wpds_review_avatar',
@@ -1237,9 +1237,9 @@ if (!defined('ABSPATH')) {
 add_action('init', 'ps_register_plugin_post_type');
 function ps_register_plugin_post_type() {
 	$labels = array(
-		'name'               => 'Плагины',
+		'name'               => 'Plugins',
 		'singular_name'      => 'Плагин',
-		'menu_name'          => 'Плагины',
+		'menu_name'          => 'Plugins',
 		'name_admin_bar'     => 'Плагин',
 		'add_new'            => 'Добавить',
 		'add_new_item'       => 'Добавить плагин',
@@ -1248,7 +1248,7 @@ function ps_register_plugin_post_type() {
 		'view_item'          => 'Посмотреть плагин',
 		'all_items'          => 'Все плагины',
 		'search_items'       => 'Искать плагины',
-		'not_found'          => 'Плагины не найдены',
+		'not_found'          => 'Plugins не найдены',
 		'not_found_in_trash' => 'В корзине плагинов не найдено',
 	);
 
@@ -1571,7 +1571,7 @@ function ps_render_plugin_downloads() {
 				<?php if ($archive) : ?>
 					<div class="ps-plugin-downloads__action">
 						<a class="ps-plugin-downloads__button ps-plugin-downloads__button--download" href="<?php echo esc_url($archive['url']); ?>" download="<?php echo esc_attr($archive['filename']); ?>">Скачать бесплатно — <?php echo esc_html($archive['filename']); ?></a>
-						<p>Скачайте готовый архив и установите его через раздел «Плагины» в админке WordPress.</p>
+						<p>Скачайте готовый архив и установите его через раздел «Plugins» в админке WordPress.</p>
 					</div>
 				<?php endif; ?>
 				<div class="ps-plugin-downloads__action">

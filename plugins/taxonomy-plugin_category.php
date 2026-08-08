@@ -38,7 +38,7 @@ $query = new WP_Query([
 			<?php endif; ?>
 
 			<div class="ps-plugin-taxonomy__hero-inner">
-				<p class="ps-plugin-taxonomy__eyebrow">Категория плагинов</p>
+				<p class="ps-plugin-taxonomy__eyebrow">Plugin category</p>
 				<h1 class="ps-plugin-taxonomy__title"><?php echo esc_html(single_term_title('', false)); ?></h1>
 
 				<?php if (!empty($term->description)) : ?>
@@ -93,7 +93,7 @@ $query = new WP_Query([
 								</div>
 
 								<a class="ps-plugin-card__button" href="<?php the_permalink(); ?>">
-									Подробнее
+									Learn more
 								</a>
 							</div>
 						</article>
@@ -118,10 +118,10 @@ $query = new WP_Query([
 
 			<?php else : ?>
 				<div class="ps-plugin-taxonomy__empty">
-					<h2>В этой категории пока нет плагинов</h2>
-					<p>Попробуйте открыть другие категории или вернуться в общий раздел плагинов.</p>
+					<h2>There are no plugins in this category yet</h2>
+					<p>Browse another category or return to the full plugin catalog.</p>
 					<a class="ps-plugin-card__button" href="<?php echo esc_url(get_post_type_archive_link('plugin')); ?>">
-						Все плагины
+						All plugins
 					</a>
 				</div>
 			<?php endif; ?>
