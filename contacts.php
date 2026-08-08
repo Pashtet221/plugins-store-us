@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Контакты Plugins Store
+Template Name: Plugins Store Contact
 */
 
 if (!defined('ABSPATH')) {
@@ -16,28 +16,28 @@ get_header();
     <div class="ps-contact__inner">
 
       <div class="ps-contact__hero">
-        <span class="ps-contact__label">Контакты</span>
+        <span class="ps-contact__label">Contact</span>
 
-        <h1>Связаться с Plugins Store</h1>
+        <h1>Contact Plugins Store</h1>
 
         <p>
-          Нужен готовый плагин, доработка WordPress/WooCommerce или разработка функционала под задачу?
-          Напишите — обсудим проект и подберём решение.
+          Need a ready-made plugin, WordPress/WooCommerce customization, or a custom feature?
+          Get in touch—we will discuss your project and find the right solution.
         </p>
       </div>
 
       <div class="ps-contact__grid">
 
         <div class="ps-contact__card ps-contact__card--main">
-          <h2>Написать по проекту</h2>
+          <h2>Tell us about your project</h2>
 
           <p>
-            Кратко опишите задачу: что нужно сделать, на каком сайте, какие есть требования и сроки.
+            Briefly describe what you need, the website involved, your requirements, and timeline.
           </p>
 
           <div class="ps-contact__actions">
             <a href="https://t.me/paveldamut4@gmail.com" class="ps-contact__btn" target="_blank" rel="noopener">
-              Написать в Telegram
+              Message us on Telegram
             </a>
 
             <a href="mailto:paveldamut4@gmail.com" class="ps-contact__btn ps-contact__btn--secondary">
@@ -47,23 +47,23 @@ get_header();
         </div>
 
         <div class="ps-contact__card">
-          <h3>Разработка плагинов</h3>
+          <h3>Plugin development</h3>
           <p>
-            Кастомные плагины для WordPress, WooCommerce, HivePress, форм, интеграций и личных кабинетов.
+            Custom plugins for WordPress, WooCommerce, HivePress, forms, integrations, and customer portals.
           </p>
         </div>
 
         <div class="ps-contact__card">
-          <h3>Доработка WooCommerce</h3>
+          <h3>WooCommerce customization</h3>
           <p>
-            Checkout, доставка, оплата, статусы заказов, личный кабинет, карточки товаров и нестандартная логика.
+            Checkout, shipping, payments, order statuses, customer accounts, product pages, and custom logic.
           </p>
         </div>
 
         <div class="ps-contact__card">
-          <h3>Партнёрская программа</h3>
+          <h3>Affiliate program</h3>
           <p>
-            15% с заказа за приведённого клиента после заключения сделки.
+            Earn 15% on orders from clients you refer once the deal is closed.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ get_header();
         </div>
 
         <div>
-          <span>Сайт</span>
+          <span>Website</span>
           <a href="<?php echo esc_url(home_url('/')); ?>">
             <?php echo esc_html(parse_url(home_url('/'), PHP_URL_HOST)); ?>
           </a>

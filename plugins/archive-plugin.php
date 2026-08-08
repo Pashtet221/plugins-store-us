@@ -13,9 +13,9 @@ $query = new WP_Query([
 ]);
 
 $post_type_obj = get_post_type_object('plugin');
-$archive_title = $post_type_obj && !empty($post_type_obj->labels->name) ? $post_type_obj->labels->name : 'Плагины';
-$archive_description = 'Бесплатные плагины для WordPress и WooCommerce, которые можно скачать без регистрации. Для каждого решения есть описание, документация и понятные инструкции по запуску.';
-$development_url = 'https://plugins-store.ru/razrabotka-plagina-pod-klyuch/';
+$archive_title = $post_type_obj && !empty($post_type_obj->labels->name) ? $post_type_obj->labels->name : 'Plugins';
+$archive_description = 'Free WordPress and WooCommerce plugins you can download without registering. Every solution includes a description, documentation, and clear setup instructions.';
+$development_url = 'https://plugins-store.com/razrabotka-plagina-pod-klyuch/';
 $contacts_url    = home_url('/contacts/');
 ?>
 
@@ -23,19 +23,19 @@ $contacts_url    = home_url('/contacts/');
 	<section class="ps-plugin-archive__hero">
 		<div class="container">
 			<div class="ps-plugin-archive__hero-inner">
-				<p class="ps-plugin-archive__eyebrow">Открытая библиотека плагинов</p>
-				<h1 class="ps-plugin-archive__title">Готовые плагины.<br><span>Бесплатно для всех.</span></h1>
+				<p class="ps-plugin-archive__eyebrow">Open plugin library</p>
+				<h1 class="ps-plugin-archive__title">Ready-made plugins.<br><span>Free for everyone.</span></h1>
 				<div class="ps-plugin-archive__description">
 					<p><?php echo esc_html($archive_description); ?></p>
 				</div>
 				<div class="ps-plugin-archive__actions">
-					<a class="ps-plugin-archive__button ps-plugin-archive__button--primary" href="#plugin-catalog">Выбрать плагин</a>
-					<a class="ps-plugin-archive__button ps-plugin-archive__button--secondary" href="<?php echo esc_url($development_url); ?>">Заказать разработку</a>
+					<a class="ps-plugin-archive__button ps-plugin-archive__button--primary" href="#plugin-catalog">Choose a plugin</a>
+					<a class="ps-plugin-archive__button ps-plugin-archive__button--secondary" href="<?php echo esc_url($development_url); ?>">Request development</a>
 				</div>
-				<ul class="ps-plugin-archive__trust" aria-label="Преимущества библиотеки">
-					<li>Без регистрации</li>
-					<li>Документация внутри</li>
-					<li>Можно доработать под проект</li>
+				<ul class="ps-plugin-archive__trust" aria-label="Library benefits">
+					<li>No registration</li>
+					<li>Documentation included</li>
+					<li>Customizable for your project</li>
 				</ul>
 			</div>
 		</div>
@@ -44,13 +44,13 @@ $contacts_url    = home_url('/contacts/');
 	<section class="ps-plugin-archive__how" aria-labelledby="how-it-works-title">
 		<div class="container">
 			<div class="ps-plugin-archive__section-heading">
-				<p>Всё просто</p>
-				<h2 id="how-it-works-title">От готового решения к нужному результату</h2>
+				<p>It is simple</p>
+				<h2 id="how-it-works-title">From a ready-made plugin to the result you need</h2>
 			</div>
 			<div class="ps-plugin-archive__steps">
-				<div class="ps-plugin-archive__step"><span>01</span><div><h3>Выберите плагин</h3><p>Посмотрите возможности, совместимость и сценарии использования.</p></div></div>
-				<div class="ps-plugin-archive__step"><span>02</span><div><h3>Скачайте бесплатно</h3><p>Получите архив без оплаты, подписки и скрытых условий.</p></div></div>
-				<div class="ps-plugin-archive__step"><span>03</span><div><h3>Расширьте при необходимости</h3><p>Если базового функционала мало — закажите доработку под свой процесс.</p></div></div>
+				<div class="ps-plugin-archive__step"><span>01</span><div><h3>Choose a plugin</h3><p>Review features, compatibility, and use cases.</p></div></div>
+				<div class="ps-plugin-archive__step"><span>02</span><div><h3>Download free</h3><p>Get the package with no payment, subscription, or hidden terms.</p></div></div>
+				<div class="ps-plugin-archive__step"><span>03</span><div><h3>Extend it when needed</h3><p>If you need more than the core features, request customization for your workflow.</p></div></div>
 			</div>
 		</div>
 	</section>
@@ -58,8 +58,8 @@ $contacts_url    = home_url('/contacts/');
 	<section class="ps-plugin-archive__content" id="plugin-catalog">
 		<div class="container">
 			<div class="ps-plugin-archive__catalog-heading">
-				<div><p>Каталог</p><h2><?php echo esc_html($archive_title); ?></h2></div>
-				<span>Все решения доступны бесплатно</span>
+				<div><p>Catalog</p><h2><?php echo esc_html($archive_title); ?></h2></div>
+				<span>Every solution is available free</span>
 			</div>
 			<?php if ($query->have_posts()) : ?>
 				<div class="ps-plugin-grid">
@@ -67,7 +67,7 @@ $contacts_url    = home_url('/contacts/');
 						<?php $plugin_archive = function_exists('ps_get_plugin_file') ? ps_get_plugin_file('ps_plugin_archive', get_the_ID()) : null; ?>
 						<article <?php post_class('ps-plugin-card'); ?>>
 							<a class="ps-plugin-card__image-link" href="<?php the_permalink(); ?>" aria-label="<?php the_title_attribute(); ?>">
-								<span class="ps-plugin-card__free">Бесплатно</span>
+								<span class="ps-plugin-card__free">Free</span>
 								<?php if (has_post_thumbnail()) : ?>
 									<?php the_post_thumbnail('large', ['class' => 'ps-plugin-card__image']); ?>
 								<?php else : ?>
@@ -104,11 +104,11 @@ $contacts_url    = home_url('/contacts/');
 								</div>
 
 								<div class="ps-plugin-card__footer">
-									<a class="ps-plugin-card__details" href="<?php the_permalink(); ?>">Документация →</a>
+									<a class="ps-plugin-card__details" href="<?php the_permalink(); ?>">Documentation →</a>
 									<?php if (!empty($plugin_archive['url'])) : ?>
-										<a class="ps-plugin-card__button" href="<?php echo esc_url($plugin_archive['url']); ?>" download>Скачать</a>
+										<a class="ps-plugin-card__button" href="<?php echo esc_url($plugin_archive['url']); ?>" download>Download</a>
 									<?php else : ?>
-										<a class="ps-plugin-card__button" href="<?php the_permalink(); ?>#ps-plugin-downloads-title">Скачать</a>
+										<a class="ps-plugin-card__button" href="<?php the_permalink(); ?>#ps-plugin-downloads-title">Download</a>
 									<?php endif; ?>
 								</div>
 							</div>
@@ -134,8 +134,8 @@ $contacts_url    = home_url('/contacts/');
 
 			<?php else : ?>
 				<div class="ps-plugin-archive__empty">
-					<h2>Плагины пока не добавлены</h2>
-					<p>Когда здесь появятся записи, они будут автоматически показаны в каталоге.</p>
+					<h2>No plugins have been added yet</h2>
+					<p>New plugins will automatically appear in the catalog here.</p>
 				</div>
 			<?php endif; ?>
 
@@ -146,8 +146,8 @@ $contacts_url    = home_url('/contacts/');
 	<section class="ps-plugin-archive__cta">
 		<div class="container">
 			<div class="ps-plugin-archive__cta-inner">
-				<div><p>Не нашли нужного?</p><h2>Сделаю плагин под вашу задачу</h2><div>Расскажите, какого функционала не хватает. Я разберусь в задаче, предложу архитектуру и разработаю решение без лишних модулей.</div></div>
-				<a href="<?php echo esc_url($contacts_url); ?>">Обсудить задачу <span>→</span></a>
+				<div><p>Did not find what you need?</p><h2>We will build a plugin for your needs</h2><div>Tell us what functionality you need. We will assess the requirements, propose an architecture, and build a focused solution without unnecessary modules.</div></div>
+				<a href="<?php echo esc_url($contacts_url); ?>">Discuss your requirements <span>→</span></a>
 			</div>
 		</div>
 	</section>

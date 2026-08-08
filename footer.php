@@ -38,44 +38,44 @@ $is_show_arrow_mob = ( $wpshop_core->get_option( 'arrow_mob_display' ) ) ? ' dat
       <div class="ps-footer__logo">Plugins Store</div>
 
       <p>
-        Готовые плагины и кастомная разработка решений для WordPress и WooCommerce.
+        Ready-made plugins and custom solutions for WordPress and WooCommerce.
       </p>
 
       <div class="ps-footer__partner">
-        <strong>Партнёрская программа</strong>
-        <span>15% с заказа за приведённого клиента после заключения сделки.</span>
+        <strong>Affiliate program</strong>
+        <span>Earn 15% on every order from a client you refer once the deal is closed.</span>
       </div>
     </div>
 
     <div class="ps-footer__col">
-      <h3>Разделы</h3>
+      <h3>Explore</h3>
       <ul>
-        <li><a href="/wp-plugins/">Плагины</a></li>
-        <li><a href="/blog/">Блог</a></li>
-        <li><a href="/contacts/">Контакты</a></li>
-        <li><a href="/sitemap/">Карта сайта</a></li>
+        <li><a href="/wp-plugins/">Plugins</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contacts/">Contact</a></li>
+        <li><a href="/sitemap/">Sitemap</a></li>
       </ul>
     </div>
 
     <div class="ps-footer__col">
-      <h3>Услуги</h3>
+      <h3>Services</h3>
       <ul>
-        <li><a href="/plugin-category/woocommerce">Доработка WooCommerce</a></li>
-        <li><a href="/razrabotka-plagina-pod-klyuch/">Разработка плагинов</a></li>
+        <li><a href="/plugin-category/woocommerce">WooCommerce customization</a></li>
+        <li><a href="/razrabotka-plagina-pod-klyuch/">Plugin development</a></li>
       </ul>
     </div>
 
     <div class="ps-footer__col ps-footer__cta">
-      <h3>Нужен плагин под задачу?</h3>
-      <p>Опишите задачу — подскажу решение или оценю разработку.</p>
-      <a href="/contacts/" class="ps-footer__btn">Обсудить проект</a>
+      <h3>Need a plugin for your project?</h3>
+      <p>Tell us what you need—we will recommend a solution or provide a development estimate.</p>
+      <a href="/contacts/" class="ps-footer__btn">Discuss your project</a>
     </div>
 
   </div>
 
   <div class="ps-footer__bottom">
     <span>© 2026 Plugins Store</span>
-    <span>Копирование материалов только с разрешения правообладателя.</span>
+    <span>Content may only be reproduced with the copyright holder’s permission.</span>
   </div>
 </footer>
 

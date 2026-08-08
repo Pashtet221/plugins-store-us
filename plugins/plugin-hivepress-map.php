@@ -449,36 +449,36 @@ if ( empty($video) ) {
         <div class="ds-shots__track" data-shots-track>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.ru/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.ru/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" alt="Скриншот — главный экран" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" aria-label="Открыть скриншот">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" alt="Скриншот — главный экран" loading="lazy" decoding="async">
             </button>
             <figcaption class="ds-shots__cap">Главный экран — быстрый доступ к настройкам</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" alt="Скриншот — настройки" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" aria-label="Открыть скриншот">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" alt="Скриншот — настройки" loading="lazy" decoding="async">
             </button>
             <figcaption class="ds-shots__cap">Настройки — всё в одном месте, без лишних вкладок</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" alt="Скриншот — редактор" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" aria-label="Открыть скриншот">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" alt="Скриншот — редактор" loading="lazy" decoding="async">
             </button>
             <figcaption class="ds-shots__cap">Редактор — логика и внешний вид в понятных блоках</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" alt="Скриншот — результат" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" aria-label="Открыть скриншот">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" alt="Скриншот — результат" loading="lazy" decoding="async">
             </button>
             <figcaption class="ds-shots__cap">Результат — как это выглядит на странице</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" alt="Скриншот — отчёты" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" aria-label="Открыть скриншот">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" alt="Скриншот — отчёты" loading="lazy" decoding="async">
             </button>
             <figcaption class="ds-shots__cap">Отчёты/лог — что происходит и что улучшить</figcaption>
           </figure>
@@ -486,8 +486,8 @@ if ( empty($video) ) {
 			
 			
 			<figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.ru/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" alt="Скриншот — отчёты" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" aria-label="Открыть скриншот">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" alt="Скриншот — отчёты" loading="lazy" decoding="async">
             </button>
             <figcaption class="ds-shots__cap">Отчёты/лог — что происходит и что улучшить</figcaption>
           </figure>
