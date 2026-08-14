@@ -14,38 +14,38 @@ get_header();
                     <div class="pscdBadge">WooCommerce / Store Hours</div>
 
                     <h1 class="pscdHero__title">
-                        Рабочие часы магазина<br>
-                        для WooCommerce
+                        Store Business Hours<br>
+                        for WooCommerce
                     </h1>
 
                     <p class="pscdHero__text">
-                        Плагин позволяет настроить график работы интернет-магазина на WooCommerce,
-                        показывать клиентам актуальный статус магазина и предупреждать о нерабочем
-                        времени до оформления заказа.
+                        The plugin lets you configure business hours for your WooCommerce store,
+                        show customers the store’s current status, and notify them about closed
+                        hours before checkout.
                     </p>
 
                     <div class="pscdHero__actions">
-                        <a href="/contacts" class="pscdBtn pscdBtn--primary">Заказать плагин</a>
-                        <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Задать вопрос</a>
+                        <a href="/contacts" class="pscdBtn pscdBtn--primary">Order the Plugin</a>
+                        <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Ask a Question</a>
                     </div>
 
                     <div class="pscdHero__trust">
-                        <span>График по дням недели</span>
-                        <span>Статус открыт / закрыт</span>
-                        <span>Уведомления для клиентов</span>
+                        <span>Schedule by day of the week</span>
+                        <span>Open / closed status</span>
+                        <span>Customer notifications</span>
                     </div>
                 </div>
 
                 <div class="pscdHero__side">
                     <div class="pscdMiniCard">
-                        <div class="pscdMiniCard__title">Что умеет плагин</div>
+                        <div class="pscdMiniCard__title">Plugin Features</div>
                         <ul class="pscdMiniCard__list">
-                            <li>Настройка рабочих часов</li>
-                            <li>Разный график по дням недели</li>
-                            <li>Статус магазина на сайте</li>
-                            <li>Сообщения в нерабочее время</li>
-                            <li>Уведомления перед оформлением заказа</li>
-                            <li>Работа с WooCommerce</li>
+                            <li>Business hours settings</li>
+                            <li>Different hours for each day of the week</li>
+                            <li>Store status on the website</li>
+                            <li>Messages outside business hours</li>
+                            <li>Pre-checkout notifications</li>
+                            <li>WooCommerce integration</li>
                         </ul>
                     </div>
                 </div>
@@ -56,36 +56,36 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Какие проблемы решает плагин</h2>
+                <h2>Problems the plugin solves</h2>
                 <p>
-                    Если магазин работает по расписанию, клиенту важно заранее понимать,
-                    когда заказ будет обработан. Плагин показывает режим работы и помогает
-                    избежать путаницы с заказами вне рабочего времени.
+                    If your store operates on a schedule, customers need to know in advance
+                    when their order will be processed. The plugin displays your business hours and helps
+                    prevent confusion about orders placed outside those hours.
                 </p>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard">
-                    <h3>Заказы вне рабочего времени</h3>
+                    <h3>Orders outside business hours</h3>
                     <p>
-                        Клиент оформляет заказ ночью или в выходной день и ожидает быстрой обработки,
-                        хотя магазин фактически закрыт.
+                        A customer places an order at night or on a weekend and expects prompt processing,
+                        even though the store is closed.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Нет понятного графика</h3>
+                    <h3>No clear schedule</h3>
                     <p>
-                        Посетитель не видит, когда магазин работает, когда ждать звонка менеджера
-                        и в какие часы заказ будет принят в обработку.
+                        Visitors cannot see when the store is open, when to expect a call from a manager,
+                        or when their order will be processed.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Лишние вопросы менеджерам</h3>
+                    <h3>Unnecessary questions for managers</h3>
                     <p>
-                        Без понятного расписания клиенты чаще пишут и звонят с вопросами
-                        о режиме работы, доставке и сроках обработки заказа.
+                        Without a clear schedule, customers are more likely to send messages and call with questions
+                        about business hours, shipping, and order processing times.
                     </p>
                 </article>
             </div>
@@ -95,55 +95,55 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Основные возможности</h2>
+                <h2>Key Features</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--2">
                 <article class="pscdFeature">
-                    <h3>Рабочий график по дням</h3>
+                    <h3>Daily business hours</h3>
                     <p>
-                        Настраивайте время работы магазина отдельно для каждого дня недели:
-                        будни, выходные, сокращённые дни и нестандартный график.
+                        Set store hours separately for each day of the week,
+                        including weekdays, weekends, shortened days, and custom schedules.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Статус магазина</h3>
+                    <h3>Store status</h3>
                     <p>
-                        Плагин может показывать клиенту актуальный статус: магазин открыт,
-                        закрыт или начнёт работать в указанное время.
+                        The plugin can show customers the current status: the store is open,
+                        closed, or will open at a specified time.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Сообщения для клиентов</h3>
+                    <h3>Customer messages</h3>
                     <p>
-                        Выводите понятные уведомления о режиме работы, чтобы покупатель заранее
-                        понимал, когда заказ будет обработан.
+                        Display clear business hours notifications so customers know in advance
+                        when their order will be processed.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Интеграция с WooCommerce</h3>
+                    <h3>WooCommerce integration</h3>
                     <p>
-                        Решение работает с WooCommerce и может использоваться на страницах магазина,
-                        корзины, оформления заказа или в других нужных местах.
+                        The solution works with WooCommerce and can be used on the shop,
+                        cart, and checkout pages, or anywhere else you need it.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Гибкая логика отображения</h3>
+                    <h3>Flexible display logic</h3>
                     <p>
-                        Можно адаптировать вывод сообщений под конкретный сценарий:
-                        информационное предупреждение или ограничение оформления заказа.
+                        Message display can be adapted to a specific scenario,
+                        such as an informational notice or a checkout restriction.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Простая настройка</h3>
+                    <h3>Easy setup</h3>
                     <p>
-                        Управление рабочими часами выполняется через админку WordPress,
-                        без необходимости каждый раз менять код сайта.
+                        Business hours are managed through the WordPress admin area,
+                        with no need to modify the website code each time.
                     </p>
                 </article>
             </div>
@@ -153,31 +153,31 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Для каких магазинов подходит</h2>
+                <h2>Who it’s for</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard pscdCard--accent">
-                    <h3>Интернет-магазины с менеджерами</h3>
+                    <h3>Online stores with managers</h3>
                     <p>
-                        Подходит магазинам, где заказы обрабатываются вручную в рабочее время,
-                        а не автоматически круглосуточно.
+                        Ideal for stores where orders are processed manually during business hours
+                        rather than automatically around the clock.
                     </p>
                 </article>
 
                 <article class="pscdCard pscdCard--accent">
-                    <h3>Доставка еды, цветов и товаров</h3>
+                    <h3>Food, flower, and merchandise delivery</h3>
                     <p>
-                        Особенно полезно для проектов, где важно показать реальные часы приёма
-                        заказов и доставки.
+                        Especially useful for businesses that need to display their actual order acceptance
+                        and delivery hours.
                     </p>
                 </article>
 
                 <article class="pscdCard pscdCard--accent">
-                    <h3>Локальный бизнес</h3>
+                    <h3>Local businesses</h3>
                     <p>
-                        Подходит магазинам, сервисам и службам доставки, которые работают
-                        по фиксированному расписанию.
+                        Suitable for stores, service providers, and delivery services that operate
+                        on a fixed schedule.
                     </p>
                 </article>
             </div>
@@ -187,16 +187,16 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Как работает плагин</h2>
+                <h2>How the Plugin Works</h2>
             </div>
 
             <div class="pscdSteps">
                 <div class="pscdStep">
                     <div class="pscdStep__num">01</div>
                     <div class="pscdStep__content">
-                        <h3>Вы задаёте расписание</h3>
+                        <h3>You set the schedule</h3>
                         <p>
-                            В настройках указываются рабочие дни, часы открытия и закрытия магазина.
+                            In the settings, specify the store's business days and opening and closing hours.
                         </p>
                     </div>
                 </div>
@@ -204,9 +204,9 @@ get_header();
                 <div class="pscdStep">
                     <div class="pscdStep__num">02</div>
                     <div class="pscdStep__content">
-                        <h3>Плагин проверяет текущее время</h3>
+                        <h3>The plugin checks the current time</h3>
                         <p>
-                            Система автоматически сравнивает текущее время с заданным графиком работы.
+                            The system automatically compares the current time with the specified business hours.
                         </p>
                     </div>
                 </div>
@@ -214,9 +214,9 @@ get_header();
                 <div class="pscdStep">
                     <div class="pscdStep__num">03</div>
                     <div class="pscdStep__content">
-                        <h3>Показывает статус клиенту</h3>
+                        <h3>Displays the status to customers</h3>
                         <p>
-                            Посетитель видит, открыт магазин сейчас или заказ будет обработан позже.
+                            Visitors can see whether the store is currently open or their order will be processed later.
                         </p>
                     </div>
                 </div>
@@ -224,10 +224,10 @@ get_header();
                 <div class="pscdStep">
                     <div class="pscdStep__num">04</div>
                     <div class="pscdStep__content">
-                        <h3>Помогает управлять ожиданиями</h3>
+                        <h3>Helps manage expectations</h3>
                         <p>
-                            Клиент заранее понимает сроки обработки заказа и меньше обращается
-                            с уточняющими вопросами.
+                            Customers know in advance when their order will be processed and are less likely to contact you
+                            with follow-up questions.
                         </p>
                     </div>
                 </div>
@@ -238,30 +238,30 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Что получает бизнес</h2>
+                <h2>Business Benefits</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard">
-                    <h3>Меньше недопонимания</h3>
+                    <h3>Fewer misunderstandings</h3>
                     <p>
-                        Клиенты сразу видят режим работы и понимают, когда заказ будет принят
-                        в обработку.
+                        Customers immediately see the business hours and understand when their order will be accepted
+                        for processing.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Выше доверие</h3>
+                    <h3>Greater trust</h3>
                     <p>
-                        Открытая информация о графике делает магазин понятнее и профессиональнее
-                        в глазах покупателя.
+                        Clear information about business hours makes the store more transparent and professional
+                        in the customer's eyes.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Меньше нагрузки на менеджеров</h3>
+                    <h3>Less work for managers</h3>
                     <p>
-                        Часть вопросов о времени работы и обработке заказов закрывается прямо на сайте.
+                        Some questions about business hours and order processing are answered directly on the website.
                     </p>
                 </article>
             </div>
@@ -271,28 +271,28 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Технические требования</h2>
+                <h2>Technical Requirements</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard">
                     <h3>WordPress</h3>
                     <p>
-                        Рекомендуется использовать актуальную версию WordPress для стабильной работы.
+                        Using the latest version of WordPress is recommended for stable performance.
                     </p>
                 </article>
 
                 <article class="pscdCard">
                     <h3>WooCommerce</h3>
                     <p>
-                        Плагин предназначен для интернет-магазинов на WooCommerce.
+                        The plugin is designed for WooCommerce stores.
                     </p>
                 </article>
 
                 <article class="pscdCard">
                     <h3>PHP 8.0+</h3>
                     <p>
-                        Для корректной работы рекомендуется современная версия PHP.
+                        A modern version of PHP is recommended for proper operation.
                     </p>
                 </article>
             </div>
@@ -302,38 +302,38 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Что нужно для установки</h2>
+                <h2>Installation requirements</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--2">
                 <article class="pscdFeature">
-                    <h3>Сайт на WordPress</h3>
+                    <h3>A WordPress website</h3>
                     <p>
-                        Нужен рабочий сайт с установленным WordPress и активным WooCommerce.
+                        You need a working website with WordPress installed and WooCommerce activated.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>График работы магазина</h3>
+                    <h3>Store business hours</h3>
                     <p>
-                        Нужно заранее определить рабочие дни, часы открытия и закрытия,
-                        а также особые условия для выходных.
+                        You need to define the business days and opening and closing hours in advance,
+                        as well as any special weekend conditions.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Места вывода уведомлений</h3>
+                    <h3>Notification display locations</h3>
                     <p>
-                        Можно определить, где показывать статус: в карточке товара, корзине,
-                        checkout или в шапке сайта.
+                        You can choose where to display the status: on product pages, in the cart,
+                        at checkout, or in the site header.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Тексты сообщений</h3>
+                    <h3>Message text</h3>
                     <p>
-                        Можно использовать стандартные уведомления или подготовить свои формулировки
-                        под стиль магазина.
+                        You can use the default notifications or create custom messages
+                        that match your store's style.
                     </p>
                 </article>
             </div>
@@ -343,45 +343,45 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Частые вопросы</h2>
+                <h2>Frequently asked questions</h2>
             </div>
 
             <div class="pscdFaq">
                 <div class="pscdFaq__item">
-                    <h3>Можно ли настроить разное время по дням недели?</h3>
+                    <h3>Can I set different hours for each day of the week?</h3>
                     <p>
-                        Да, можно задать отдельный график для каждого дня недели.
+                        Yes, you can set a separate schedule for each day of the week.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Можно ли показать, что магазин сейчас закрыт?</h3>
+                    <h3>Can I show that the store is currently closed?</h3>
                     <p>
-                        Да, плагин может выводить статус магазина и сообщение для клиента
-                        в нерабочее время.
+                        Yes, the plugin can display the store status and a message for customers
+                        outside business hours.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Можно ли изменить текст уведомления?</h3>
+                    <h3>Can I change the notification text?</h3>
                     <p>
-                        Да, сообщения можно адаптировать под стиль сайта и особенности бизнеса.
+                        Yes, messages can be customized to match your website's style and business needs.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Можно ли использовать для доставки еды или цветов?</h3>
+                    <h3>Can I use it for food or flower delivery?</h3>
                     <p>
-                        Да, плагин хорошо подходит для проектов, где заказы принимаются
-                        только в определённые часы.
+                        Yes, the plugin is ideal for businesses that accept orders
+                        only during specific hours.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Будет ли работать с моей темой?</h3>
+                    <h3>Will it work with my theme?</h3>
                     <p>
-                        Плагин рассчитан на WooCommerce и может быть адаптирован под большинство
-                        современных WordPress-тем.
+                        The plugin is designed for WooCommerce and can be adapted to most
+                        modern WordPress themes.
                     </p>
                 </div>
             </div>
@@ -392,17 +392,17 @@ get_header();
         <div class="container">
             <div class="pscdCta__box">
                 <div class="pscdCta__content">
-                    <h2>Нужно добавить рабочие часы в WooCommerce?</h2>
+                    <h2>Need to add business hours to WooCommerce?</h2>
                     <p>
-                        Опишите, как работает ваш магазин: в какие дни принимаются заказы,
-                        где нужно показывать статус и нужно ли ограничивать оформление заказа
-                        в нерабочее время.
+                        Describe how your store operates: which days you accept orders,
+                        where the status should be displayed, and whether checkout should be restricted
+                        outside business hours.
                     </p>
                 </div>
 
                 <div class="pscdCta__actions">
-                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Обсудить плагин</a>
-                    <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Написать на почту</a>
+                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Discuss the plugin</a>
+                    <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Send an email</a>
                 </div>
             </div>
         </div>
@@ -676,7 +676,7 @@ get_header();
 </style>
 
 <?php if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 ?>
 

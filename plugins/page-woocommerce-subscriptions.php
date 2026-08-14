@@ -12,21 +12,21 @@ get_header();
         <div class="container">
             <div class="pscpHero__wrap">
                 <div>
-                    <div class="pscpBadge">WooCommerce Subscriptions / рекуррентные платежи</div>
-                    <h1 class="pscpHero__title">Плагин подписок WooCommerce — рекуррентные платежи и автопродления</h1>
-                    <p class="pscpHero__text">Настраиваю подписки, регулярные платежи, автопродления и доступ по тарифам для интернет-магазина на WooCommerce. Подходит для SaaS, клубов, онлайн-сервисов и продажи товаров по подписке.</p>
+                    <div class="pscpBadge">WooCommerce Subscriptions / Recurring Payments</div>
+                    <h1 class="pscpHero__title">WooCommerce Subscriptions Plugin — Recurring Payments and Automatic Renewals</h1>
+                    <p class="pscpHero__text">I set up subscriptions, recurring payments, automatic renewals, and plan-based access for WooCommerce stores. Ideal for SaaS platforms, clubs, online services, and subscription-based products.</p>
                     <div class="pscpHero__actions">
-                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Заказать плагин подписок</a>
-                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Доработка под проект</a>
+                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Order a Subscriptions Plugin</a>
+                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Custom Development for Your Project</a>
                     </div>
                 </div>
                 <aside class="pscpPanel">
-                    <h2>Что входит</h2>
+                    <h2>What’s Included</h2>
                     <ul>
-                        <li>Рекуррентные платежи</li>
-                        <li>Автопродление заказов</li>
-                        <li>Тарифы и доступы</li>
-                        <li>Уведомления об оплате</li>
+                        <li>Recurring Payments</li>
+                        <li>Automatic Order Renewals</li>
+                        <li>Plans and Access Levels</li>
+                        <li>Payment Notifications</li>
 
                     </ul>
                 </aside>
@@ -37,14 +37,14 @@ get_header();
     <section class="pscpSection">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Коммерческие задачи, которые закрывает плагин</h2>
-                <p>Шаблон страницы собран под поисковые запросы клиентов, которые ищут готовый WordPress-плагин или разработку функциональности под бизнес-процесс.</p>
+                <h2>Business Needs Addressed by the Plugin</h2>
+                <p>The page template is designed around customer search queries for a ready-made WordPress plugin or custom functionality tailored to a business process.</p>
             </div>
             <div class="pscpGrid">
-                <article><h3>Подписки для WooCommerce</h3><p>Страница раскрывает коммерческий запрос «Подписки для WooCommerce» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Рекуррентные платежи WordPress</h3><p>Страница раскрывает коммерческий запрос «Рекуррентные платежи WordPress» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Плагин автопродления заказов</h3><p>Страница раскрывает коммерческий запрос «Плагин автопродления заказов» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>WooCommerce membership по подписке</h3><p>Страница раскрывает коммерческий запрос «WooCommerce membership по подписке» и показывает выгоду внедрения для владельца сайта.</p></article>
+                <article><h3>Subscriptions for WooCommerce</h3><p>This page targets the commercial search query “Subscriptions for WooCommerce” and highlights the benefits of implementation for the site owner.</p></article>
+                <article><h3>WordPress Recurring Payments</h3><p>This page targets the commercial search query “WordPress Recurring Payments” and highlights the benefits of implementation for the site owner.</p></article>
+                <article><h3>Automatic Order Renewal Plugin</h3><p>This page targets the commercial search query “Automatic Order Renewal Plugin” and highlights the benefits of implementation for the site owner.</p></article>
+                <article><h3>WooCommerce Subscription Membership</h3><p>This page targets the commercial search query “WooCommerce Subscription Membership” and highlights the benefits of implementation for the site owner.</p></article>
 
             </div>
         </div>
@@ -53,21 +53,21 @@ get_header();
     <section class="pscpSection pscpSection--soft">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Сценарии внедрения</h2>
-                <p>Можно использовать как отдельный плагин, как основу для лендинга услуги или как шаблон для карточки продукта в каталоге плагинов.</p>
+                <h2>Implementation Scenarios</h2>
+                <p>It can be used as a standalone plugin, as the foundation for a service landing page, or as a template for a product listing in a plugin directory.</p>
             </div>
             <div class="pscpSteps">
-                <article><span>01</span><h3>Аудит проекта</h3><p>Проверяю тему, плагины, checkout, формы и текущую логику сайта.</p></article>
-                <article><span>02</span><h3>Разработка</h3><p>Собираю функциональность в отдельный плагин без правок ядра WordPress.</p></article>
-                <article><span>03</span><h3>Тестирование</h3><p>Проверяю совместимость, роли пользователей, уведомления и критические сценарии.</p></article>
+                <article><span>01</span><h3>Project Audit</h3><p>I review the theme, plugins, checkout, forms, and the website’s current logic.</p></article>
+                <article><span>02</span><h3>Development</h3><p>I build the functionality as a separate plugin without modifying the WordPress core.</p></article>
+                <article><span>03</span><h3>Testing</h3><p>I test compatibility, user roles, notifications, and critical workflows.</p></article>
             </div>
         </div>
     </section>
 
-    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026')); } ?>
+    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026')); } ?>
 
     <section class="pscpCta">
-        <div class="container"><div class="pscpCta__box"><h2>Нужен такой плагин для вашего сайта?</h2><p>Опишите задачу — предложу структуру плагина, сроки и вариант внедрения.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Обсудить проект</a></div></div>
+        <div class="container"><div class="pscpCta__box"><h2>Need a Plugin Like This for Your Website?</h2><p>Describe your requirements, and I’ll propose the plugin structure, timeline, and implementation approach.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Discuss Your Project</a></div></div>
     </section>
 </main>
 
