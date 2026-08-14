@@ -8,9 +8,9 @@ defined('ABSPATH') || exit;
 
 get_header();
 
-$title       = get_the_title() ?: 'AI перевод .po файлов для WordPress и Woodmart';
-$subtitle    = 'Кастомное решение для автоматического перевода .po и .pot файлов для WordPress, WooCommerce, Loco Translate и Woodmart.';
-$price_text  = 'По запросу';
+$title       = get_the_title() ?: 'AI Translation of .po Files for WordPress and Woodmart';
+$subtitle    = 'A custom solution for automatically translating .po and .pot files for WordPress, WooCommerce, Loco Translate, and Woodmart.';
+$price_text  = 'Available on Request';
 $cta_primary = '#contact';
 $cta_second  = '#features';
 
@@ -473,25 +473,25 @@ $cta_second  = '#features';
 					<p class="ps-plugin-hero__text"><?php echo esc_html($subtitle); ?></p>
 
 					<div class="ps-plugin-actions">
-						<a class="ps-plugin-btn ps-plugin-btn--primary" href="<?php echo esc_url($cta_primary); ?>">Заказать установку</a>
-						<a class="ps-plugin-btn ps-plugin-btn--secondary" href="<?php echo esc_url($cta_second); ?>">Посмотреть возможности</a>
+						<a class="ps-plugin-btn ps-plugin-btn--primary" href="<?php echo esc_url($cta_primary); ?>">Order Installation</a>
+						<a class="ps-plugin-btn ps-plugin-btn--secondary" href="<?php echo esc_url($cta_second); ?>">View Features</a>
 					</div>
 
 					<div class="ps-plugin-hero__meta">
 						<div class="ps-plugin-meta-item">
-							<span class="ps-plugin-meta-label">Совместимость</span>
+							<span class="ps-plugin-meta-label">Compatibility</span>
 							<span class="ps-plugin-meta-value">WordPress, WooCommerce, Woodmart, .po/.pot</span>
 						</div>
 						<div class="ps-plugin-meta-item">
-							<span class="ps-plugin-meta-label">Формат работы</span>
-							<span class="ps-plugin-meta-value">Автоматический AI перевод файлов локализации</span>
+							<span class="ps-plugin-meta-label">How It Works</span>
+							<span class="ps-plugin-meta-value">Automatic AI Translation of Localization Files</span>
 						</div>
 						<div class="ps-plugin-meta-item">
-							<span class="ps-plugin-meta-label">Для кого</span>
-							<span class="ps-plugin-meta-value">Разработчики, магазины, проекты на Woodmart</span>
+							<span class="ps-plugin-meta-label">Who It’s For</span>
+							<span class="ps-plugin-meta-value">Developers, Stores, and Woodmart Projects</span>
 						</div>
 						<div class="ps-plugin-meta-item">
-							<span class="ps-plugin-meta-label">Стоимость</span>
+							<span class="ps-plugin-meta-label">Pricing</span>
 							<span class="ps-plugin-meta-value"><?php echo esc_html($price_text); ?></span>
 						</div>
 					</div>
@@ -499,15 +499,15 @@ $cta_second  = '#features';
 
 				<aside class="ps-plugin-hero__card">
 					<div>
-						<h2 class="ps-plugin-hero__card-title">Что это за решение</h2>
-						<p class="ps-plugin-hero__card-text">Это кастомный инструмент для перевода файлов локализации WordPress, который помогает перевести тему, плагин или магазин, когда стандартный сценарий через Loco Translate неудобен или не закрывает задачу проекта.</p>
+						<h2 class="ps-plugin-hero__card-title">What This Solution Is</h2>
+						<p class="ps-plugin-hero__card-text">This is a custom tool for translating WordPress localization files. It helps translate a theme, plugin, or store when the standard workflow in Loco Translate is inconvenient or does not meet the project’s needs.</p>
 					</div>
 
 					<ul class="ps-plugin-checklist">
-						<li>перевод .po и .pot файлов</li>
-						<li>подходит для тем и плагинов WordPress</li>
-						<li>удобен для Woodmart и WooCommerce</li>
-						<li>ускоряет локализацию больших проектов</li>
+						<li>translation of .po and .pot files</li>
+						<li>suitable for WordPress themes and plugins</li>
+						<li>ideal for Woodmart and WooCommerce</li>
+						<li>speeds up localization for large projects</li>
 					</ul>
 				</aside>
 			</div>
@@ -519,14 +519,14 @@ $cta_second  = '#features';
 	<section class="ps-plugin-section">
 		<div class="ps-plugin-container">
 			<div class="ps-plugin-head">
-				<span class="ps-plugin-eyebrow">Проблема</span>
-				<h2 class="ps-plugin-heading">Почему стандартный перевод через Loco Translate подходит не всем</h2>
-				<p class="ps-plugin-lead">На реальных WordPress-проектах перевод интерфейса часто превращается в рутину. Особенно если речь идет о крупных темах вроде Woodmart, магазинах на WooCommerce или плагинах с большим количеством строк. Ручной перевод занимает слишком много времени, а стандартные инструменты не всегда удобны для такой работы.</p>
+				<span class="ps-plugin-eyebrow">The Problem</span>
+				<h2 class="ps-plugin-heading">Why Standard Translation with Loco Translate Isn’t Right for Everyone</h2>
+				<p class="ps-plugin-lead">On real-world WordPress projects, translating the interface often becomes a tedious task. This is especially true for large themes like Woodmart, WooCommerce stores, or plugins with a large number of strings. Manual translation takes too much time, and standard tools are not always convenient for this type of work.</p>
 			</div>
 
 			<div class="ps-plugin-highlight">
-				<h3 class="ps-plugin-highlight__title">Решение под практическую задачу WordPress</h3>
-				<p class="ps-plugin-highlight__text">Этот шаблон страницы подает ваш продукт не как абстрактный AI-сервис, а как понятный рабочий инструмент для перевода файлов локализации. Пользователь загружает .po или .pot файл, запускает обработку и получает готовую основу перевода для темы, плагина или магазина.</p>
+				<h3 class="ps-plugin-highlight__title">A Solution for Real-World WordPress Needs</h3>
+				<p class="ps-plugin-highlight__text">This page template presents your product not as an abstract AI service, but as a practical tool for translating localization files. The user uploads a .po or .pot file, starts the process, and receives a ready-to-use translation base for a theme, plugin, or store.</p>
 			</div>
 		</div>
 	</section>
@@ -534,25 +534,25 @@ $cta_second  = '#features';
 	<section class="ps-plugin-section">
 		<div class="ps-plugin-container">
 			<div class="ps-plugin-head">
-				<span class="ps-plugin-eyebrow">Возможности</span>
-				<h2 class="ps-plugin-heading">Что делает этот плагин</h2>
-				<p class="ps-plugin-lead">Инструмент помогает автоматизировать перевод файлов локализации WordPress и ускоряет подготовку проекта к запуску для русскоязычной аудитории.</p>
+				<span class="ps-plugin-eyebrow">Features</span>
+				<h2 class="ps-plugin-heading">What This Plugin Does</h2>
+				<p class="ps-plugin-lead">The tool automates the translation of WordPress localization files and speeds up project preparation for Russian-speaking audiences.</p>
 			</div>
 
 			<div class="ps-plugin-grid ps-plugin-grid--3">
 				<div class="ps-plugin-card">
-					<h3>Переводит .po и .pot</h3>
-					<p>Подходит для локализации тем WordPress, WooCommerce и кастомных плагинов без ручной обработки каждой строки.</p>
+					<h3>Translates .po and .pot files</h3>
+					<p>Suitable for localizing WordPress themes, WooCommerce, and custom plugins without manually processing every string.</p>
 				</div>
 
 				<div class="ps-plugin-card">
-					<h3>Ускоряет перевод Woodmart</h3>
-					<p>Удобен для проектов на Woodmart, где строк много и ручной перевод становится слишком долгим и дорогим.</p>
+					<h3>Speeds up Woodmart translation</h3>
+					<p>Ideal for Woodmart projects with many strings, where manual translation becomes too time-consuming and expensive.</p>
 				</div>
 
 				<div class="ps-plugin-card">
-					<h3>Подходит для рабочих проектов</h3>
-					<p>Это решение можно использовать как основу перевода, а затем при необходимости быстро доработать отдельные формулировки вручную.</p>
+					<h3>Suitable for production projects</h3>
+					<p>This solution can be used as a translation foundation, with individual phrases quickly refined manually as needed.</p>
 				</div>
 			</div>
 		</div>
@@ -561,30 +561,30 @@ $cta_second  = '#features';
 	<section class="ps-plugin-section">
 		<div class="ps-plugin-container">
 			<div class="ps-plugin-head">
-				<span class="ps-plugin-eyebrow">Кому подойдет</span>
-				<h2 class="ps-plugin-heading">Для кого это решение</h2>
-				<p class="ps-plugin-lead">Этот продукт лучше всего работает там, где нужно быстро перевести WordPress-проект и не тратить время на сотни строк вручную.</p>
+				<span class="ps-plugin-eyebrow">Who It’s For</span>
+				<h2 class="ps-plugin-heading">Who This Solution Is For</h2>
+				<p class="ps-plugin-lead">This product works best when you need to translate a WordPress project quickly without spending time on hundreds of strings manually.</p>
 			</div>
 
 			<div class="ps-plugin-grid ps-plugin-grid--2">
 				<div class="ps-plugin-card">
-					<h3>Разработчикам WordPress</h3>
-					<p>Когда нужно быстро подготовить перевод темы, плагина или клиентского сайта.</p>
+					<h3>WordPress Developers</h3>
+					<p>When you need to quickly prepare a translation for a theme, plugin, or client website.</p>
 				</div>
 
 				<div class="ps-plugin-card">
-					<h3>Владельцам WooCommerce-магазинов</h3>
-					<p>Когда нужно перевести интерфейс магазина, системные строки и шаблон без долгой ручной работы.</p>
+					<h3>WooCommerce Store Owners</h3>
+					<p>When you need to translate the store interface, system strings, and templates without time-consuming manual work.</p>
 				</div>
 
 				<div class="ps-plugin-card">
-					<h3>Тем, кто работает с Woodmart</h3>
-					<p>Когда нужно локализовать тему и быстро привести магазин к рабочему русскоязычному виду.</p>
+					<h3>Woodmart Users</h3>
+					<p>When you need to localize the theme and quickly get your store ready for Russian-speaking customers.</p>
 				</div>
 
 				<div class="ps-plugin-card">
-					<h3>Тем, кто запускает новый проект</h3>
-					<p>Когда нужно получить базовый перевод быстро, а затем уже точечно доработать формулировки под проект.</p>
+					<h3>Anyone Launching a New Project</h3>
+					<p>When you need a basic translation quickly and can then fine-tune specific wording for the project.</p>
 				</div>
 			</div>
 		</div>
@@ -593,34 +593,34 @@ $cta_second  = '#features';
 	<section class="ps-plugin-section">
 		<div class="ps-plugin-container">
 			<div class="ps-plugin-head">
-				<span class="ps-plugin-eyebrow">Как это работает</span>
-				<h2 class="ps-plugin-heading">Простой процесс без лишней рутины</h2>
-				<p class="ps-plugin-lead">Страница сразу объясняет клиенту, как выглядит работа с решением. Это снижает количество лишних вопросов и делает продукт понятнее.</p>
+				<span class="ps-plugin-eyebrow">How It Works</span>
+				<h2 class="ps-plugin-heading">A Simple Process Without Unnecessary Busywork</h2>
+				<p class="ps-plugin-lead">The page immediately shows customers how the solution works. This reduces unnecessary questions and makes the product easier to understand.</p>
 			</div>
 
 			<div class="ps-plugin-steps">
 				<div class="ps-plugin-step">
 					<span class="ps-plugin-step__num">1</span>
-					<h3>Загрузка файла</h3>
-					<p>Берется .po или .pot файл локализации WordPress-темы или плагина.</p>
+					<h3>Upload a File</h3>
+					<p>Start with a .po or .pot localization file from a WordPress theme or plugin.</p>
 				</div>
 
 				<div class="ps-plugin-step">
 					<span class="ps-plugin-step__num">2</span>
-					<h3>Запуск перевода</h3>
-					<p>Пользователь запускает автоматическую обработку и получает базовый перевод.</p>
+					<h3>Start the Translation</h3>
+					<p>The user starts the automated process and receives a basic translation.</p>
 				</div>
 
 				<div class="ps-plugin-step">
 					<span class="ps-plugin-step__num">3</span>
-					<h3>Проверка результата</h3>
-					<p>При необходимости можно точечно поправить отдельные строки под стиль проекта.</p>
+					<h3>Review the Result</h3>
+					<p>Individual strings can be adjusted as needed to match the project’s style.</p>
 				</div>
 
 				<div class="ps-plugin-step">
 					<span class="ps-plugin-step__num">4</span>
-					<h3>Использование в проекте</h3>
-					<p>Готовый перевод подключается к теме, плагину или WooCommerce-магазину.</p>
+					<h3>Use It in Your Project</h3>
+					<p>The completed translation is added to the theme, plugin, or WooCommerce store.</p>
 				</div>
 			</div>
 		</div>
@@ -630,13 +630,13 @@ $cta_second  = '#features';
 		<div class="ps-plugin-container">
 			<div class="ps-plugin-grid ps-plugin-grid--2">
 				<div class="ps-plugin-note">
-					<h2 class="ps-plugin-heading" style="font-size:32px; margin-bottom:14px;">Отдельно про Woodmart</h2>
-					<p class="ps-plugin-lead">Woodmart — удобная, но достаточно большая тема. В ней много интерфейсных строк, кнопок, состояний магазина, элементов каталога и WooCommerce-шаблонов. Этот инструмент помогает сократить время на локализацию и быстрее довести магазин до рабочего состояния.</p>
+					<h2 class="ps-plugin-heading" style="font-size:32px; margin-bottom:14px;">A Closer Look at Woodmart</h2>
+					<p class="ps-plugin-lead">Woodmart is a convenient but fairly large theme. It contains many interface strings, buttons, store statuses, catalog elements, and WooCommerce templates. This tool helps reduce localization time and get your store ready to launch faster.</p>
 				</div>
 
 				<div class="ps-plugin-note">
-					<h2 class="ps-plugin-heading" style="font-size:32px; margin-bottom:14px;">Что вы продаете по сути</h2>
-					<p class="ps-plugin-lead">Не просто плагин, а решение для ускорения локализации WordPress. Это сильнее воспринимается на продающей странице и лучше подходит под ваш сайт с кастомными плагинами и доработками.</p>
+					<h2 class="ps-plugin-heading" style="font-size:32px; margin-bottom:14px;">What You’re Really Selling</h2>
+					<p class="ps-plugin-lead">Not just a plugin, but a solution that accelerates WordPress localization. This creates a stronger impression on a sales page and is a better fit for your website offering custom plugins and development services.</p>
 				</div>
 			</div>
 		</div>
@@ -647,11 +647,11 @@ $cta_second  = '#features';
 	<section class="ps-plugin-section">
 		<div class="ps-plugin-container">
 			<div class="ps-plugin-cta">
-				<h2>Нужен перевод WordPress-темы или плагина под ваш проект</h2>
-				<p>Могу дать сам плагин, установить его на сайт, адаптировать под Woodmart, WooCommerce или другую WordPress-тему, а также помочь с переводом конкретного проекта.</p>
+				<h2>Need a WordPress Theme or Plugin Translated for Your Project?</h2>
+				<p>I can provide the plugin, install it on your website, adapt it for Woodmart, WooCommerce, or another WordPress theme, and help translate a specific project.</p>
 				<div class="ps-plugin-actions">
-					<a class="ps-plugin-btn ps-plugin-btn--primary" href="#">Купить плагин</a>
-					<a class="ps-plugin-btn ps-plugin-btn--secondary" href="#">Связаться по проекту</a>
+					<a class="ps-plugin-btn ps-plugin-btn--primary" href="#">Buy the Plugin</a>
+					<a class="ps-plugin-btn ps-plugin-btn--secondary" href="#">Discuss Your Project</a>
 				</div>
 			</div>
 		</div>
@@ -660,7 +660,7 @@ $cta_second  = '#features';
 
 <?php
 if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 
 if (function_exists('ps_render_plugin_related_sections')) {

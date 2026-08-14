@@ -12,21 +12,21 @@ get_header();
         <div class="container">
             <div class="pscpHero__wrap">
                 <div>
-                    <div class="pscpBadge">HivePress / монетизация</div>
-                    <h1 class="pscpHero__title">Платные объявления HivePress — плагин монетизации каталога</h1>
-                    <p class="pscpHero__text">Делаю платное размещение объявлений для HivePress: тарифы, лимиты публикаций, поднятие в поиске, выделение карточек и оплату через WooCommerce.</p>
+                    <div class="pscpBadge">HivePress / Monetization</div>
+                    <h1 class="pscpHero__title">HivePress Paid Listings — Directory Monetization Plugin</h1>
+                    <p class="pscpHero__text">I create paid listing functionality for HivePress, including pricing plans, posting limits, promoted search placement, featured listing cards, and payments through WooCommerce.</p>
                     <div class="pscpHero__actions">
-                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Настроить платные объявления</a>
-                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Доработка под проект</a>
+                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Set Up Paid Listings</a>
+                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Custom Development for Your Project</a>
                     </div>
                 </div>
                 <aside class="pscpPanel">
-                    <h2>Что входит</h2>
+                    <h2>What’s Included</h2>
                     <ul>
-                        <li>Тарифы размещения</li>
-                        <li>Пакеты публикаций</li>
-                        <li>Поднятие и выделение</li>
-                        <li>Оплата через WooCommerce</li>
+                        <li>Listing Plans</li>
+                        <li>Posting Packages</li>
+                        <li>Promoted and Featured Listings</li>
+                        <li>Payments Through WooCommerce</li>
 
                     </ul>
                 </aside>
@@ -37,14 +37,14 @@ get_header();
     <section class="pscpSection">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Коммерческие задачи, которые закрывает плагин</h2>
-                <p>Шаблон страницы собран под поисковые запросы клиентов, которые ищут готовый WordPress-плагин или разработку функциональности под бизнес-процесс.</p>
+                <h2>Business Needs Addressed by the Plugin</h2>
+                <p>The page template is designed around customer search queries for a ready-made WordPress plugin or custom functionality tailored to a business process.</p>
             </div>
             <div class="pscpGrid">
-                <article><h3>Платные объявления HivePress</h3><p>Страница раскрывает коммерческий запрос «Платные объявления HivePress» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Монетизация доски объявлений WordPress</h3><p>Страница раскрывает коммерческий запрос «Монетизация доски объявлений WordPress» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Плагин тарифов HivePress</h3><p>Страница раскрывает коммерческий запрос «Плагин тарифов HivePress» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Paid listings для каталога</h3><p>Страница раскрывает коммерческий запрос «Paid listings для каталога» и показывает выгоду внедрения для владельца сайта.</p></article>
+                <article><h3>HivePress Paid Listings</h3><p>This page targets the commercial search query “HivePress Paid Listings” and highlights the benefits of implementation for the site owner.</p></article>
+                <article><h3>Monetizing a WordPress Classifieds Site</h3><p>This page targets the commercial search query “Monetizing a WordPress Classifieds Site” and highlights the benefits of implementation for the site owner.</p></article>
+                <article><h3>HivePress Pricing Plans Plugin</h3><p>This page targets the commercial search query “HivePress Pricing Plans Plugin” and highlights the benefits of implementation for the site owner.</p></article>
+                <article><h3>Paid Listings for Directories</h3><p>This page targets the commercial search query “Paid Listings for Directories” and highlights the benefits of implementation for the site owner.</p></article>
 
             </div>
         </div>
@@ -53,21 +53,21 @@ get_header();
     <section class="pscpSection pscpSection--soft">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Сценарии внедрения</h2>
-                <p>Можно использовать как отдельный плагин, как основу для лендинга услуги или как шаблон для карточки продукта в каталоге плагинов.</p>
+                <h2>Implementation Scenarios</h2>
+                <p>It can be used as a standalone plugin, as the foundation for a service landing page, or as a template for a product listing in a plugin directory.</p>
             </div>
             <div class="pscpSteps">
-                <article><span>01</span><h3>Аудит проекта</h3><p>Проверяю тему, плагины, checkout, формы и текущую логику сайта.</p></article>
-                <article><span>02</span><h3>Разработка</h3><p>Собираю функциональность в отдельный плагин без правок ядра WordPress.</p></article>
-                <article><span>03</span><h3>Тестирование</h3><p>Проверяю совместимость, роли пользователей, уведомления и критические сценарии.</p></article>
+                <article><span>01</span><h3>Project Audit</h3><p>I review the theme, plugins, checkout, forms, and the website’s current logic.</p></article>
+                <article><span>02</span><h3>Development</h3><p>I build the functionality as a separate plugin without modifying the WordPress core.</p></article>
+                <article><span>03</span><h3>Testing</h3><p>I test compatibility, user roles, notifications, and critical workflows.</p></article>
             </div>
         </div>
     </section>
 
-    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026')); } ?>
+    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026')); } ?>
 
     <section class="pscpCta">
-        <div class="container"><div class="pscpCta__box"><h2>Нужен такой плагин для вашего сайта?</h2><p>Опишите задачу — предложу структуру плагина, сроки и вариант внедрения.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Обсудить проект</a></div></div>
+        <div class="container"><div class="pscpCta__box"><h2>Need a Plugin Like This for Your Website?</h2><p>Describe your requirements, and I’ll propose the plugin structure, timeline, and implementation approach.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Discuss Your Project</a></div></div>
     </section>
 </main>
 

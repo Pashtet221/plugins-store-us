@@ -14,39 +14,39 @@ get_header();
                     <div class="pscdBadge">WordPress / WooCommerce / Forms</div>
 
                     <h1 class="pscdHero__title">
-                        Автоматические маски<br>
-                        телефонов
+                        Automatic Phone<br>
+                        Number Masks
                     </h1>
 
                     <p class="pscdHero__text">
-                        Плагин для WordPress и WooCommerce, который автоматически форматирует
-                        ввод телефонных номеров в формах сайта, определяет страну пользователя
-                        и подставляет подходящую маску телефона.
+                        A WordPress and WooCommerce plugin that automatically formats
+                        phone number input in website forms, detects the user's country,
+                        and applies the appropriate phone number mask.
                     </p>
 
                     <div class="pscdHero__actions">
-                        <a href="/contacts" class="pscdBtn pscdBtn--primary">Заказать плагин</a>
-                        <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Задать вопрос</a>
+                        <a href="/contacts" class="pscdBtn pscdBtn--primary">Order the Plugin</a>
+                        <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Ask a Question</a>
                     </div>
 
                     <div class="pscdHero__trust">
-                        <span>Автоопределение страны</span>
+                        <span>Automatic country detection</span>
                         <span>WooCommerce checkout</span>
-                        <span>Contact Form 7 и Elementor</span>
+                        <span>Contact Form 7 and Elementor</span>
                     </div>
                 </div>
 
                 <div class="pscdHero__side">
                     <div class="pscdMiniCard">
-                        <div class="pscdMiniCard__title">Что умеет плагин</div>
+                        <div class="pscdMiniCard__title">Plugin Features</div>
                         <ul class="pscdMiniCard__list">
-                            <li>Автоматическая маска телефона</li>
-                            <li>Определение страны пользователя</li>
-                            <li>Форматирование номера при вводе</li>
-                            <li>Работа с WooCommerce</li>
-                            <li>Поддержка Contact Form 7</li>
-                            <li>Поддержка Elementor Forms</li>
-                            <li>Работа с полями type="tel"</li>
+                            <li>Automatic phone number mask</li>
+                            <li>User country detection</li>
+                            <li>Number formatting as you type</li>
+                            <li>WooCommerce integration</li>
+                            <li>Contact Form 7 support</li>
+                            <li>Elementor Forms support</li>
+                            <li>Works with type="tel" fields</li>
                         </ul>
                     </div>
                 </div>
@@ -57,36 +57,36 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Какие проблемы решает плагин</h2>
+                <h2>Problems the plugin solves</h2>
                 <p>
-                    Пользователи часто вводят телефоны в разном формате: без кода страны,
-                    с лишними символами, ошибками в количестве цифр или в формате другой страны.
-                    Из-за этого менеджеры получают некорректные контакты и теряют заявки.
+                    Users often enter phone numbers in different formats: without a country code,
+                    with extra characters, the wrong number of digits, or another country's format.
+                    As a result, managers receive incorrect contact details and lose leads.
                 </p>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard">
-                    <h3>Ошибки в номерах</h3>
+                    <h3>Phone number errors</h3>
                     <p>
-                        Маска подсказывает правильный формат номера во время ввода
-                        и снижает количество невалидных контактов.
+                        The mask guides users to enter the correct number format as they type
+                        and reduces the number of invalid contacts.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Заявки без связи</h3>
+                    <h3>Unreachable leads</h3>
                     <p>
-                        Если номер введён неверно, менеджер не сможет дозвониться.
-                        Плагин помогает получать более качественные контактные данные.
+                        If a number is entered incorrectly, the manager will be unable to reach the customer.
+                        The plugin helps you collect higher-quality contact details.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Сложное заполнение форм</h3>
+                    <h3>Difficult form completion</h3>
                     <p>
-                        Пользователю проще заполнить поле телефона, когда сайт сразу показывает
-                        понятный формат и автоматически направляет ввод.
+                        Phone fields are easier to complete when the website immediately displays
+                        a clear format and automatically guides the user's input.
                     </p>
                 </article>
             </div>
@@ -96,55 +96,55 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Основные возможности</h2>
+                <h2>Key Features</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--2">
                 <article class="pscdFeature">
-                    <h3>Автоматическое определение страны</h3>
+                    <h3>Automatic country detection</h3>
                     <p>
-                        Плагин может определять страну пользователя и подставлять подходящую
-                        телефонную маску для корректного формата номера.
+                        The plugin can detect the user's country and apply the appropriate
+                        phone number mask to ensure the correct number format.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Маска телефона при вводе</h3>
+                    <h3>Phone number mask as you type</h3>
                     <p>
-                        Номер форматируется прямо во время заполнения поля, поэтому пользователю
-                        проще понять, сколько цифр нужно ввести.
+                        The number is formatted as the field is completed, making it easier
+                        for users to understand how many digits they need to enter.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
                     <h3>WooCommerce checkout</h3>
                     <p>
-                        Маска автоматически применяется на странице оформления заказа WooCommerce,
-                        чтобы покупатели корректно оставляли контактный телефон.
+                        The mask is automatically applied on the WooCommerce checkout page
+                        so customers enter their contact phone numbers correctly.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
                     <h3>Contact Form 7</h3>
                     <p>
-                        Плагин поддерживает формы обратной связи Contact Form 7 и помогает получать
-                        заявки с правильно заполненными номерами.
+                        The plugin supports Contact Form 7 and helps you receive
+                        form submissions with correctly entered phone numbers.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
                     <h3>Elementor Forms</h3>
                     <p>
-                        Подходит для лендингов, корпоративных сайтов и страниц услуг,
-                        собранных на Elementor Pro.
+                        Suitable for landing pages, corporate websites, and service pages
+                        built with Elementor Pro.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Без сторонних сервисов</h3>
+                    <h3>No third-party services</h3>
                     <p>
-                        Для работы не требуются платные API, подписки или внешние сервисы.
-                        Решение работает внутри WordPress.
+                        No paid APIs, subscriptions, or external services are required.
+                        The solution runs within WordPress.
                     </p>
                 </article>
             </div>
@@ -154,31 +154,31 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Поддерживаемые системы</h2>
+                <h2>Supported systems</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard pscdCard--accent">
                     <h3>WooCommerce</h3>
                     <p>
-                        Маска телефона применяется в checkout, чтобы покупатель быстрее
-                        и точнее заполнял контактные данные при оформлении заказа.
+                        The phone number mask is applied at checkout so customers can enter
+                        their contact details faster and more accurately when placing an order.
                     </p>
                 </article>
 
                 <article class="pscdCard pscdCard--accent">
                     <h3>Contact Form 7</h3>
                     <p>
-                        Автоматическое форматирование номеров в формах обратной связи,
-                        заявках и консультационных формах.
+                        Automatic phone number formatting in contact forms,
+                        lead forms, and consultation forms.
                     </p>
                 </article>
 
                 <article class="pscdCard pscdCard--accent">
                     <h3>Elementor Forms</h3>
                     <p>
-                        Поддержка форм Elementor позволяет использовать маски телефонов
-                        на лендингах, промо-страницах и сайтах услуг.
+                        Elementor Forms support lets you use phone number masks
+                        on landing pages, promotional pages, and service websites.
                     </p>
                 </article>
             </div>
@@ -188,31 +188,31 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Для кого подходит плагин</h2>
+                <h2>Who the plugin is for</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard">
-                    <h3>Интернет-магазины</h3>
+                    <h3>Online stores</h3>
                     <p>
-                        Для WooCommerce-магазинов, где важно получать корректные номера
-                        покупателей при оформлении заказа.
+                        For WooCommerce stores that need to collect accurate customer
+                        phone numbers during checkout.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Лендинги и сайты услуг</h3>
+                    <h3>Landing Pages and Service Websites</h3>
                     <p>
-                        Для страниц, где основная цель — получить заявку, звонок,
-                        консультацию или запись от клиента.
+                        For pages whose primary goal is to generate an inquiry, phone call,
+                        consultation request, or appointment booking.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Корпоративные сайты</h3>
+                    <h3>Corporate Websites</h3>
                     <p>
-                        Для сайтов с формами обратной связи, заявками, личными кабинетами
-                        и контактными формами.
+                        For websites with feedback forms, inquiry forms, customer accounts,
+                        and contact forms.
                     </p>
                 </article>
             </div>
@@ -222,17 +222,17 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Как работает плагин</h2>
+                <h2>How the Plugin Works</h2>
             </div>
 
             <div class="pscdSteps">
                 <div class="pscdStep">
                     <div class="pscdStep__num">01</div>
                     <div class="pscdStep__content">
-                        <h3>Плагин находит телефонные поля</h3>
+                        <h3>The Plugin Detects Phone Fields</h3>
                         <p>
-                            После установки решение автоматически работает с поддерживаемыми формами
-                            и полями телефона на сайте.
+                            Once installed, the solution automatically works with supported forms
+                            and phone fields on the website.
                         </p>
                     </div>
                 </div>
@@ -240,10 +240,10 @@ get_header();
                 <div class="pscdStep">
                     <div class="pscdStep__num">02</div>
                     <div class="pscdStep__content">
-                        <h3>Определяет нужный формат</h3>
+                        <h3>Determines the Correct Format</h3>
                         <p>
-                            Система выбирает подходящую маску телефона в зависимости от страны
-                            или заданных настроек.
+                            The system selects the appropriate phone mask based on the country
+                            or specified settings.
                         </p>
                     </div>
                 </div>
@@ -251,10 +251,10 @@ get_header();
                 <div class="pscdStep">
                     <div class="pscdStep__num">03</div>
                     <div class="pscdStep__content">
-                        <h3>Форматирует номер при вводе</h3>
+                        <h3>Formats the Number as It Is Entered</h3>
                         <p>
-                            Пользователь вводит цифры, а плагин сразу показывает номер
-                            в правильном и понятном формате.
+                            The user enters digits, and the plugin immediately displays the number
+                            in the correct, easy-to-read format.
                         </p>
                     </div>
                 </div>
@@ -262,10 +262,10 @@ get_header();
                 <div class="pscdStep">
                     <div class="pscdStep__num">04</div>
                     <div class="pscdStep__content">
-                        <h3>Помогает получать корректные заявки</h3>
+                        <h3>Helps Generate Accurate Inquiries</h3>
                         <p>
-                            Менеджеры получают более качественные контактные данные,
-                            а риск ошибочных номеров становится ниже.
+                            Managers receive higher-quality contact information,
+                            reducing the risk of incorrect phone numbers.
                         </p>
                     </div>
                 </div>
@@ -276,30 +276,30 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Что получает бизнес</h2>
+                <h2>Business Benefits</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--3">
                 <article class="pscdCard">
-                    <h3>Меньше ошибок в заявках</h3>
+                    <h3>Fewer Errors in Inquiries</h3>
                     <p>
-                        Телефонные номера становятся более аккуратными и удобными для дальнейшей обработки.
+                        Phone numbers are cleaner and easier to process.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Выше конверсия форм</h3>
+                    <h3>Higher Form Conversion Rates</h3>
                     <p>
-                        Пользователям проще заполнять форму, когда поле телефона работает понятно
-                        и не заставляет угадывать формат.
+                        Forms are easier to complete when the phone field works intuitively
+                        and users do not have to guess the required format.
                     </p>
                 </article>
 
                 <article class="pscdCard">
-                    <h3>Быстрая установка</h3>
+                    <h3>Quick Installation</h3>
                     <p>
-                        В большинстве случаев плагин начинает работать сразу после активации
-                        и не требует сложной настройки.
+                        In most cases, the plugin starts working immediately after activation
+                        and requires no complex configuration.
                     </p>
                 </article>
             </div>
@@ -309,38 +309,38 @@ get_header();
     <section class="pscdSection pscdSection--soft">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Что нужно для заказа</h2>
+                <h2>What You Need to Order</h2>
             </div>
 
             <div class="pscdGrid pscdGrid--2">
                 <article class="pscdFeature">
-                    <h3>Доступ администратора WordPress</h3>
+                    <h3>WordPress Administrator Access</h3>
                     <p>
-                        Нужен доступ в админку сайта для установки, настройки и проверки работы плагина.
+                        Access to the website’s admin dashboard is required to install, configure, and test the plugin.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Информация о формах</h3>
+                    <h3>Form Information</h3>
                     <p>
-                        Важно понимать, какие формы используются на сайте:
-                        WooCommerce, Contact Form 7, Elementor Forms или нестандартные формы.
+                        It is important to know which forms are used on the website:
+                        WooCommerce, Contact Form 7, Elementor Forms, or custom forms.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Список нужных стран</h3>
+                    <h3>List of Required Countries</h3>
                     <p>
-                        Если маски нужны только для определённых стран, можно заранее указать
-                        нужные форматы телефонов.
+                        If phone masks are needed only for specific countries, you can specify
+                        the required phone formats in advance.
                     </p>
                 </article>
 
                 <article class="pscdFeature">
-                    <h3>Тестирование на сайте</h3>
+                    <h3>Website Testing</h3>
                     <p>
-                        После установки проверяется ввод номеров в формах, checkout
-                        и других местах, где используются телефонные поля.
+                        After installation, phone number entry is tested in forms, checkout,
+                        and other areas where phone fields are used.
                     </p>
                 </article>
             </div>
@@ -350,50 +350,50 @@ get_header();
     <section class="pscdSection">
         <div class="container">
             <div class="pscdHeading">
-                <h2>Частые вопросы</h2>
+                <h2>Frequently asked questions</h2>
             </div>
 
             <div class="pscdFaq">
                 <div class="pscdFaq__item">
-                    <h3>Нужно ли настраивать плагин после установки?</h3>
+                    <h3>Does the Plugin Need to Be Configured After Installation?</h3>
                     <p>
-                        В большинстве случаев плагин начинает работать сразу после активации
-                        с поддерживаемыми формами.
+                        In most cases, the plugin starts working with supported forms
+                        immediately after activation.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Поддерживается ли WooCommerce?</h3>
+                    <h3>Is WooCommerce Supported?</h3>
                     <p>
-                        Да, маска телефона применяется на странице оформления заказа WooCommerce.
+                        Yes, the phone mask is applied on the WooCommerce checkout page.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Работает ли с Contact Form 7?</h3>
+                    <h3>Does It Work with Contact Form 7?</h3>
                     <p>
-                        Да, плагин поддерживает телефонные поля в формах Contact Form 7.
+                        Yes, the plugin supports phone fields in Contact Form 7 forms.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Поддерживается ли Elementor Forms?</h3>
+                    <h3>Is Elementor Forms Supported?</h3>
                     <p>
-                        Да, плагин совместим с формами Elementor Pro.
+                        Yes, the plugin is compatible with Elementor Pro forms.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Можно ли использовать международные номера?</h3>
+                    <h3>Can International Numbers Be Used?</h3>
                     <p>
-                        Да, плагин поддерживает международные форматы телефонных номеров.
+                        Yes, the plugin supports international phone number formats.
                     </p>
                 </div>
 
                 <div class="pscdFaq__item">
-                    <h3>Нужны ли платные API?</h3>
+                    <h3>Are Paid APIs Required?</h3>
                     <p>
-                        Нет, для базовой работы не требуются сторонние платные сервисы или подписки.
+                        No, basic functionality does not require third-party paid services or subscriptions.
                     </p>
                 </div>
             </div>
@@ -404,17 +404,17 @@ get_header();
         <div class="container">
             <div class="pscdCta__box">
                 <div class="pscdCta__content">
-                    <h2>Нужно добавить маски телефонов на сайт?</h2>
+                    <h2>Need to Add Phone Masks to Your Website?</h2>
                     <p>
-                        Опишите, какие формы используются на вашем сайте и для каких стран
-                        нужны телефонные маски. Подскажу, как лучше внедрить плагин
-                        под WordPress, WooCommerce или формы заявок.
+                        Describe which forms are used on your website and the countries for which
+                        you need phone masks. I’ll recommend the best way to implement the plugin
+                        for WordPress, WooCommerce, or inquiry forms.
                     </p>
                 </div>
 
                 <div class="pscdCta__actions">
-                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Обсудить плагин</a>
-                    <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Написать на почту</a>
+                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Discuss the plugin</a>
+                    <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Send an email</a>
                 </div>
             </div>
         </div>
@@ -688,7 +688,7 @@ get_header();
 </style>
 
 <?php if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 ?>
 

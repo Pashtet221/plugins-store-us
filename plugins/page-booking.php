@@ -15,38 +15,38 @@ get_header();
                 <div class="pscdBadge">HivePress / Bookings</div>
 
                 <h1 class="pscdHero__title">
-                    Напоминания о бронированиях<br>
-                    для HivePress
+                    Booking Reminders<br>
+                    for HivePress
                 </h1>
 
                 <p class="pscdHero__text">
-                    Плагин автоматически отправляет email-напоминания клиентам и владельцам объявлений
-                    о предстоящих бронированиях в HivePress Bookings. Помогает снизить количество
-                    забытых встреч, отмен и пропущенных заявок.
+                    The plugin automatically sends email reminders to customers and listing owners
+                    about upcoming bookings in HivePress Bookings. It helps reduce the number of
+                    forgotten appointments, cancellations, and missed requests.
                 </p>
 
                 <div class="pscdHero__actions">
-                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Заказать плагин</a>
-                    <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Задать вопрос</a>
+                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Order the Plugin</a>
+                    <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Ask a Question</a>
                 </div>
 
                 <div class="pscdHero__trust">
                     <span>HivePress Bookings</span>
                     <span>WP-Cron</span>
-                    <span>Email-уведомления</span>
+                    <span>Email Notifications</span>
                 </div>
             </div>
 
             <div class="pscdHero__side">
                 <div class="pscdMiniCard">
-                    <div class="pscdMiniCard__title">Что умеет плагин</div>
+                    <div class="pscdMiniCard__title">Plugin Features</div>
                     <ul class="pscdMiniCard__list">
-                        <li>Напоминания перед бронированием</li>
-                        <li>Письма клиентам</li>
-                        <li>Письма владельцам объявлений</li>
-                        <li>Настраиваемое время отправки</li>
-                        <li>Несколько напоминаний</li>
-                        <li>Персонализированные тексты писем</li>
+                        <li>Pre-Booking Reminders</li>
+                        <li>Emails to Customers</li>
+                        <li>Emails to Listing Owners</li>
+                        <li>Customizable Sending Time</li>
+                        <li>Multiple Reminders</li>
+                        <li>Personalized Email Content</li>
                     </ul>
                 </div>
             </div>
@@ -57,36 +57,36 @@ get_header();
 <section class="pscdSection pscdSection--soft">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Зачем нужны напоминания о бронированиях</h2>
+            <h2>Why You Need Booking Reminders</h2>
             <p>
-                На сайтах с бронированиями пользователи часто забывают о встречах,
-                консультациях, аренде или записи на услугу. Автоматические напоминания
-                помогают заранее уведомить обе стороны и снизить количество срывов.
+                On booking websites, users often forget about appointments,
+                consultations, rentals, or service bookings. Automatic reminders
+                notify both parties in advance and help reduce no-shows.
             </p>
         </div>
 
         <div class="pscdGrid pscdGrid--3">
             <article class="pscdCard">
-                <h3>Меньше пропущенных встреч</h3>
+                <h3>Fewer Missed Appointments</h3>
                 <p>
-                    Клиент получает письмо до начала бронирования и заранее вспоминает
-                    о запланированной услуге, аренде или консультации.
+                    Customers receive an email before the booking starts, reminding them in advance
+                    about the scheduled service, rental, or consultation.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Уведомления для исполнителей</h3>
+                <h3>Notifications for Service Providers</h3>
                 <p>
-                    Владелец объявления тоже получает напоминание, поэтому ему проще
-                    подготовиться и не пропустить заявку.
+                    The listing owner also receives a reminder, making it easier to
+                    prepare and avoid missing the booking request.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Автоматизация без ручной работы</h3>
+                <h3>Automation Without Manual Work</h3>
                 <p>
-                    После настройки плагин сам проверяет будущие бронирования и отправляет
-                    письма по заданным интервалам.
+                    Once configured, the plugin automatically checks upcoming bookings and sends
+                    emails at the specified intervals.
                 </p>
             </article>
         </div>
@@ -96,55 +96,55 @@ get_header();
 <section class="pscdSection">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Основные возможности</h2>
+            <h2>Key Features</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--2">
             <article class="pscdFeature">
-                <h3>Автоматические напоминания</h3>
+                <h3>Automatic Reminders</h3>
                 <p>
-                    Плагин отслеживает предстоящие бронирования и отправляет уведомления
-                    за заданное количество часов или дней до начала.
+                    The plugin tracks upcoming bookings and sends notifications
+                    a specified number of hours or days before they start.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Несколько уведомлений</h3>
+                <h3>Multiple Notifications</h3>
                 <p>
-                    Можно настроить несколько напоминаний: например, за 24 часа и за 2 часа
-                    до начала бронирования.
+                    You can configure multiple reminders, for example, 24 hours and 2 hours
+                    before the booking starts.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Письма клиентам</h3>
+                <h3>Emails to Customers</h3>
                 <p>
-                    Клиент получает понятное письмо с информацией о предстоящем бронировании,
-                    дате, времени и деталях записи.
+                    The customer receives a clear email with information about the upcoming booking,
+                    including the date, time, and booking details.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Письма владельцам объявлений</h3>
+                <h3>Emails to Listing Owners</h3>
                 <p>
-                    Владелец объявления может получать отдельное уведомление, чтобы заранее
-                    подготовиться к услуге или встрече.
+                    The listing owner can receive a separate notification to prepare in advance
+                    for the service or appointment.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Настраиваемые тексты</h3>
+                <h3>Customizable Content</h3>
                 <p>
-                    Тексты email-уведомлений можно адаптировать под стиль проекта,
-                    формат услуги и конкретный сценарий бронирования.
+                    Email notification content can be tailored to the project's style,
+                    service format, and specific booking scenario.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Работа через WP-Cron</h3>
+                <h3>Powered by WP-Cron</h3>
                 <p>
-                    Отправка напоминаний работает на стандартном механизме WordPress,
-                    без обязательного подключения сторонних сервисов.
+                    Reminders are sent using the standard WordPress scheduling system,
+                    without requiring third-party services.
                 </p>
             </article>
         </div>
@@ -154,31 +154,31 @@ get_header();
 <section class="pscdSection pscdSection--soft">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Для каких проектов подходит</h2>
+            <h2>Suitable Projects</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--3">
             <article class="pscdCard pscdCard--accent">
-                <h3>Маркетплейсы услуг</h3>
+                <h3>Service Marketplaces</h3>
                 <p>
-                    Для сайтов, где клиенты бронируют специалистов, консультации,
-                    записи, выезды или индивидуальные услуги.
+                    For websites where customers book professionals, consultations,
+                    appointments, on-site visits, or individual services.
                 </p>
             </article>
 
             <article class="pscdCard pscdCard--accent">
-                <h3>Аренда недвижимости и техники</h3>
+                <h3>Property and Equipment Rentals</h3>
                 <p>
-                    Подходит для проектов с посуточной арендой, бронированием помещений,
-                    оборудования, транспорта или инвентаря.
+                    Suitable for projects offering short-term rentals, venue bookings,
+                    equipment, vehicle, or inventory rentals.
                 </p>
             </article>
 
             <article class="pscdCard pscdCard--accent">
-                <h3>Образовательные проекты</h3>
+                <h3>Educational Projects</h3>
                 <p>
-                    Можно использовать для записи на занятия, курсы, консультации,
-                    онлайн и офлайн мероприятия.
+                    It can be used for scheduling classes, courses, consultations,
+                    and online or in-person events.
                 </p>
             </article>
         </div>
@@ -188,16 +188,16 @@ get_header();
 <section class="pscdSection">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Как это работает</h2>
+            <h2>How It Works</h2>
         </div>
 
         <div class="pscdSteps">
             <div class="pscdStep">
                 <div class="pscdStep__num">01</div>
                 <div class="pscdStep__content">
-                    <h3>Плагин проверяет бронирования</h3>
+                    <h3>The Plugin Checks Bookings</h3>
                     <p>
-                        Система отслеживает будущие бронирования, созданные через HivePress Bookings.
+                        The system tracks upcoming bookings created through HivePress Bookings.
                     </p>
                 </div>
             </div>
@@ -205,10 +205,10 @@ get_header();
             <div class="pscdStep">
                 <div class="pscdStep__num">02</div>
                 <div class="pscdStep__content">
-                    <h3>Сравнивает дату и интервал</h3>
+                    <h3>It Compares the Date and Interval</h3>
                     <p>
-                        Если до бронирования осталось заданное количество часов или дней,
-                        плагин подготавливает уведомление.
+                        If the specified number of hours or days remains before the booking,
+                        the plugin prepares a notification.
                     </p>
                 </div>
             </div>
@@ -216,10 +216,10 @@ get_header();
             <div class="pscdStep">
                 <div class="pscdStep__num">03</div>
                 <div class="pscdStep__content">
-                    <h3>Отправляет email</h3>
+                    <h3>It Sends an Email</h3>
                     <p>
-                        Напоминание уходит клиенту, владельцу объявления или обеим сторонам,
-                        в зависимости от настроек.
+                        The reminder is sent to the customer, listing owner, or both parties,
+                        depending on the settings.
                     </p>
                 </div>
             </div>
@@ -227,10 +227,10 @@ get_header();
             <div class="pscdStep">
                 <div class="pscdStep__num">04</div>
                 <div class="pscdStep__content">
-                    <h3>Работает автоматически</h3>
+                    <h3>It Works Automatically</h3>
                     <p>
-                        После настройки администратору не нужно вручную напоминать пользователям
-                        о предстоящих бронированиях.
+                        Once configured, the administrator does not need to manually remind users
+                        about upcoming bookings.
                     </p>
                 </div>
             </div>
@@ -241,28 +241,28 @@ get_header();
 <section class="pscdSection pscdSection--soft">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Что получает владелец сайта</h2>
+            <h2>What the Site Owner Gets</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--3">
             <article class="pscdCard">
-                <h3>Меньше отмен</h3>
+                <h3>Fewer Cancellations</h3>
                 <p>
-                    Пользователи заранее получают уведомления и реже забывают о своих бронированиях.
+                    Users receive notifications in advance and are less likely to forget their bookings.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Лучший сервис</h3>
+                <h3>Better Service</h3>
                 <p>
-                    Автоматические письма делают проект более аккуратным, понятным и профессиональным.
+                    Automated emails make the project more polished, user-friendly, and professional.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Экономия времени</h3>
+                <h3>Time Savings</h3>
                 <p>
-                    Менеджерам не нужно вручную писать клиентам и исполнителям перед каждой записью.
+                    Managers do not need to manually contact customers and service providers before every appointment.
                 </p>
             </article>
         </div>
@@ -272,28 +272,28 @@ get_header();
 <section class="pscdSection">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Технические требования</h2>
+            <h2>Technical Requirements</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--3">
             <article class="pscdCard">
                 <h3>WordPress</h3>
                 <p>
-                    Рекомендуемая версия WordPress — 6.0 или выше.
+                    WordPress 6.0 or later is recommended.
                 </p>
             </article>
 
             <article class="pscdCard">
                 <h3>HivePress Bookings</h3>
                 <p>
-                    Плагин рассчитан на работу с HivePress и расширением HivePress Bookings.
+                    The plugin is designed to work with HivePress and the HivePress Bookings extension.
                 </p>
             </article>
 
             <article class="pscdCard">
                 <h3>PHP 8.0+</h3>
                 <p>
-                    Для стабильной работы рекомендуется современная версия PHP и настроенная отправка почты.
+                    For reliable operation, a modern PHP version and properly configured email delivery are recommended.
                 </p>
             </article>
         </div>
@@ -303,39 +303,39 @@ get_header();
 <section class="pscdSection pscdSection--soft">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Что нужно для заказа</h2>
+            <h2>What You Need to Order</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--2">
             <article class="pscdFeature">
-                <h3>Доступ к сайту</h3>
+                <h3>Website access</h3>
                 <p>
-                    Нужен сайт с установленным HivePress и HivePress Bookings,
-                    чтобы проверить совместимость и корректно настроить плагин.
+                    A website with HivePress and HivePress Bookings installed is required
+                    to test compatibility and configure the plugin correctly.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Интервалы напоминаний</h3>
+                <h3>Reminder intervals</h3>
                 <p>
-                    Нужно определить, когда отправлять письма: например, за 24 часа,
-                    за 2 часа или по другому сценарию.
+                    You need to determine when to send emails: for example, 24 hours,
+                    2 hours, or another time before the booking.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Тексты писем</h3>
+                <h3>Email content</h3>
                 <p>
-                    Можно использовать стандартные тексты или подготовить свои сообщения
-                    под стиль вашего проекта.
+                    You can use the default content or create custom messages
+                    that match your project's style.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Проверка почты</h3>
+                <h3>Email delivery check</h3>
                 <p>
-                    На сайте должна быть настроена отправка email. При необходимости
-                    можно дополнительно подключить SMTP.
+                    Email sending must be configured on the website. If necessary,
+                    SMTP can also be set up.
                 </p>
             </article>
         </div>
@@ -345,47 +345,47 @@ get_header();
 <section class="pscdSection">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Частые вопросы</h2>
+            <h2>Frequently asked questions</h2>
         </div>
 
         <div class="pscdFaq">
             <div class="pscdFaq__item">
-                <h3>Для чего нужен этот плагин?</h3>
+                <h3>What is this plugin for?</h3>
                 <p>
-                    Он автоматически напоминает клиентам и владельцам объявлений
-                    о предстоящих бронированиях в HivePress.
+                    It automatically reminds customers and listing owners
+                    about upcoming HivePress bookings.
                 </p>
             </div>
 
             <div class="pscdFaq__item">
-                <h3>Можно ли отправлять несколько напоминаний?</h3>
+                <h3>Can I send multiple reminders?</h3>
                 <p>
-                    Да, можно настроить несколько уведомлений до начала бронирования,
-                    например за день и за несколько часов.
+                    Yes, you can configure multiple notifications before a booking starts,
+                    such as one day and several hours in advance.
                 </p>
             </div>
 
             <div class="pscdFaq__item">
-                <h3>Кому отправляются письма?</h3>
+                <h3>Who receives the emails?</h3>
                 <p>
-                    Уведомления можно отправлять клиентам, владельцам объявлений
-                    или обеим сторонам одновременно.
+                    Notifications can be sent to customers, listing owners,
+                    or both parties at the same time.
                 </p>
             </div>
 
             <div class="pscdFaq__item">
-                <h3>Можно ли изменить текст уведомлений?</h3>
+                <h3>Can I change the notification content?</h3>
                 <p>
-                    Да, тексты писем можно адаптировать под конкретный сайт,
-                    нишу и формат бронирования.
+                    Yes, the email content can be tailored to a specific website,
+                    niche, and booking format.
                 </p>
             </div>
 
             <div class="pscdFaq__item">
-                <h3>Нужны ли сторонние сервисы?</h3>
+                <h3>Are third-party services required?</h3>
                 <p>
-                    Нет, базовая отправка работает через стандартную почтовую систему WordPress.
-                    Для лучшей доставляемости можно подключить SMTP.
+                    No, basic email delivery works through the standard WordPress email system.
+                    SMTP can be configured for better deliverability.
                 </p>
             </div>
         </div>
@@ -396,17 +396,17 @@ get_header();
     <div class="container">
         <div class="pscdCta__box">
             <div class="pscdCta__content">
-                <h2>Нужно добавить напоминания в HivePress?</h2>
+                <h2>Need to add reminders to HivePress?</h2>
                 <p>
-                    Опишите, как сейчас устроены бронирования на вашем сайте:
-                    какие услуги бронируют, кому нужно отправлять письма и за сколько времени
-                    до события нужно напоминать.
+                    Describe how bookings currently work on your website:
+                    which services are booked, who should receive emails, and how far in advance
+                    reminders should be sent.
                 </p>
             </div>
 
             <div class="pscdCta__actions">
-                <a href="/contacts" class="pscdBtn pscdBtn--primary">Обсудить плагин</a>
-                <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Написать на почту</a>
+                <a href="/contacts" class="pscdBtn pscdBtn--primary">Discuss the plugin</a>
+                <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Send an email</a>
             </div>
         </div>
     </div>
@@ -681,7 +681,7 @@ get_header();
 </style>
 
 <?php if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 ?>
 

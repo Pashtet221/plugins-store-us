@@ -14,37 +14,37 @@ get_header();
                 <div class="psddBadge">WooCommerce / DaData</div>
 
                 <h1 class="psddHero__title">
-                    DaData для WooCommerce —<br>
-                    умное автозаполнение адреса и ИНН
+                    DaData for WooCommerce —<br>
+                    Smart Address and Tax ID Autofill
                 </h1>
 
                 <p class="psddHero__text">
-                    Подключаю DaData к WooCommerce для автозаполнения адреса, города,
-                    данных компании и ИНН. Это ускоряет оформление заказа, снижает количество ошибок
-                    и делает checkout удобнее для клиентов.
+                    I integrate DaData with WooCommerce to autofill addresses, cities,
+                    company details, and Tax IDs. This speeds up the ordering process, reduces errors,
+                    and makes checkout more convenient for customers.
                 </p>
 
                 <div class="psddHero__actions">
-                    <a href="/contacts" class="psddBtn psddBtn--primary">Подключить DaData</a>
-                    <a href="/plugins-development/" class="psddBtn psddBtn--ghost">Нужна доработка под проект</a>
+                    <a href="/contacts" class="psddBtn psddBtn--primary">Integrate DaData</a>
+                    <a href="/plugins-development/" class="psddBtn psddBtn--ghost">Need a Custom Solution</a>
                 </div>
 
                 <div class="psddHero__trust">
-                    <span>Быстрее оформление заказа</span>
-                    <span>Меньше ошибок в адресах</span>
-                    <span>Удобно для физ. и юр. лиц</span>
+                    <span>Faster Checkout</span>
+                    <span>Fewer Address Errors</span>
+                    <span>Convenient for Individuals and Businesses</span>
                 </div>
             </div>
 
             <div class="psddHero__side">
                 <div class="psddMiniCard">
-                    <div class="psddMiniCard__title">Что даёт интеграция</div>
+                    <div class="psddMiniCard__title">Integration Benefits</div>
                     <ul class="psddMiniCard__list">
-                        <li>Подсказки адреса в реальном времени</li>
-                        <li>Автозаполнение города, улицы и индекса</li>
-                        <li>Подтягивание данных по ИНН</li>
-                        <li>Меньше ручного ввода</li>
-                        <li>Выше конверсия checkout</li>
+                        <li>Real-Time Address Suggestions</li>
+                        <li>Autofill City, Street, and ZIP Code</li>
+                        <li>Retrieve Company Details by Tax ID</li>
+                        <li>Less Manual Entry</li>
+                        <li>Higher Checkout Conversion</li>
                     </ul>
                 </div>
             </div>
@@ -55,35 +55,35 @@ get_header();
 <section class="psddSection psddSection--soft">
     <div class="container">
         <div class="psddHeading">
-            <h2>Какие проблемы решает DaData в WooCommerce</h2>
+            <h2>Problems DaData Solves in WooCommerce</h2>
             <p>
-                Если клиенты ошибаются в адресах, долго заполняют checkout или бросают корзину,
-                интеграция DaData помогает убрать лишние действия и сделать оформление заказа проще.
+                If customers make address errors, take too long to complete checkout, or abandon their carts,
+                DaData integration helps eliminate unnecessary steps and simplify the ordering process.
             </p>
         </div>
 
         <div class="psddGrid psddGrid--3">
             <article class="psddCard">
-                <h3>Ошибки в адресах</h3>
+                <h3>Address Errors</h3>
                 <p>
-                    Клиенты часто вводят адрес вручную с ошибками, из-за чего появляются проблемы
-                    с доставкой, менеджерам приходится всё уточнять вручную.
+                    Customers often enter addresses manually and make mistakes, which causes delivery issues
+                    and requires managers to verify everything manually.
                 </p>
             </article>
 
             <article class="psddCard">
-                <h3>Сложный checkout</h3>
+                <h3>Complicated Checkout</h3>
                 <p>
-                    Чем больше полей приходится заполнять руками, тем выше шанс,
-                    что пользователь не завершит оформление заказа.
+                    The more fields customers have to complete manually, the more likely
+                    they are to abandon checkout.
                 </p>
             </article>
 
             <article class="psddCard">
-                <h3>Проблемы у юр. лиц</h3>
+                <h3>Issues for Business Customers</h3>
                 <p>
-                    При оформлении на компанию важно быстро получить ИНН, название организации
-                    и другие данные без ручного ввода.
+                    When ordering on behalf of a company, customers need a quick way to retrieve the Tax ID, company name,
+                    and other details without entering them manually.
                 </p>
             </article>
         </div>
@@ -93,55 +93,55 @@ get_header();
 <section class="psddSection">
     <div class="container">
         <div class="psddHeading">
-            <h2>Что умеет решение DaData для WooCommerce</h2>
+            <h2>What the DaData for WooCommerce Solution Can Do</h2>
         </div>
 
         <div class="psddGrid psddGrid--2">
             <article class="psddFeature">
-                <h3>Автозаполнение адреса</h3>
+                <h3>Address Autofill</h3>
                 <p>
-                    Пользователь начинает вводить адрес, а система подсказывает корректные варианты.
-                    Это ускоряет оформление и снижает количество ошибок.
+                    The user starts entering an address, and the system suggests valid options.
+                    This speeds up checkout and reduces errors.
                 </p>
             </article>
 
             <article class="psddFeature">
-                <h3>Подсказки города и улицы</h3>
+                <h3>City and Street Suggestions</h3>
                 <p>
-                    Можно настроить как единое поле адреса, так и логику для отдельных полей:
-                    город, улица, дом, индекс и регион.
+                    You can configure either a single address field or separate fields for
+                    city, street, building number, ZIP code, and region.
                 </p>
             </article>
 
             <article class="psddFeature">
-                <h3>Работа с ИНН</h3>
+                <h3>Tax ID Lookup</h3>
                 <p>
-                    Для юридических лиц можно подтягивать данные компании по ИНН:
-                    название организации, реквизиты и другую полезную информацию.
+                    For business customers, company details can be retrieved by Tax ID,
+                    including the company name, legal details, and other useful information.
                 </p>
             </article>
 
             <article class="psddFeature">
-                <h3>Поддержка кастомного checkout</h3>
+                <h3>Custom Checkout Support</h3>
                 <p>
-                    Интеграцию можно встроить не только в стандартный WooCommerce checkout,
-                    но и в кастомную многошаговую форму оформления заказа.
+                    The integration can be added not only to the standard WooCommerce checkout,
+                    but also to a custom multi-step checkout form.
                 </p>
             </article>
 
             <article class="psddFeature">
-                <h3>Гибкая логика для физ/юр лиц</h3>
+                <h3>Flexible Logic for Individuals and Businesses</h3>
                 <p>
-                    Можно выводить разные поля и разные сценарии заполнения в зависимости
-                    от типа клиента и страны.
+                    Different fields and completion flows can be displayed depending
+                    on the customer type and country.
                 </p>
             </article>
 
             <article class="psddFeature">
-                <h3>Интеграция с доставкой</h3>
+                <h3>Shipping Integration</h3>
                 <p>
-                    DaData удобно использовать в связке с CDEK и другими службами доставки,
-                    чтобы клиент быстрее выбирал город и переходил к выбору доставки.
+                    DaData works well with CDEK and other shipping providers,
+                    helping customers select their city faster and proceed to shipping options.
                 </p>
             </article>
         </div>
@@ -151,31 +151,31 @@ get_header();
 <section class="psddSection psddSection--soft">
     <div class="container">
         <div class="psddHeading">
-            <h2>Для каких проектов подходит</h2>
+            <h2>Suitable Projects</h2>
         </div>
 
         <div class="psddGrid psddGrid--3">
             <article class="psddCard psddCard--accent">
-                <h3>Интернет-магазины</h3>
+                <h3>Online stores</h3>
                 <p>
-                    Ускоряет оформление заказа, снижает число ошибок в адресах
-                    и уменьшает количество брошенных корзин.
+                    Speeds up checkout, reduces address errors,
+                    and decreases cart abandonment.
                 </p>
             </article>
 
             <article class="psddCard psddCard--accent">
-                <h3>B2B и оптовые продажи</h3>
+                <h3>B2B and Wholesale Sales</h3>
                 <p>
-                    Особенно полезно, если на сайте оформляют заказы юридические лица
-                    и нужно быстро получать данные компании по ИНН.
+                    Especially useful for websites where business customers place orders
+                    and company details need to be retrieved quickly by Tax ID.
                 </p>
             </article>
 
             <article class="psddCard psddCard--accent">
-                <h3>Кастомные сервисы</h3>
+                <h3>Custom Services</h3>
                 <p>
-                    Подходит для нестандартных форм, сервисов заявок, расчётов,
-                    доставки и проектов с индивидуальной логикой checkout.
+                    Suitable for nonstandard forms, request services, calculators,
+                    shipping solutions, and projects with custom checkout logic.
                 </p>
             </article>
         </div>
@@ -185,17 +185,17 @@ get_header();
 <section class="psddSection">
     <div class="container">
         <div class="psddHeading">
-            <h2>Как проходит подключение</h2>
+            <h2>How the Integration Works</h2>
         </div>
 
         <div class="psddSteps">
             <div class="psddStep">
                 <div class="psddStep__num">01</div>
                 <div class="psddStep__content">
-                    <h3>Анализ checkout</h3>
+                    <h3>Checkout Analysis</h3>
                     <p>
-                        Смотрю, как сейчас устроено оформление заказа, какие поля используются
-                        и где логично встроить подсказки DaData.
+                        I review the current checkout process, the fields being used,
+                        and the best places to add DaData suggestions.
                     </p>
                 </div>
             </div>
@@ -203,10 +203,10 @@ get_header();
             <div class="psddStep">
                 <div class="psddStep__num">02</div>
                 <div class="psddStep__content">
-                    <h3>Подключение API</h3>
+                    <h3>API Integration</h3>
                     <p>
-                        Интегрирую DaData в форму заказа, настраиваю автозаполнение
-                        и обработку данных на стороне WooCommerce.
+                        I integrate DaData into the order form and configure autofill
+                        and data processing in WooCommerce.
                     </p>
                 </div>
             </div>
@@ -214,10 +214,10 @@ get_header();
             <div class="psddStep">
                 <div class="psddStep__num">03</div>
                 <div class="psddStep__content">
-                    <h3>Настройка логики</h3>
+                    <h3>Logic Configuration</h3>
                     <p>
-                        При необходимости разделяю сценарии для физ. и юр. лиц,
-                        России и других стран, а также для разных типов доставки.
+                        If necessary, I create separate flows for individuals and businesses,
+                        Russia and other countries, as well as different shipping methods.
                     </p>
                 </div>
             </div>
@@ -225,10 +225,10 @@ get_header();
             <div class="psddStep">
                 <div class="psddStep__num">04</div>
                 <div class="psddStep__content">
-                    <h3>Тестирование</h3>
+                    <h3>Testing</h3>
                     <p>
-                        Проверяю корректность подсказок, сохранение данных в заказ,
-                        совместимость с темой, оплатами и доставкой.
+                        I verify that suggestions work correctly, data is saved to the order,
+                        and the integration is compatible with the theme, payment methods, and shipping options.
                     </p>
                 </div>
             </div>
@@ -236,10 +236,10 @@ get_header();
             <div class="psddStep">
                 <div class="psddStep__num">05</div>
                 <div class="psddStep__content">
-                    <h3>Запуск</h3>
+                    <h3>Launch</h3>
                     <p>
-                        После тестов внедряю решение на рабочий сайт и при необходимости
-                        помогаю с дальнейшей поддержкой и доработками.
+                        After testing, I deploy the solution to the live website and, if needed,
+                        provide ongoing support and enhancements.
                     </p>
                 </div>
             </div>
@@ -250,31 +250,31 @@ get_header();
 <section class="psddSection psddSection--soft">
     <div class="container">
         <div class="psddHeading">
-            <h2>Почему это выгодно для магазина</h2>
+            <h2>Why It Benefits Your Store</h2>
         </div>
 
         <div class="psddGrid psddGrid--3">
             <article class="psddCard">
-                <h3>Меньше ошибок</h3>
+                <h3>Fewer Errors</h3>
                 <p>
-                    Заказы приходят с более корректными адресами и данными,
-                    а менеджерам не приходится тратить время на уточнения.
+                    Orders are submitted with more accurate addresses and customer details,
+                    so managers do not have to spend time verifying information.
                 </p>
             </article>
 
             <article class="psddCard">
-                <h3>Быстрее оформление</h3>
+                <h3>Faster Checkout</h3>
                 <p>
-                    Чем меньше ручного ввода, тем быстрее пользователь проходит checkout
-                    и тем выше шанс завершить заказ.
+                    The less customers have to enter manually, the faster they can complete checkout
+                    and the more likely they are to place their order.
                 </p>
             </article>
 
             <article class="psddCard">
-                <h3>Выше конверсия</h3>
+                <h3>Higher Conversion Rates</h3>
                 <p>
-                    Удобный checkout напрямую влияет на количество завершённых заказов,
-                    особенно на мобильных устройствах.
+                    A convenient checkout experience directly increases completed orders,
+                    especially on mobile devices.
                 </p>
             </article>
         </div>
@@ -284,39 +284,39 @@ get_header();
 <section class="psddSection">
     <div class="container">
         <div class="psddHeading">
-            <h2>Частые вопросы</h2>
+            <h2>Frequently asked questions</h2>
         </div>
 
         <div class="psddFaq">
             <div class="psddFaq__item">
-                <h3>Подходит ли DaData только для стандартного WooCommerce checkout?</h3>
+                <h3>Does DaData Work Only with the Standard WooCommerce Checkout?</h3>
                 <p>
-                    Нет. Интеграцию можно встроить и в кастомный checkout, и в многошаговое оформление,
-                    и в отдельные формы на сайте.
+                    No. The integration can also be added to a custom checkout, a multi-step checkout,
+                    or separate forms on the website.
                 </p>
             </div>
 
             <div class="psddFaq__item">
-                <h3>Можно ли подтягивать данные компании по ИНН?</h3>
+                <h3>Can Company Details Be Retrieved by Tax ID?</h3>
                 <p>
-                    Да, для юридических лиц можно настроить сценарий, при котором по ИНН
-                    подгружаются данные организации и упрощается оформление заказа.
+                    Yes. For business customers, you can configure a flow that retrieves
+                    company details by Tax ID and simplifies the ordering process.
                 </p>
             </div>
 
             <div class="psddFaq__item">
-                <h3>Работает ли это вместе с CDEK?</h3>
+                <h3>Does this work with CDEK?</h3>
                 <p>
-                    Да, часто DaData используется вместе с доставкой CDEK,
-                    чтобы сначала быстро определить город, а потом показать ПВЗ и расчёт доставки.
+                    Yes, DaData is often used together with CDEK delivery
+                    to quickly identify the city first, then display pickup points and calculate shipping costs.
                 </p>
             </div>
 
             <div class="psddFaq__item">
-                <h3>Можно ли адаптировать решение под мой проект?</h3>
+                <h3>Can the solution be customized for my project?</h3>
                 <p>
-                    Да. Интеграцию можно доработать под нужную логику checkout, поля формы,
-                    сценарии доставки и оплаты.
+                    Yes. The integration can be customized for your checkout logic, form fields,
+                    delivery methods, and payment scenarios.
                 </p>
             </div>
         </div>
@@ -327,16 +327,16 @@ get_header();
     <div class="container">
         <div class="psddCta__box">
             <div class="psddCta__content">
-                <h2>Нужно подключить DaData к WooCommerce?</h2>
+                <h2>Need to connect DaData to WooCommerce?</h2>
                 <p>
-                    Напиши, как у тебя сейчас устроено оформление заказа. Подскажу,
-                    как лучше внедрить автозаполнение адреса, ИНН и данных компании под твой проект.
+                    Tell me how your checkout process is currently set up. I’ll advise you
+                    on the best way to add address, TIN, and company data autofill to your project.
                 </p>
             </div>
 
             <div class="psddCta__actions">
-                <a href="/contacts" class="psddBtn psddBtn--primary">Обсудить подключение</a>
-                <a href="mailto:paveldamut4@gmail.com" class="psddBtn psddBtn--ghost">Написать на почту</a>
+                <a href="/contacts" class="psddBtn psddBtn--primary">Discuss the integration</a>
+                <a href="mailto:paveldamut4@gmail.com" class="psddBtn psddBtn--ghost">Send an email</a>
             </div>
         </div>
     </div>
@@ -610,7 +610,7 @@ get_header();
 </style>
 
 <?php if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 ?>
 

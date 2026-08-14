@@ -12,21 +12,21 @@ get_header();
         <div class="container">
             <div class="pscpHero__wrap">
                 <div>
-                    <div class="pscpBadge">WooCommerce / быстрый заказ</div>
-                    <h1 class="pscpHero__title">Плагин заказа в 1 клик для WooCommerce</h1>
-                    <p class="pscpHero__text">Разрабатываю быстрый заказ в один клик для WooCommerce: всплывающая форма, передача товара в заявку, уведомления менеджеру и интеграция с CRM. Помогает получать больше лидов без сложного checkout.</p>
+                    <div class="pscpBadge">WooCommerce / Quick Order</div>
+                    <h1 class="pscpHero__title">One-Click Order Plugin for WooCommerce</h1>
+                    <p class="pscpHero__text">I develop one-click ordering solutions for WooCommerce, including a pop-up form, product data submission, manager notifications, and CRM integration. It helps generate more leads without a complicated checkout process.</p>
                     <div class="pscpHero__actions">
-                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Добавить заказ в 1 клик</a>
-                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Доработка под проект</a>
+                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Add One-Click Ordering</a>
+                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Custom Development for Your Project</a>
                     </div>
                 </div>
                 <aside class="pscpPanel">
-                    <h2>Что входит</h2>
+                    <h2>What’s Included</h2>
                     <ul>
-                        <li>Быстрая форма заявки</li>
-                        <li>Передача товара и вариаций</li>
-                        <li>Email и Telegram-уведомления</li>
-                        <li>Интеграция с CRM</li>
+                        <li>Quick Order Form</li>
+                        <li>Product and Variation Data Submission</li>
+                        <li>Email and Telegram Notifications</li>
+                        <li>CRM Integration</li>
 
                     </ul>
                 </aside>
@@ -37,14 +37,14 @@ get_header();
     <section class="pscpSection">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Коммерческие задачи, которые закрывает плагин</h2>
-                <p>Шаблон страницы собран под поисковые запросы клиентов, которые ищут готовый WordPress-плагин или разработку функциональности под бизнес-процесс.</p>
+                <h2>Business Needs Addressed by the Plugin</h2>
+                <p>The page template is designed around customer search queries for a ready-made WordPress plugin or custom functionality tailored to a business process.</p>
             </div>
             <div class="pscpGrid">
-                <article><h3>Плагин купить в 1 клик WooCommerce</h3><p>Страница раскрывает коммерческий запрос «Плагин купить в 1 клик WooCommerce» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Быстрый заказ WordPress</h3><p>Страница раскрывает коммерческий запрос «Быстрый заказ WordPress» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>One click order WooCommerce</h3><p>Страница раскрывает коммерческий запрос «One click order WooCommerce» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Форма заказа товара без корзины</h3><p>Страница раскрывает коммерческий запрос «Форма заказа товара без корзины» и показывает выгоду внедрения для владельца сайта.</p></article>
+                <article><h3>One-Click Purchase Plugin for WooCommerce</h3><p>The page targets the commercial search query “One-Click Purchase Plugin for WooCommerce” and highlights the benefits of implementing it for website owners.</p></article>
+                <article><h3>Quick Order for WordPress</h3><p>The page targets the commercial search query “Quick Order for WordPress” and highlights the benefits of implementing it for website owners.</p></article>
+                <article><h3>One click order WooCommerce</h3><p>The page targets the commercial search query “One click order WooCommerce” and highlights the benefits of implementing it for website owners.</p></article>
+                <article><h3>Product Order Form Without a Cart</h3><p>The page targets the commercial search query “Product Order Form Without a Cart” and highlights the benefits of implementing it for website owners.</p></article>
 
             </div>
         </div>
@@ -53,21 +53,21 @@ get_header();
     <section class="pscpSection pscpSection--soft">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Сценарии внедрения</h2>
-                <p>Можно использовать как отдельный плагин, как основу для лендинга услуги или как шаблон для карточки продукта в каталоге плагинов.</p>
+                <h2>Implementation Scenarios</h2>
+                <p>It can be used as a standalone plugin, as the foundation for a service landing page, or as a template for a product listing in a plugin directory.</p>
             </div>
             <div class="pscpSteps">
-                <article><span>01</span><h3>Аудит проекта</h3><p>Проверяю тему, плагины, checkout, формы и текущую логику сайта.</p></article>
-                <article><span>02</span><h3>Разработка</h3><p>Собираю функциональность в отдельный плагин без правок ядра WordPress.</p></article>
-                <article><span>03</span><h3>Тестирование</h3><p>Проверяю совместимость, роли пользователей, уведомления и критические сценарии.</p></article>
+                <article><span>01</span><h3>Project Audit</h3><p>I review the theme, plugins, checkout, forms, and the website’s current logic.</p></article>
+                <article><span>02</span><h3>Development</h3><p>I build the functionality as a separate plugin without modifying the WordPress core.</p></article>
+                <article><span>03</span><h3>Testing</h3><p>I test compatibility, user roles, notifications, and critical workflows.</p></article>
             </div>
         </div>
     </section>
 
-    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026')); } ?>
+    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026')); } ?>
 
     <section class="pscpCta">
-        <div class="container"><div class="pscpCta__box"><h2>Нужен такой плагин для вашего сайта?</h2><p>Опишите задачу — предложу структуру плагина, сроки и вариант внедрения.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Обсудить проект</a></div></div>
+        <div class="container"><div class="pscpCta__box"><h2>Need a Plugin Like This for Your Website?</h2><p>Describe your requirements, and I’ll propose the plugin structure, timeline, and implementation approach.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Discuss Your Project</a></div></div>
     </section>
 </main>
 

@@ -12,21 +12,21 @@ get_header();
         <div class="container">
             <div class="pscpHero__wrap">
                 <div>
-                    <div class="pscpBadge">WordPress / CRM / лиды</div>
-                    <h1 class="pscpHero__title">Интеграция WordPress с CRM — заявки, заказы и лиды</h1>
-                    <p class="pscpHero__text">Подключаю WordPress, WooCommerce и формы сайта к CRM: передача заявок, заказов, UTM-меток, статусов и уведомлений менеджерам. Решение адаптируется под вашу воронку продаж.</p>
+                    <div class="pscpBadge">WordPress / CRM / Leads</div>
+                    <h1 class="pscpHero__title">WordPress CRM Integration — Inquiries, Orders, and Leads</h1>
+                    <p class="pscpHero__text">I connect WordPress, WooCommerce, and website forms to your CRM to send inquiries, orders, UTM tags, statuses, and manager notifications. The solution is tailored to your sales funnel.</p>
                     <div class="pscpHero__actions">
-                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Подключить CRM</a>
-                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Доработка под проект</a>
+                        <a href="/contacts" class="pscpBtn pscpBtn--primary">Connect a CRM</a>
+                        <a href="https://plugins-store.com/razrabotka-plagina-pod-klyuch/" class="pscpBtn pscpBtn--ghost">Custom Development for Your Project</a>
                     </div>
                 </div>
                 <aside class="pscpPanel">
-                    <h2>Что входит</h2>
+                    <h2>What’s Included</h2>
                     <ul>
-                        <li>Заявки из форм</li>
-                        <li>Заказы WooCommerce</li>
-                        <li>UTM и источники лидов</li>
-                        <li>Статусы и вебхуки</li>
+                        <li>Form Inquiries</li>
+                        <li>WooCommerce Orders</li>
+                        <li>UTM Tags and Lead Sources</li>
+                        <li>Statuses and Webhooks</li>
 
                     </ul>
                 </aside>
@@ -37,14 +37,14 @@ get_header();
     <section class="pscpSection">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Коммерческие задачи, которые закрывает плагин</h2>
-                <p>Шаблон страницы собран под поисковые запросы клиентов, которые ищут готовый WordPress-плагин или разработку функциональности под бизнес-процесс.</p>
+                <h2>Business Needs Addressed by the Plugin</h2>
+                <p>The page template is designed around customer search queries for a ready-made WordPress plugin or custom functionality tailored to a business process.</p>
             </div>
             <div class="pscpGrid">
-                <article><h3>Интеграция WordPress с CRM</h3><p>Страница раскрывает коммерческий запрос «Интеграция WordPress с CRM» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>WooCommerce CRM интеграция</h3><p>Страница раскрывает коммерческий запрос «WooCommerce CRM интеграция» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Передача заявок с сайта в CRM</h3><p>Страница раскрывает коммерческий запрос «Передача заявок с сайта в CRM» и показывает выгоду внедрения для владельца сайта.</p></article>
-                <article><h3>Плагин CRM для WordPress</h3><p>Страница раскрывает коммерческий запрос «Плагин CRM для WordPress» и показывает выгоду внедрения для владельца сайта.</p></article>
+                <article><h3>WordPress CRM Integration</h3><p>This page addresses the commercial search query “WordPress CRM Integration” and demonstrates the benefits of implementation for website owners.</p></article>
+                <article><h3>WooCommerce CRM Integration</h3><p>This page addresses the commercial search query “WooCommerce CRM Integration” and demonstrates the benefits of implementation for website owners.</p></article>
+                <article><h3>Sending Website Inquiries to a CRM</h3><p>This page addresses the commercial search query “Sending Website Inquiries to a CRM” and demonstrates the benefits of implementation for website owners.</p></article>
+                <article><h3>CRM Plugin for WordPress</h3><p>This page addresses the commercial search query “CRM Plugin for WordPress” and demonstrates the benefits of implementation for the website owner.</p></article>
 
             </div>
         </div>
@@ -53,21 +53,21 @@ get_header();
     <section class="pscpSection pscpSection--soft">
         <div class="container">
             <div class="pscpHeading">
-                <h2>Сценарии внедрения</h2>
-                <p>Можно использовать как отдельный плагин, как основу для лендинга услуги или как шаблон для карточки продукта в каталоге плагинов.</p>
+                <h2>Implementation Scenarios</h2>
+                <p>It can be used as a standalone plugin, as the foundation for a service landing page, or as a template for a product listing in a plugin directory.</p>
             </div>
             <div class="pscpSteps">
-                <article><span>01</span><h3>Аудит проекта</h3><p>Проверяю тему, плагины, checkout, формы и текущую логику сайта.</p></article>
-                <article><span>02</span><h3>Разработка</h3><p>Собираю функциональность в отдельный плагин без правок ядра WordPress.</p></article>
-                <article><span>03</span><h3>Тестирование</h3><p>Проверяю совместимость, роли пользователей, уведомления и критические сценарии.</p></article>
+                <article><span>01</span><h3>Project Audit</h3><p>I review the theme, plugins, checkout, forms, and the website’s current logic.</p></article>
+                <article><span>02</span><h3>Development</h3><p>I build the functionality as a separate plugin without modifying the WordPress core.</p></article>
+                <article><span>03</span><h3>Testing</h3><p>I test compatibility, user roles, notifications, and critical workflows.</p></article>
             </div>
         </div>
     </section>
 
-    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026')); } ?>
+    <?php if (function_exists('ps_render_plugin_specs')) { ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026')); } ?>
 
     <section class="pscpCta">
-        <div class="container"><div class="pscpCta__box"><h2>Нужен такой плагин для вашего сайта?</h2><p>Опишите задачу — предложу структуру плагина, сроки и вариант внедрения.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Обсудить проект</a></div></div>
+        <div class="container"><div class="pscpCta__box"><h2>Need a Plugin Like This for Your Website?</h2><p>Describe your requirements, and I’ll propose the plugin structure, timeline, and implementation approach.</p><a href="/contacts" class="pscpBtn pscpBtn--primary">Discuss Your Project</a></div></div>
     </section>
 </main>
 

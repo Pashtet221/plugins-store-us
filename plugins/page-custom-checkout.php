@@ -14,37 +14,37 @@ get_header();
                 <div class="pscoBadge">WooCommerce / Checkout</div>
 
                 <h1 class="pscoHero__title">
-                    Кастомный checkout<br>
-                    для WooCommerce
+                    Custom Checkout<br>
+                    for WooCommerce
                 </h1>
 
                 <p class="pscoHero__text">
-                    Разрабатываю удобное оформление заказа для WooCommerce под ваш бизнес:
-                    многошаговый checkout, логика для физ. и юр. лиц, интеграции с доставкой,
-                    оплатой, DaData и нестандартный сценарий оформления.
+                    I develop user-friendly WooCommerce checkout solutions tailored to your business:
+                    multistep checkout, workflows for individuals and businesses, integrations with shipping,
+                    payment providers, DaData, and custom checkout flows.
                 </p>
 
                 <div class="pscoHero__actions">
-                    <a href="/contacts" class="pscoBtn pscoBtn--primary">Обсудить checkout</a>
-                    <a href="/dadata-woocommerce/" class="pscoBtn pscoBtn--ghost">DaData для WooCommerce</a>
+                    <a href="/contacts" class="pscoBtn pscoBtn--primary">Discuss Your Checkout</a>
+                    <a href="/dadata-woocommerce/" class="pscoBtn pscoBtn--ghost">DaData for WooCommerce</a>
                 </div>
 
                 <div class="pscoHero__trust">
-                    <span>Выше конверсия</span>
-                    <span>Меньше брошенных корзин</span>
-                    <span>Логика под ваш проект</span>
+                    <span>Higher Conversion Rates</span>
+                    <span>Fewer Abandoned Carts</span>
+                    <span>Logic Tailored to Your Project</span>
                 </div>
             </div>
 
             <div class="pscoHero__side">
                 <div class="pscoMiniCard">
-                    <div class="pscoMiniCard__title">Что можно реализовать</div>
+                    <div class="pscoMiniCard__title">What Can Be Implemented</div>
                     <ul class="pscoMiniCard__list">
-                        <li>Многошаговое оформление заказа</li>
-                        <li>Разделение физ./юр. лиц</li>
-                        <li>Разные сценарии по странам</li>
-                        <li>DaData, CDEK, оплаты и вебхуки</li>
-                        <li>Минимум лишних полей</li>
+                        <li>Multi-Step Checkout</li>
+                        <li>Separate Flows for Individuals and Businesses</li>
+                        <li>Different Flows by Country</li>
+                        <li>DaData, CDEK, Payments, and Webhooks</li>
+                        <li>Minimal Unnecessary Fields</li>
                     </ul>
                 </div>
             </div>
@@ -55,36 +55,36 @@ get_header();
 <section class="pscoSection pscoSection--soft">
     <div class="container">
         <div class="pscoHeading">
-            <h2>Почему стандартный WooCommerce checkout часто не подходит</h2>
+            <h2>Why the Standard WooCommerce Checkout Often Falls Short</h2>
             <p>
-                Коробочное оформление заказа редко учитывает реальные процессы бизнеса.
-                Из-за этого клиенты путаются, бросают корзину, а менеджеры получают заказы
-                с ошибками и лишними ручными действиями.
+                An out-of-the-box checkout rarely accounts for real business processes.
+                As a result, customers get confused and abandon their carts, while managers receive orders
+                with errors that require unnecessary manual work.
             </p>
         </div>
 
         <div class="pscoGrid pscoGrid--3">
             <article class="pscoCard">
-                <h3>Слишком много полей</h3>
+                <h3>Too Many Fields</h3>
                 <p>
-                    Стандартный checkout часто перегружен полями, которые не нужны вашему проекту.
-                    Это усложняет оформление и снижает конверсию.
+                    The standard checkout is often overloaded with fields your project does not need.
+                    This complicates the checkout process and reduces conversion rates.
                 </p>
             </article>
 
             <article class="pscoCard">
-                <h3>Нет нужной логики</h3>
+                <h3>Missing Required Logic</h3>
                 <p>
-                    WooCommerce из коробки не умеет учитывать сложные сценарии:
-                    разные типы клиентов, страны, доставки, оплаты и условия заказа.
+                    Out of the box, WooCommerce cannot handle complex scenarios involving
+                    different customer types, countries, shipping methods, payment methods, and order conditions.
                 </p>
             </article>
 
             <article class="pscoCard">
-                <h3>Высокий процент отказов</h3>
+                <h3>High Abandonment Rate</h3>
                 <p>
-                    Чем сложнее и длиннее форма, тем выше шанс, что клиент не завершит заказ,
-                    особенно на мобильных устройствах.
+                    The more complex and lengthy the form, the more likely customers are to abandon their orders,
+                    especially on mobile devices.
                 </p>
             </article>
         </div>
@@ -94,55 +94,55 @@ get_header();
 <section class="pscoSection">
     <div class="container">
         <div class="pscoHeading">
-            <h2>Что входит в кастомный checkout</h2>
+            <h2>What a Custom Checkout Includes</h2>
         </div>
 
         <div class="pscoGrid pscoGrid--2">
             <article class="pscoFeature">
-                <h3>Многошаговое оформление заказа</h3>
+                <h3>Multi-Step Checkout</h3>
                 <p>
-                    Разбиваю checkout на понятные шаги, чтобы клиенту было проще пройти
-                    оформление без перегрузки и путаницы.
+                    I divide the checkout into clear steps, making it easier for customers to complete
+                    their orders without feeling overwhelmed or confused.
                 </p>
             </article>
 
             <article class="pscoFeature">
-                <h3>Логика для физ. и юр. лиц</h3>
+                <h3>Logic for Individuals and Businesses</h3>
                 <p>
-                    Можно выводить разные поля, способы оплаты и сценарии оформления
-                    в зависимости от типа клиента.
+                    Different fields, payment methods, and checkout flows can be displayed
+                    depending on the customer type.
                 </p>
             </article>
 
             <article class="pscoFeature">
-                <h3>Интеграция с DaData</h3>
+                <h3>DaData Integration</h3>
                 <p>
-                    Автозаполнение адреса, города, ИНН и данных компании помогает
-                    ускорить оформление заказа и снизить число ошибок.
+                    Autofilling addresses, cities, tax IDs, and company details helps
+                    speed up checkout and reduce errors.
                 </p>
             </article>
 
             <article class="pscoFeature">
-                <h3>Интеграция с CDEK и доставкой</h3>
+                <h3>CDEK and Shipping Integration</h3>
                 <p>
-                    Подключаю выбор ПВЗ, расчёт доставки, логику по городам и сценарии
-                    под разные способы доставки.
+                    I integrate pickup point selection, shipping calculations, city-based logic, and flows
+                    for different shipping methods.
                 </p>
             </article>
 
             <article class="pscoFeature">
-                <h3>Условия по странам и регионам</h3>
+                <h3>Country- and Region-Based Conditions</h3>
                 <p>
-                    Можно показывать разные поля и разные сценарии для России,
-                    других стран и отдельных регионов.
+                    Different fields and flows can be displayed for Russia,
+                    other countries, and specific regions.
                 </p>
             </article>
 
             <article class="pscoFeature">
-                <h3>Кастомные уведомления и вебхуки</h3>
+                <h3>Custom Notifications and Webhooks</h3>
                 <p>
-                    Настраиваю отправку данных, уведомления, вебхуки и внутреннюю логику
-                    обработки заказа под ваш бизнес-процесс.
+                    I configure data transfers, notifications, webhooks, and internal
+                    order processing logic to match your business process.
                 </p>
             </article>
         </div>
@@ -152,31 +152,31 @@ get_header();
 <section class="pscoSection pscoSection--soft">
     <div class="container">
         <div class="pscoHeading">
-            <h2>Какие сценарии можно реализовать</h2>
+            <h2>Checkout Flows That Can Be Implemented</h2>
         </div>
 
         <div class="pscoGrid pscoGrid--3">
             <article class="pscoCard pscoCard--accent">
-                <h3>Физические лица</h3>
+                <h3>Individual Customers</h3>
                 <p>
-                    Минимум полей, быстрый выбор города и доставки,
-                    удобная оплата и максимально короткий путь до оформления.
+                    Minimal fields, quick city and shipping selection,
+                    convenient payment options, and the shortest possible path to placing an order.
                 </p>
             </article>
 
             <article class="pscoCard pscoCard--accent">
-                <h3>Юридические лица</h3>
+                <h3>Business Customers</h3>
                 <p>
-                    Подтягивание данных по ИНН, отдельные способы оплаты,
-                    счёт, реквизиты и более точная логика оформления.
+                    Company data lookup by tax ID, separate payment methods,
+                    invoicing, company details, and more precise checkout logic.
                 </p>
             </article>
 
             <article class="pscoCard pscoCard--accent">
-                <h3>Международные заказы</h3>
+                <h3>International Orders</h3>
                 <p>
-                    Можно сделать отдельную логику для клиентов из других стран:
-                    скрыть лишние поля, адаптировать оплату и упростить процесс.
+                    A separate flow can be created for customers from other countries:
+                    hide unnecessary fields, adapt payment methods, and simplify the process.
                 </p>
             </article>
         </div>
@@ -186,17 +186,17 @@ get_header();
 <section class="pscoSection">
     <div class="container">
         <div class="pscoHeading">
-            <h2>Как проходит разработка checkout</h2>
+            <h2>How Checkout Development Works</h2>
         </div>
 
         <div class="pscoSteps">
             <div class="pscoStep">
                 <div class="pscoStep__num">01</div>
                 <div class="pscoStep__content">
-                    <h3>Анализ текущего оформления</h3>
+                    <h3>Current Checkout Analysis</h3>
                     <p>
-                        Смотрю текущий checkout, структуру полей, способы оплаты,
-                        доставки и точки, где пользователи теряются или бросают корзину.
+                        I review the current checkout, field structure, payment methods,
+                        shipping options, and points where users get confused or abandon their carts.
                     </p>
                 </div>
             </div>
@@ -204,10 +204,10 @@ get_header();
             <div class="pscoStep">
                 <div class="pscoStep__num">02</div>
                 <div class="pscoStep__content">
-                    <h3>Проектирование логики</h3>
+                    <h3>Logic Design</h3>
                     <p>
-                        Определяю сценарии для разных типов клиентов, стран, способов доставки,
-                        оплат и дополнительных условий.
+                        I define flows for different customer types, countries, shipping methods,
+                        payment methods, and additional conditions.
                     </p>
                 </div>
             </div>
@@ -215,10 +215,10 @@ get_header();
             <div class="pscoStep">
                 <div class="pscoStep__num">03</div>
                 <div class="pscoStep__content">
-                    <h3>Разработка интерфейса</h3>
+                    <h3>Interface Development</h3>
                     <p>
-                        Собираю кастомный checkout, делаю удобный UX, избавляюсь от лишних полей
-                        и настраиваю шаги оформления заказа.
+                        I build a custom checkout, create a user-friendly experience, remove unnecessary fields,
+                        and configure the checkout steps.
                     </p>
                 </div>
             </div>
@@ -226,9 +226,9 @@ get_header();
             <div class="pscoStep">
                 <div class="pscoStep__num">04</div>
                 <div class="pscoStep__content">
-                    <h3>Интеграция сервисов</h3>
+                    <h3>Service Integration</h3>
                     <p>
-                        Подключаю DaData, CDEK, оплаты, уведомления, вебхуки и логику сохранения данных в заказ.
+                        I integrate DaData, CDEK, payments, notifications, webhooks, and the logic for saving data to the order.
                     </p>
                 </div>
             </div>
@@ -236,10 +236,10 @@ get_header();
             <div class="pscoStep">
                 <div class="pscoStep__num">05</div>
                 <div class="pscoStep__content">
-                    <h3>Тестирование и запуск</h3>
+                    <h3>Testing and Launch</h3>
                     <p>
-                        Проверяю сценарии на разных устройствах, корректность оформления заказа,
-                        работу оплат, доставок и отправку уведомлений.
+                        I test the flows on different devices, verify correct order placement,
+                        payment and shipping functionality, and notification delivery.
                     </p>
                 </div>
             </div>
@@ -250,31 +250,31 @@ get_header();
 <section class="pscoSection pscoSection--soft">
     <div class="container">
         <div class="pscoHeading">
-            <h2>Что получает бизнес</h2>
+            <h2>Business Benefits</h2>
         </div>
 
         <div class="pscoGrid pscoGrid--3">
             <article class="pscoCard">
-                <h3>Рост конверсии</h3>
+                <h3>Higher Conversion Rates</h3>
                 <p>
-                    Чем понятнее и короче checkout, тем выше шанс,
-                    что пользователь завершит оформление заказа.
+                    The clearer and shorter the checkout, the more likely
+                    users are to complete their orders.
                 </p>
             </article>
 
             <article class="pscoCard">
-                <h3>Меньше ошибок</h3>
+                <h3>Fewer Errors</h3>
                 <p>
-                    Правильная логика полей и интеграции помогают получать
-                    более корректные данные и сокращать ручную работу менеджеров.
+                    Proper field logic and integrations help collect
+                    more accurate data and reduce manual work for managers.
                 </p>
             </article>
 
             <article class="pscoCard">
-                <h3>Гибкость под бизнес</h3>
+                <h3>Business-Specific Flexibility</h3>
                 <p>
-                    Вы получаете не стандартную форму, а оформление заказа,
-                    которое учитывает ваш процесс продаж.
+                    Instead of a standard form, you get a checkout
+                    tailored to your sales process.
                 </p>
             </article>
         </div>
@@ -284,39 +284,39 @@ get_header();
 <section class="pscoSection">
     <div class="container">
         <div class="pscoHeading">
-            <h2>Частые вопросы</h2>
+            <h2>Frequently asked questions</h2>
         </div>
 
         <div class="pscoFaq">
             <div class="pscoFaq__item">
-                <h3>Можно ли сделать checkout без лишних полей?</h3>
+                <h3>Can the checkout be created without unnecessary fields?</h3>
                 <p>
-                    Да. Лишние поля можно убрать полностью или показывать только
-                    при выполнении нужных условий.
+                    Yes. Unnecessary fields can be removed entirely or displayed only
+                    when specific conditions are met.
                 </p>
             </div>
 
             <div class="pscoFaq__item">
-                <h3>Можно ли разделить сценарии для физ. и юр. лиц?</h3>
+                <h3>Can separate flows be created for individuals and businesses?</h3>
                 <p>
-                    Да, это одна из самых частых задач. Для разных типов клиентов
-                    можно настроить разные поля, оплаты, доставку и логику оформления.
+                    Yes, this is one of the most common requests. Different fields, payment methods,
+                    shipping options, and checkout logic can be configured for each customer type.
                 </p>
             </div>
 
             <div class="pscoFaq__item">
-                <h3>Можно ли встроить DaData и CDEK в checkout?</h3>
+                <h3>Can DaData and CDEK be integrated into the checkout?</h3>
                 <p>
-                    Да. Обычно как раз это и даёт лучший результат:
-                    DaData ускоряет ввод данных, а CDEK закрывает логику доставки.
+                    Yes. In fact, this combination usually delivers the best results:
+                    DaData speeds up data entry, while CDEK handles the shipping logic.
                 </p>
             </div>
 
             <div class="pscoFaq__item">
-                <h3>Работает ли кастомный checkout с текущей темой сайта?</h3>
+                <h3>Will a custom checkout work with the site's current theme?</h3>
                 <p>
-                    В большинстве случаев да. Логику можно встроить в текущую тему
-                    и адаптировать под существующий дизайн магазина.
+                    In most cases, yes. The logic can be integrated into the current theme
+                    and adapted to the store's existing design.
                 </p>
             </div>
         </div>
@@ -327,16 +327,16 @@ get_header();
     <div class="container">
         <div class="pscoCta__box">
             <div class="pscoCta__content">
-                <h2>Нужен checkout под ваш проект?</h2>
+                <h2>Need a Checkout Tailored to Your Project?</h2>
                 <p>
-                    Опишите, как сейчас оформляется заказ, какие есть проблемы
-                    и какую логику нужно реализовать. Подскажу оптимальный вариант внедрения.
+                    Describe how orders are currently placed, what problems you are facing,
+                    and what logic needs to be implemented. I will recommend the best implementation approach.
                 </p>
             </div>
 
             <div class="pscoCta__actions">
-                <a href="/contacts" class="pscoBtn pscoBtn--primary">Обсудить задачу</a>
-                <a href="mailto:paveldamut4@gmail.com" class="pscoBtn pscoBtn--ghost">Написать на почту</a>
+                <a href="/contacts" class="pscoBtn pscoBtn--primary">Discuss Your Project</a>
+                <a href="mailto:paveldamut4@gmail.com" class="pscoBtn pscoBtn--ghost">Send an email</a>
             </div>
         </div>
     </div>
@@ -610,7 +610,7 @@ get_header();
 </style>
 
 <?php if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 ?>
 

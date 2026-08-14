@@ -14,37 +14,37 @@ get_header();
                 <div class="pscdBadge">WooCommerce / CDEK</div>
 
                 <h1 class="pscdHero__title">
-                    Интеграция CDEK<br>
-                    для WooCommerce
+                    CDEK Integration<br>
+                    for WooCommerce
                 </h1>
 
                 <p class="pscdHero__text">
-                    Подключаю и дорабатываю доставку CDEK в WooCommerce:
-                    выбор ПВЗ, расчёт стоимости, логика по городам и удобный сценарий
-                    оформления заказа без ошибок и лишних действий.
+                    I integrate and customize CDEK shipping in WooCommerce:
+                    pickup point selection, shipping cost calculation, city-based logic, and a streamlined
+                    checkout process without errors or unnecessary steps.
                 </p>
 
                 <div class="pscdHero__actions">
-                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Подключить CDEK</a>
-                    <a href="/custom-checkout/" class="pscdBtn pscdBtn--ghost">Нужен кастомный checkout</a>
+                    <a href="/contacts" class="pscdBtn pscdBtn--primary">Integrate CDEK</a>
+                    <a href="/custom-checkout/" class="pscdBtn pscdBtn--ghost">Need a Custom Checkout</a>
                 </div>
 
                 <div class="pscdHero__trust">
-                    <span>Корректный выбор ПВЗ</span>
-                    <span>Точный расчёт доставки</span>
-                    <span>Удобно для клиента</span>
+                    <span>Reliable Pickup Point Selection</span>
+                    <span>Accurate Shipping Cost Calculation</span>
+                    <span>Convenient for Customers</span>
                 </div>
             </div>
 
             <div class="pscdHero__side">
                 <div class="pscdMiniCard">
-                    <div class="pscdMiniCard__title">Что можно настроить</div>
+                    <div class="pscdMiniCard__title">What Can Be Configured</div>
                     <ul class="pscdMiniCard__list">
-                        <li>Выбор ПВЗ на checkout</li>
-                        <li>Автоподстановка города</li>
-                        <li>Расчёт стоимости доставки</li>
-                        <li>Связка с DaData и адресами</li>
-                        <li>Кастомная логика оформления</li>
+                        <li>Pickup Point Selection at Checkout</li>
+                        <li>Automatic City Detection</li>
+                        <li>Shipping Cost Calculation</li>
+                        <li>Integration with DaData and Addresses</li>
+                        <li>Custom Checkout Logic</li>
                     </ul>
                 </div>
             </div>
@@ -55,36 +55,36 @@ get_header();
 <section class="pscdSection pscdSection--soft">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Какие проблемы решает интеграция CDEK</h2>
+            <h2>Problems CDEK Integration Solves</h2>
             <p>
-                Если доставка работает нестабильно, клиент не может выбрать ПВЗ,
-                расчёт стоимости некорректный или оформление заказа усложняется,
-                интеграцию CDEK нужно доработать под ваш проект.
+                If shipping is unreliable, customers cannot select a pickup point,
+                costs are calculated incorrectly, or checkout becomes too complicated,
+                the CDEK integration needs to be customized for your project.
             </p>
         </div>
 
         <div class="pscdGrid pscdGrid--3">
             <article class="pscdCard">
-                <h3>Ошибка выбора ПВЗ</h3>
+                <h3>Pickup Point Selection Error</h3>
                 <p>
-                    Частая проблема — клиент видит доставку, но не может корректно выбрать
-                    пункт выдачи, из-за чего заказ не оформляется.
+                    A common issue is that customers see the shipping option but cannot properly select
+                    a pickup point, preventing them from placing the order.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Непонятный checkout</h3>
+                <h3>Confusing Checkout</h3>
                 <p>
-                    Когда доставка встроена неудобно, пользователь путается:
-                    сначала вводит данные, потом не понимает, где выбрать ПВЗ и как завершить заказ.
+                    When shipping is integrated poorly, users become confused:
+                    they enter their information first, then cannot figure out where to select a pickup point or how to complete the order.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Ошибки в расчётах</h3>
+                <h3>Calculation Errors</h3>
                 <p>
-                    Некорректный вес, логика по городам, зонам и тарифам часто приводят
-                    к неправильной стоимости доставки.
+                    Incorrect weight and flawed city, zone, and rate logic often result
+                    in inaccurate shipping costs.
                 </p>
             </article>
         </div>
@@ -94,55 +94,55 @@ get_header();
 <section class="pscdSection">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Что входит в настройку и доработку CDEK</h2>
+            <h2>What CDEK Setup and Customization Include</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--2">
             <article class="pscdFeature">
-                <h3>Выбор ПВЗ в checkout</h3>
+                <h3>Pickup Point Selection at Checkout</h3>
                 <p>
-                    Настраиваю понятный выбор пунктов выдачи, чтобы клиент мог быстро выбрать
-                    нужный ПВЗ без ошибок и лишних шагов.
+                    I configure an intuitive pickup point selector so customers can quickly choose
+                    the right location without errors or unnecessary steps.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Расчёт доставки</h3>
+                <h3>Shipping Cost Calculation</h3>
                 <p>
-                    Подключаю и корректирую расчёт стоимости доставки с учётом логики вашего магазина,
-                    веса, города, региона и типа заказа.
+                    I integrate and fine-tune shipping cost calculations based on your store’s logic,
+                    weight, city, region, and order type.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Связка с DaData</h3>
+                <h3>DaData Integration</h3>
                 <p>
-                    Город можно определять через автоподсказки DaData, чтобы клиент быстрее переходил
-                    к выбору доставки и не ошибался во вводе.
+                    The city can be detected using DaData autocomplete suggestions, helping customers move more quickly
+                    to shipping selection and avoid input errors.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Логика для физ. и юр. лиц</h3>
+                <h3>Logic for Individuals and Businesses</h3>
                 <p>
-                    Если у вас разные сценарии оформления, доставку можно адаптировать
-                    под разные типы клиентов и условия заказа.
+                    If you have different checkout workflows, shipping can be adapted
+                    for different customer types and order conditions.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Кастомный интерфейс</h3>
+                <h3>Custom Interface</h3>
                 <p>
-                    При необходимости дорабатываю стандартный интерфейс модуля CDEK,
-                    чтобы он лучше вписывался в текущий дизайн сайта и checkout.
+                    If necessary, I customize the standard CDEK module interface
+                    so it better matches your website’s current design and checkout.
                 </p>
             </article>
 
             <article class="pscdFeature">
-                <h3>Стабильная работа на сайте</h3>
+                <h3>Reliable Website Operation</h3>
                 <p>
-                    Проверяю совместимость с темой, WooCommerce, оплатами и дополнительными модулями,
-                    чтобы доставка работала без конфликтов.
+                    I test compatibility with the theme, WooCommerce, payment methods, and additional modules
+                    to ensure shipping works without conflicts.
                 </p>
             </article>
         </div>
@@ -152,31 +152,31 @@ get_header();
 <section class="pscdSection pscdSection--soft">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Для каких магазинов это особенно важно</h2>
+            <h2>Stores That Benefit Most from This</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--3">
             <article class="pscdCard pscdCard--accent">
-                <h3>Интернет-магазины с доставкой по России</h3>
+                <h3>Online Stores Shipping Across Russia</h3>
                 <p>
-                    Если основная часть заказов идёт по городам России, корректная интеграция CDEK
-                    напрямую влияет на удобство заказа и конверсию.
+                    If most orders are shipped to cities across Russia, proper CDEK integration
+                    directly affects checkout convenience and conversion rates.
                 </p>
             </article>
 
             <article class="pscdCard pscdCard--accent">
-                <h3>Магазины с большим числом заказов</h3>
+                <h3>High-Volume Stores</h3>
                 <p>
-                    Чем больше заказов, тем важнее получать корректные адреса, ПВЗ и стоимость доставки
-                    без ручной доработки менеджером.
+                    The more orders you receive, the more important it is to obtain accurate addresses, pickup points, and shipping costs
+                    without requiring manual adjustments by a manager.
                 </p>
             </article>
 
             <article class="pscdCard pscdCard--accent">
-                <h3>Проекты с кастомным checkout</h3>
+                <h3>Projects with a Custom Checkout</h3>
                 <p>
-                    Если оформление заказа уже нестандартное, интеграцию CDEK нужно встраивать
-                    аккуратно и логично в текущий сценарий.
+                    If your checkout process is already customized, the CDEK integration must be incorporated
+                    carefully and logically into the current workflow.
                 </p>
             </article>
         </div>
@@ -186,17 +186,17 @@ get_header();
 <section class="pscdSection">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Как проходит внедрение CDEK</h2>
+            <h2>How CDEK Implementation Works</h2>
         </div>
 
         <div class="pscdSteps">
             <div class="pscdStep">
                 <div class="pscdStep__num">01</div>
                 <div class="pscdStep__content">
-                    <h3>Проверка текущей интеграции</h3>
+                    <h3>Review of the Current Integration</h3>
                     <p>
-                        Смотрю, как сейчас подключён CDEK, какие ошибки возникают
-                        и где ломается сценарий оформления заказа.
+                        I review how CDEK is currently integrated, what errors occur,
+                        and where the checkout workflow breaks down.
                     </p>
                 </div>
             </div>
@@ -204,10 +204,10 @@ get_header();
             <div class="pscdStep">
                 <div class="pscdStep__num">02</div>
                 <div class="pscdStep__content">
-                    <h3>Настройка логики доставки</h3>
+                    <h3>Shipping Logic Configuration</h3>
                     <p>
-                        Настраиваю выбор ПВЗ, расчёт стоимости, передачу города,
-                        условия отображения и связь с checkout.
+                        I configure pickup point selection, shipping cost calculation, city data transfer,
+                        display conditions, and checkout integration.
                     </p>
                 </div>
             </div>
@@ -215,10 +215,10 @@ get_header();
             <div class="pscdStep">
                 <div class="pscdStep__num">03</div>
                 <div class="pscdStep__content">
-                    <h3>Доработка интерфейса</h3>
+                    <h3>Interface customization</h3>
                     <p>
-                        Если стандартный модуль неудобен, адаптирую интерфейс под ваш сайт,
-                        чтобы доставка ощущалась как часть целостного checkout.
+                        If the standard module is inconvenient, I will adapt the interface to your website
+                        so that shipping feels like an integral part of the checkout process.
                     </p>
                 </div>
             </div>
@@ -226,10 +226,10 @@ get_header();
             <div class="pscdStep">
                 <div class="pscdStep__num">04</div>
                 <div class="pscdStep__content">
-                    <h3>Тестирование</h3>
+                    <h3>Testing</h3>
                     <p>
-                        Проверяю оформление заказа, сохранение выбранного ПВЗ, передачу данных в заказ,
-                        совместимость с оплатой и корректность расчётов.
+                        I test checkout, saving the selected pickup point, transferring data to the order,
+                        payment compatibility, and calculation accuracy.
                     </p>
                 </div>
             </div>
@@ -237,10 +237,10 @@ get_header();
             <div class="pscdStep">
                 <div class="pscdStep__num">05</div>
                 <div class="pscdStep__content">
-                    <h3>Запуск на рабочем сайте</h3>
+                    <h3>Launch on the live website</h3>
                     <p>
-                        После тестов внедряю решение на боевой сайт и при необходимости
-                        помогаю с дальнейшими доработками.
+                        After testing, I deploy the solution to the live website and, if necessary,
+                        assist with further improvements.
                     </p>
                 </div>
             </div>
@@ -251,31 +251,31 @@ get_header();
 <section class="pscdSection pscdSection--soft">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Что получает бизнес</h2>
+            <h2>Business Benefits</h2>
         </div>
 
         <div class="pscdGrid pscdGrid--3">
             <article class="pscdCard">
-                <h3>Меньше сбоев в заказах</h3>
+                <h3>Fewer order issues</h3>
                 <p>
-                    Клиенты корректно выбирают ПВЗ и завершают оформление заказа
-                    без ошибок и ручного вмешательства менеджера.
+                    Customers can select a pickup point correctly and complete checkout
+                    without errors or manual assistance from a manager.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Выше удобство оформления</h3>
+                <h3>A smoother checkout experience</h3>
                 <p>
-                    Логичная интеграция доставки делает checkout понятнее,
-                    а значит снижает вероятность брошенной корзины.
+                    A well-designed shipping integration makes checkout easier to understand,
+                    reducing the likelihood of cart abandonment.
                 </p>
             </article>
 
             <article class="pscdCard">
-                <h3>Точнее доставка</h3>
+                <h3>More accurate shipping</h3>
                 <p>
-                    Правильные расчёты и корректная передача данных помогают избежать
-                    проблем с логистикой и ценой доставки.
+                    Accurate calculations and proper data transfer help prevent
+                    logistics and shipping cost issues.
                 </p>
             </article>
         </div>
@@ -285,39 +285,39 @@ get_header();
 <section class="pscdSection">
     <div class="container">
         <div class="pscdHeading">
-            <h2>Частые вопросы</h2>
+            <h2>Frequently asked questions</h2>
         </div>
 
         <div class="pscdFaq">
             <div class="pscdFaq__item">
-                <h3>Можно ли доработать уже установленный модуль CDEK?</h3>
+                <h3>Can an existing CDEK module be customized?</h3>
                 <p>
-                    Да, во многих случаях можно доработать текущую интеграцию,
-                    исправить ошибки и адаптировать её под ваш checkout.
+                    Yes, in many cases the current integration can be improved,
+                    errors can be fixed, and the module can be adapted to your checkout.
                 </p>
             </div>
 
             <div class="pscdFaq__item">
-                <h3>Можно ли связать CDEK с DaData?</h3>
+                <h3>Can CDEK be integrated with DaData?</h3>
                 <p>
-                    Да, это очень полезная связка: сначала клиент быстро вводит город,
-                    потом сразу выбирает ПВЗ и завершает оформление заказа.
+                    Yes, this is a very useful combination: the customer quickly enters their city,
+                    then immediately selects a pickup point and completes checkout.
                 </p>
             </div>
 
             <div class="pscdFaq__item">
-                <h3>Можно ли убрать ошибку “Не выбран ПВЗ”?</h3>
+                <h3>Can the “No pickup point selected” error be removed?</h3>
                 <p>
-                    Да, такую логику можно доработать: либо корректно встроить обязательный выбор,
-                    либо адаптировать поведение модуля под ваш сценарий оформления.
+                    Yes, this logic can be improved by either properly implementing a required selection
+                    or adapting the module’s behavior to your checkout flow.
                 </p>
             </div>
 
             <div class="pscdFaq__item">
-                <h3>Подходит ли это для кастомного checkout?</h3>
+                <h3>Is this suitable for a custom checkout?</h3>
                 <p>
-                    Да. Интеграцию CDEK можно встроить и в стандартный WooCommerce checkout,
-                    и в полностью кастомное оформление заказа.
+                    Yes. CDEK can be integrated into both the standard WooCommerce checkout
+                    and a fully custom checkout process.
                 </p>
             </div>
         </div>
@@ -328,16 +328,16 @@ get_header();
     <div class="container">
         <div class="pscdCta__box">
             <div class="pscdCta__content">
-                <h2>Нужно подключить или доработать CDEK?</h2>
+                <h2>Need to set up or customize CDEK?</h2>
                 <p>
-                    Опишите, как сейчас работает доставка на вашем сайте и где возникают проблемы.
-                    Подскажу, как лучше внедрить CDEK под ваш WooCommerce-магазин.
+                    Describe how shipping currently works on your website and where problems occur.
+                    I’ll recommend the best way to implement CDEK for your WooCommerce store.
                 </p>
             </div>
 
             <div class="pscdCta__actions">
-                <a href="/contacts" class="pscdBtn pscdBtn--primary">Обсудить интеграцию</a>
-                <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Написать на почту</a>
+                <a href="/contacts" class="pscdBtn pscdBtn--primary">Discuss the integration</a>
+                <a href="mailto:paveldamut4@gmail.com" class="pscdBtn pscdBtn--ghost">Send an email</a>
             </div>
         </div>
     </div>
@@ -611,7 +611,7 @@ get_header();
 </style>
 
 <?php if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 ?>
 

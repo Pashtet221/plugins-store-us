@@ -1,28 +1,28 @@
 <?php
 /**
- * Template Name: Плагин Hivepress Map
+ * Template Name: HivePress Map Plugin
  * Template Post Type: plugin
- * Description: Лендос под плагин
+ * Description: Plugin Landing Page
  */
 
 if ( ! defined('ABSPATH') ) exit;
 get_header();
 
-// Можно переопределять через кастомные поля (если захочешь позже).
+// These values can be overridden with custom fields later.
 $title   = get_the_title();
 $lead    = get_post_meta(get_the_ID(), 'ds_lead', true);
 $text    = get_post_meta(get_the_ID(), 'ds_text', true);
-$video   = get_post_meta(get_the_ID(), 'ds_video_url', true); // iframe URL (YouTube embed) или mp4
-$poster  = get_post_meta(get_the_ID(), 'ds_video_poster', true); // URL постера (опционально)
+$video   = get_post_meta(get_the_ID(), 'ds_video_url', true); // iframe URL (YouTube embed) or MP4
+$poster  = get_post_meta(get_the_ID(), 'ds_video_poster', true); // Optional poster URL
 
 if ( empty($lead) ) {
-  $lead = "Плагин для WordPress. Без ежемесячных платежей и лимитов.";
+  $lead = "A WordPress plugin. No monthly fees or limits.";
 }
 if ( empty($text) ) {
-  $text = "Короткое описание ценности: как помогает собирать лиды и повышать конверсию.";
+  $text = "A brief value proposition: how it helps capture leads and increase conversions.";
 }
 
-// Если не задано видео — заглушка
+// Use a placeholder when no video is provided.
 if ( empty($video) ) {
   $video = "https://www.youtube.com/embed/dQw4w9WgXcQ";
 }
@@ -137,10 +137,10 @@ if ( empty($video) ) {
 
         <p class="ds-plugin-hero__text"><?php echo wp_kses_post(nl2br($text)); ?></p>
 
-        <nav class="ds-plugin-hero__links" aria-label="Ссылки">
-          <a class="ds-plugin-hero__link" href="#license">Выбрать лицензию</a>
-          <a class="ds-plugin-hero__link" href="#video">Видео-обзор</a>
-          <a class="ds-plugin-hero__link" href="http://paveld9o.beget.tech/hivepress-map/?demo=1&token=X0DfFPrWVU6fJd4iIrXlTSpaf3m1oojAsPFBaVzs">Демо</a>
+        <nav class="ds-plugin-hero__links" aria-label="Links">
+          <a class="ds-plugin-hero__link" href="#license">Choose a license</a>
+          <a class="ds-plugin-hero__link" href="#video">Video overview</a>
+          <a class="ds-plugin-hero__link" href="http://paveld9o.beget.tech/hivepress-map/?demo=1&token=X0DfFPrWVU6fJd4iIrXlTSpaf3m1oojAsPFBaVzs">Demo</a>
         </nav>
       </div>
 
@@ -148,7 +148,7 @@ if ( empty($video) ) {
         <div class="ds-plugin-hero__card">
 <!--           <div class="ds-plugin-hero__video">
             <?php
-              // Если это mp4/webm — вставляем <video>, иначе iframe
+              // Render MP4/WebM files with <video>; use an iframe for other sources.
               $is_video_file = preg_match('~\.(mp4|webm|ogg)(\?.*)?$~i', $video);
 
               if ( $is_video_file ) :
@@ -159,7 +159,7 @@ if ( empty($video) ) {
             <?php else: ?>
               <iframe
                 src="<?php echo esc_url($video); ?>"
-                title="<?php echo esc_attr($title); ?> — видео"
+                title="<?php echo esc_attr($title); ?> — video"
                 loading="lazy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
@@ -253,7 +253,7 @@ if ( empty($video) ) {
   will-change: transform;
   transition: transform .35s ease;
   touch-action: pan-y;
-  /* чтобы края не "резались" при увеличении активного */
+  /* prevent the edges from being "clipped" when the active slide is enlarged */
   padding: 8px 0;
 }
 
@@ -317,7 +317,7 @@ if ( empty($video) ) {
   color: var(--muted);
   font-size: 13px;
   line-height: 1.45;
-  min-height: 2.8em; /* чтобы подписи не "прыгали" */
+  min-height: 2.8em; /* prevent captions from "jumping" */
 }
 
 /* highlight frame for active slide */
@@ -438,67 +438,67 @@ if ( empty($video) ) {
   <div class="ds-shots__container">
 
     <header class="ds-shots__head">
-      <h2 class="ds-shots__title">Скриншоты</h2>
+      <h2 class="ds-shots__title">Screenshots</h2>
       <p class="ds-shots__subtitle">
-        Галерея интерфейса: листайте стрелками/свайпом. Центральный скрин — выделен.
+        Interface gallery: browse using the arrows or swipe. The center screenshot is highlighted.
       </p>
     </header>
 
     <div class="ds-shots__wrap" data-shots>
-      <div class="ds-shots__viewport" data-shots-viewport tabindex="0" aria-label="Галерея скриншотов">
+      <div class="ds-shots__viewport" data-shots-viewport tabindex="0" aria-label="Screenshot gallery">
         <div class="ds-shots__track" data-shots-track>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.com/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" alt="Скриншот — главный экран" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" aria-label="Open screenshot">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/44390067-68a873ca50558.jpg" alt="Screenshot — main screen" loading="lazy" decoding="async">
             </button>
-            <figcaption class="ds-shots__cap">Главный экран — быстрый доступ к настройкам</figcaption>
+            <figcaption class="ds-shots__cap">Dashboard — quick access to settings</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" alt="Скриншот — настройки" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" aria-label="Open screenshot">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.27.png" alt="Screenshot — settings" loading="lazy" decoding="async">
             </button>
-            <figcaption class="ds-shots__cap">Настройки — всё в одном месте, без лишних вкладок</figcaption>
+            <figcaption class="ds-shots__cap">Settings — everything in one place, without unnecessary tabs</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" alt="Скриншот — редактор" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" aria-label="Open screenshot">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.43.42.png" alt="Screenshot — editor" loading="lazy" decoding="async">
             </button>
-            <figcaption class="ds-shots__cap">Редактор — логика и внешний вид в понятных блоках</figcaption>
+            <figcaption class="ds-shots__cap">Editor — logic and appearance organized into clear sections</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" alt="Скриншот — результат" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" aria-label="Open screenshot">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.37.55-scaled.png" alt="Screenshot — result" loading="lazy" decoding="async">
             </button>
-            <figcaption class="ds-shots__cap">Результат — как это выглядит на странице</figcaption>
+            <figcaption class="ds-shots__cap">Result — how it looks on the page</figcaption>
           </figure>
 
           <figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" alt="Скриншот — отчёты" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" aria-label="Open screenshot">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.38.36-scaled.png" alt="Screenshot — reports" loading="lazy" decoding="async">
             </button>
-            <figcaption class="ds-shots__cap">Отчёты/лог — что происходит и что улучшить</figcaption>
+            <figcaption class="ds-shots__cap">Reports/log — what is happening and what can be improved</figcaption>
           </figure>
 			
 			
 			
 			<figure class="ds-shots__slide">
-            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" aria-label="Открыть скриншот">
-              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" alt="Скриншот — отчёты" loading="lazy" decoding="async">
+            <button class="ds-shots__zoom" type="button" data-shots-zoom data-src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" aria-label="Open screenshot">
+              <img src="https://plugins-store.com/wp-content/uploads/2026/02/snimok-ekrana-2026-01-04-v-22.39.19-scaled.png" alt="Screenshot — reports" loading="lazy" decoding="async">
             </button>
-            <figcaption class="ds-shots__cap">Отчёты/лог — что происходит и что улучшить</figcaption>
+            <figcaption class="ds-shots__cap">Reports/log — what is happening and what can be improved</figcaption>
           </figure>
 
         </div>
       </div>
 
       <div class="ds-shots__controls">
-        <button class="ds-shots__nav ds-shots__nav--prev" type="button" data-shots-prev aria-label="Назад">‹</button>
-        <div class="ds-shots__dots" data-shots-dots aria-label="Навигация по слайдам"></div>
-        <button class="ds-shots__nav ds-shots__nav--next" type="button" data-shots-next aria-label="Вперёд">›</button>
+        <button class="ds-shots__nav ds-shots__nav--prev" type="button" data-shots-prev aria-label="Back">‹</button>
+        <div class="ds-shots__dots" data-shots-dots aria-label="Slide navigation"></div>
+        <button class="ds-shots__nav ds-shots__nav--next" type="button" data-shots-next aria-label="Next">›</button>
       </div>
     </div>
 
@@ -507,8 +507,8 @@ if ( empty($video) ) {
   <!-- Lightbox -->
   <div class="ds-shots__lb" data-shots-lb aria-hidden="true">
     <div class="ds-shots__lbBg" data-shots-lb-close></div>
-    <div class="ds-shots__lbInner" role="dialog" aria-modal="true" aria-label="Просмотр скриншота">
-      <button class="ds-shots__lbClose" type="button" data-shots-lb-close aria-label="Закрыть">✕</button>
+    <div class="ds-shots__lbInner" role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+      <button class="ds-shots__lbClose" type="button" data-shots-lb-close aria-label="Close">✕</button>
       <img class="ds-shots__lbImg" data-shots-lb-img alt="">
     </div>
   </div>
@@ -531,7 +531,7 @@ if ( empty($video) ) {
   const lbImg = document.querySelector('[data-shots-lb-img]');
   const lbCloseEls = document.querySelectorAll('[data-shots-lb-close]');
 
-  let index = 1; // чтобы изначально был "центр" (вторая картинка) активной
+  let index = 1; // Start with the second (center) image active.
   let slideW = 0;
   let gap = 0;
 
@@ -541,7 +541,7 @@ if ( empty($video) ) {
     const style = getComputedStyle(track);
     gap = parseFloat(style.columnGap || style.gap || 0) || 0;
 
-    // ширина одного слайда = его фактическая ширина
+    // Use the slide's rendered width.
     slideW = slides[0]?.getBoundingClientRect().width || viewport.clientWidth;
   }
 
@@ -557,7 +557,7 @@ if ( empty($video) ) {
   function update(){
     index = clamp(index, 0, slides.length - 1);
 
-    // центрируем активный слайд в viewport
+    // Center the active slide in the viewport.
     const viewportW = viewport.clientWidth;
     const x = -((index * (slideW + gap)) - (viewportW/2 - slideW/2));
     track.style.transform = `translate3d(${x}px,0,0)`;
@@ -575,7 +575,7 @@ if ( empty($video) ) {
       const b = document.createElement('button');
       b.type = 'button';
       b.className = 'ds-shots__dot';
-      b.setAttribute('aria-label', `Слайд ${i+1}`);
+      b.setAttribute('aria-label', `Slide ${i+1}`);
       b.setAttribute('aria-current', i === index ? 'true' : 'false');
       b.addEventListener('click', () => { index = i; update(); });
       dotsWrap.appendChild(b);
@@ -600,7 +600,7 @@ if ( empty($video) ) {
   // click on any slide: center it; second click opens lightbox via button itself
   slides.forEach((slide, i) => {
     slide.addEventListener('click', (e) => {
-      // если кликают по кнопке/картинке — пусть откроет lightbox
+      // if the button/image is clicked, open the lightbox
       if (e.target.closest('[data-shots-zoom]')) return;
       index = i;
       update();
@@ -676,10 +676,10 @@ if ( empty($video) ) {
 
   // init
   function init(){
-    // если слайдов меньше 3 — отключим масштаб/центрирование проблемно? всё равно работает
+    // Scaling and centering also work when there are fewer than three slides.
     computeSizes();
     buildDots();
-    // старт: центр на втором, если он есть
+    // Initially center the second slide when available.
     index = slides.length > 1 ? 1 : 0;
     update();
   }
@@ -706,7 +706,7 @@ if ( empty($video) ) {
 	
 	<style>
 		.ds-pr{
-  /* можно переопределять под твою страницу */
+  /* can be customized for your page */
   --container: 1200px;
   --bg: transparent;
 
@@ -721,7 +721,7 @@ if ( empty($video) ) {
   --minus: #ef4444;
   --plus: #22c55e;
 
-  --accent: #4d3bfe; /* если хочешь — как в hero */
+  --accent: #4d3bfe; /* match the hero section if desired */
   background: var(--bg);
   padding: clamp(22px, 3vw, 44px) 0;
 }
@@ -966,9 +966,9 @@ if ( empty($video) ) {
   <div class="ds-pr__container">
 
     <header class="ds-pr__head">
-      <h2 class="ds-pr__title">Проблема → Решение</h2>
+      <h2 class="ds-pr__title">Problem → Solution</h2>
       <p class="ds-pr__subtitle">
-        Коротко и по делу: что мешает без плагина и что становится проще после установки.
+        Clear and concise: what gets in the way without the plugin and what becomes easier after installation.
       </p>
     </header>
 
@@ -976,34 +976,34 @@ if ( empty($video) ) {
 
       <!-- PROBLEM -->
       <article class="ds-pr__card ds-pr__card--problem" role="listitem">
-        <div class="ds-pr__badge ds-pr__badge--problem">Без плагина</div>
+        <div class="ds-pr__badge ds-pr__badge--problem">Without the plugin</div>
 
-        <h3 class="ds-pr__cardTitle">Теряете заявки и время</h3>
+        <h3 class="ds-pr__cardTitle">You lose leads and time</h3>
 
         <ul class="ds-pr__list">
           <li class="ds-pr__item ds-pr__item--minus">
-            Сложная настройка, много ручной рутины
+            Complicated setup and too many repetitive manual tasks
           </li>
           <li class="ds-pr__item ds-pr__item--minus">
-            Низкая конверсия из трафика в лиды
+            Low conversion from traffic to leads
           </li>
           <li class="ds-pr__item ds-pr__item--minus">
-            Путаница в шагах, пользователи бросают процесс
+            Confusing steps cause users to abandon the process
           </li>
           <li class="ds-pr__item ds-pr__item--minus">
-            Нет понятной аналитики и контроля результата
+            No clear analytics or control over results
           </li>
         </ul>
 
         <div class="ds-pr__hint">
-          Итог: меньше обращений и выше стоимость лида.
+          Bottom line: fewer inquiries and a higher cost per lead.
         </div>
       </article>
 
       <!-- arrow / divider -->
       <div class="ds-pr__mid" aria-hidden="true">
         <div class="ds-pr__line"></div>
-        <div class="ds-pr__arrow" title="Переход к решению">
+        <div class="ds-pr__arrow" title="Moving to the solution">
           <span class="ds-pr__arrowIcon">→</span>
         </div>
         <div class="ds-pr__line"></div>
@@ -1011,28 +1011,28 @@ if ( empty($video) ) {
 
       <!-- SOLUTION -->
       <article class="ds-pr__card ds-pr__card--solution" role="listitem">
-        <div class="ds-pr__badge ds-pr__badge--solution">С плагином</div>
+        <div class="ds-pr__badge ds-pr__badge--solution">With the plugin</div>
 
-        <h3 class="ds-pr__cardTitle">Конверсия и процесс под контролем</h3>
+        <h3 class="ds-pr__cardTitle">Conversion and process under control</h3>
 
         <ul class="ds-pr__list">
           <li class="ds-pr__item ds-pr__item--plus">
-            Быстрый старт: понятная логика, готовые сценарии
+            Quick start: intuitive logic, ready-made workflows
           </li>
           <li class="ds-pr__item ds-pr__item--plus">
-            Пользователь проходит шаги без “затыков”
+            Users complete each step without friction
           </li>
           <li class="ds-pr__item ds-pr__item--plus">
-            Заявки собираются стабильно и без потерь
+            Leads are captured reliably without losses
           </li>
           <li class="ds-pr__item ds-pr__item--plus">
-            Появляется прозрачность: что работает, что улучшить
+            Gain clarity into what works and what needs improvement
           </li>
         </ul>
 
         <div class="ds-pr__ctaRow">
-          <a class="ds-pr__btn" href="#demo">Посмотреть демо</a>
-          <a class="ds-pr__link" href="#license">Выбрать лицензию</a>
+          <a class="ds-pr__btn" href="#demo">View demo</a>
+          <a class="ds-pr__link" href="#license">Choose a license</a>
         </div>
       </article>
 
@@ -1075,7 +1075,7 @@ if ( empty($video) ) {
   --shadow: 0 18px 50px rgba(15,23,42,.10);
   --radius: 18px;
 
-  --accent: #4d3bfe; /* можно в тон hero */
+  --accent: #4d3bfe; /* can match the hero */
   --accent2: #4d3bfe;
 
   padding: clamp(22px, 3vw, 48px) 0;
@@ -1319,32 +1319,32 @@ if ( empty($video) ) {
 
     <!-- Left intro -->
     <header class="ds-how__head">
-      <h2 class="ds-how__title">Как работает</h2>
+      <h2 class="ds-how__title">How it works</h2>
       <p class="ds-how__subtitle">
-        3 шага до результата: установка, настройка, запуск. Дальше плагин делает рутину за вас.
+        3 steps to results: install, configure, and launch. Then the plugin handles the routine work for you.
       </p>
 
       <div class="ds-how__actions">
-        <a class="ds-how__btn" href="#demo">Открыть демо</a>
-        <a class="ds-how__link" href="#docs">Документация</a>
+        <a class="ds-how__btn" href="#demo">Open demo</a>
+        <a class="ds-how__link" href="#docs">Documentation</a>
       </div>
 
       <div class="ds-how__meta">
-        <span class="ds-how__metaItem">⏱ 10–15 минут на старт</span>
-        <span class="ds-how__metaItem">🧩 Без кодинга</span>
-        <span class="ds-how__metaItem">⚙️ Настройки — внутри WP</span>
+        <span class="ds-how__metaItem">⏱ Get started in 10–15 minutes</span>
+        <span class="ds-how__metaItem">🧩 No coding required</span>
+        <span class="ds-how__metaItem">⚙️ Settings inside WordPress</span>
       </div>
     </header>
 
     <!-- Steps -->
-    <ol class="ds-how__steps" aria-label="Шаги работы">
+    <ol class="ds-how__steps" aria-label="How it works">
 
       <li class="ds-how__step">
         <div class="ds-how__num">1</div>
         <div class="ds-how__card">
-          <h3 class="ds-how__stepTitle">Установите плагин</h3>
+          <h3 class="ds-how__stepTitle">Install the plugin</h3>
           <p class="ds-how__stepText">
-            Загрузите архив в WordPress или установите через админку. Активируйте — и плагин появится в меню.
+            Upload the ZIP file to WordPress or install it through the admin dashboard. Activate it, and the plugin will appear in the menu.
           </p>
           <div class="ds-how__chips">
             <span class="ds-how__chip">WP: 5.8+</span>
@@ -1356,14 +1356,14 @@ if ( empty($video) ) {
       <li class="ds-how__step">
         <div class="ds-how__num">2</div>
         <div class="ds-how__card">
-          <h3 class="ds-how__stepTitle">Настройте под задачу</h3>
+          <h3 class="ds-how__stepTitle">Configure it for your needs</h3>
           <p class="ds-how__stepText">
-            Выберите сценарий/шаблон, задайте параметры и внешний вид. Всё в понятных полях, без сложных форм.
+            Choose a workflow/template, then set the parameters and appearance. Everything is organized in intuitive fields, without complicated forms.
           </p>
           <div class="ds-how__chips">
-            <span class="ds-how__chip">Шаблоны</span>
-            <span class="ds-how__chip">Гибкая логика</span>
-            <span class="ds-how__chip">Стили</span>
+            <span class="ds-how__chip">Templates</span>
+            <span class="ds-how__chip">Flexible logic</span>
+            <span class="ds-how__chip">Styles</span>
           </div>
         </div>
       </li>
@@ -1371,9 +1371,9 @@ if ( empty($video) ) {
       <li class="ds-how__step">
         <div class="ds-how__num">3</div>
         <div class="ds-how__card">
-          <h3 class="ds-how__stepTitle">Вставьте на страницу и запускайте</h3>
+          <h3 class="ds-how__stepTitle">Add it to a page and launch</h3>
           <p class="ds-how__stepText">
-            Добавьте шорткод/блок, проверьте отображение на мобильных и публикуйте. Далее смотрите результат.
+            Add the shortcode/block, check how it looks on mobile devices, and publish. Then track the results.
           </p>
           <div class="ds-how__chips">
             <span class="ds-how__chip">Shortcode</span>
@@ -1386,12 +1386,12 @@ if ( empty($video) ) {
       <li class="ds-how__step ds-how__step--result">
         <div class="ds-how__num ds-how__num--result">✓</div>
         <div class="ds-how__card ds-how__card--result">
-          <h3 class="ds-how__stepTitle">Получаете результат</h3>
+          <h3 class="ds-how__stepTitle">Get results</h3>
           <p class="ds-how__stepText">
-            Заявки/данные собираются стабильно, процесс прозрачен, а улучшения видны по метрикам.
+            Leads/data are captured reliably, the process is transparent, and improvements are visible in your metrics.
           </p>
           <div class="ds-how__ctaInline">
-            <a class="ds-how__btn ds-how__btn--ghost" href="#license">Выбрать лицензию</a>
+            <a class="ds-how__btn ds-how__btn--ghost" href="#license">Choose a license</a>
             <a class="ds-how__link" href="#faq">FAQ</a>
           </div>
         </div>
@@ -1578,16 +1578,16 @@ if ( empty($video) ) {
   <div class="ds-fit__container">
 
     <header class="ds-fit__head">
-      <h2 class="ds-fit__title">Кому подходит</h2>
+      <h2 class="ds-fit__title">Who it’s for</h2>
       <p class="ds-fit__subtitle">
-        Плагин полезен тем, кому важно быстрее доводить посетителя до действия и не терять заявки.
+        The plugin is useful for anyone who wants to move visitors toward action faster and avoid losing leads.
       </p>
 
-      <div class="ds-fit__tags" aria-label="Ключевые сценарии">
-        <span class="ds-fit__tag">Лиды</span>
-        <span class="ds-fit__tag">Конверсия</span>
-        <span class="ds-fit__tag">Автоматизация</span>
-        <span class="ds-fit__tag">Без кода</span>
+      <div class="ds-fit__tags" aria-label="Key use cases">
+        <span class="ds-fit__tag">Leads</span>
+        <span class="ds-fit__tag">Conversion</span>
+        <span class="ds-fit__tag">Automation</span>
+        <span class="ds-fit__tag">No code</span>
       </div>
     </header>
 
@@ -1595,56 +1595,56 @@ if ( empty($video) ) {
 
       <article class="ds-fit__card wpds-fade-item" role="listitem">
         <div class="ds-fit__icon" aria-hidden="true">🛒</div>
-        <h3 class="ds-fit__cardTitle">Интернет-магазины</h3>
+        <h3 class="ds-fit__cardTitle">Online stores</h3>
         <p class="ds-fit__cardText">
-          Увеличить конверсию в заявку/покупку, отвечать быстрее, снижать брошенные действия.
+          Increase lead/purchase conversions, respond faster, and reduce abandoned actions.
         </p>
-        <div class="ds-fit__benefit">Выигрыш: +заявки из трафика</div>
+        <div class="ds-fit__benefit">Benefit: more leads from your traffic</div>
       </article>
 
       <article class="ds-fit__card wpds-fade-item" role="listitem">
         <div class="ds-fit__icon" aria-hidden="true">🏢</div>
-        <h3 class="ds-fit__cardTitle">Услуги и компании</h3>
+        <h3 class="ds-fit__cardTitle">Service providers and businesses</h3>
         <p class="ds-fit__cardText">
-          Нужны обращения с сайта: расчёт, консультации, заявки на звонок, подбор услуги.
+          Generate website inquiries for estimates, consultations, callback requests, and service recommendations.
         </p>
-        <div class="ds-fit__benefit">Выигрыш: меньше “пустых” визитов</div>
+        <div class="ds-fit__benefit">Benefit: fewer unproductive visits</div>
       </article>
 
       <article class="ds-fit__card wpds-fade-item" role="listitem">
         <div class="ds-fit__icon" aria-hidden="true">🧑‍💻</div>
-        <h3 class="ds-fit__cardTitle">Фрилансерам и студиям</h3>
+        <h3 class="ds-fit__cardTitle">Freelancers and agencies</h3>
         <p class="ds-fit__cardText">
-          Быстро внедрить у клиента, предложить как доп.опцию и повысить чек проекта.
+          Quickly implement it for clients, offer it as an add-on, and increase project value.
         </p>
-        <div class="ds-fit__benefit">Выигрыш: быстрый результат клиенту</div>
+        <div class="ds-fit__benefit">Benefit: faster results for clients</div>
       </article>
 
       <article class="ds-fit__card wpds-fade-item" role="listitem">
         <div class="ds-fit__icon" aria-hidden="true">📣</div>
-        <h3 class="ds-fit__cardTitle">Маркетологам</h3>
+        <h3 class="ds-fit__cardTitle">Marketers</h3>
         <p class="ds-fit__cardText">
-          Тестировать гипотезы, сегментировать аудиторию и улучшать воронку без разработки.
+          Test hypotheses, segment audiences, and improve the funnel without development work.
         </p>
-        <div class="ds-fit__benefit">Выигрыш: быстрее A/B и итерации</div>
+        <div class="ds-fit__benefit">Benefit: faster A/B testing and iteration</div>
       </article>
 
       <article class="ds-fit__card wpds-fade-item" role="listitem">
         <div class="ds-fit__icon" aria-hidden="true">🧾</div>
-        <h3 class="ds-fit__cardTitle">Лендинги и промо</h3>
+        <h3 class="ds-fit__cardTitle">Landing pages and promotions</h3>
         <p class="ds-fit__cardText">
-          Нужны заявки “здесь и сейчас”: акции, запуски, сбор контактов, запись.
+          Generate leads here and now for promotions, launches, contact collection, and bookings.
         </p>
-        <div class="ds-fit__benefit">Выигрыш: выше конверсия лендинга</div>
+        <div class="ds-fit__benefit">Benefit: higher landing page conversion</div>
       </article>
 
       <article class="ds-fit__card wpds-fade-item ds-fit__card--accent" role="listitem">
         <div class="ds-fit__icon" aria-hidden="true">⚙️</div>
-        <h3 class="ds-fit__cardTitle">Тем, кто не хочет код</h3>
+        <h3 class="ds-fit__cardTitle">Anyone who doesn’t want to code</h3>
         <p class="ds-fit__cardText">
-          Всё настраивается в админке WordPress — без правок темы и без программиста.
+          Everything is configured in the WordPress admin dashboard—no theme edits or developer required.
         </p>
-        <div class="ds-fit__benefit">Выигрыш: экономия времени и денег</div>
+        <div class="ds-fit__benefit">Benefit: save time and money</div>
       </article>
 
     </div>
@@ -1751,7 +1751,7 @@ if ( empty($video) ) {
   font-weight: 900;
   color: var(--text);
   position: sticky;
-  top: 0; /* если таблица внутри скролла — будет залипать */
+  top: 0; /* Keep the header fixed when the table is inside a scrolling container. */
   z-index: 1;
 }
 
@@ -1951,20 +1951,20 @@ if ( empty($video) ) {
   <div class="ds-cmpr__container">
 
     <header class="ds-cmpr__head">
-      <h2 class="ds-cmpr__title">Сравнение</h2>
+      <h2 class="ds-cmpr__title">Comparison</h2>
       <p class="ds-cmpr__subtitle">
-        Сравнение по ключевым пунктам: чтобы было понятно, за что вы платите и где экономите время.
+        Compare the key features to clearly see what you’re paying for and where you save time.
       </p>
     </header>
 
-    <div class="ds-cmpr__tableWrap" role="region" aria-label="Таблица сравнения">
+    <div class="ds-cmpr__tableWrap" role="region" aria-label="Comparison table">
       <table class="ds-cmpr__table">
         <thead>
           <tr>
-            <th class="ds-cmpr__th ds-cmpr__th--feature">Функция</th>
+            <th class="ds-cmpr__th ds-cmpr__th--feature">Feature</th>
             <th class="ds-cmpr__th ds-cmpr__th--you">
-              <span class="ds-cmpr__thTitle">Ваш плагин</span>
-              <span class="ds-cmpr__badge">Лучший выбор</span>
+              <span class="ds-cmpr__thTitle">Your plugin</span>
+              <span class="ds-cmpr__badge">Best choice</span>
             </th>
             <th class="ds-cmpr__th">Directorist + Map Add-ons</th>
             <th class="ds-cmpr__th">GeoDirectory</th>
@@ -1974,81 +1974,81 @@ if ( empty($video) ) {
         <tbody>
           <tr class="ds-cmpr__row">
             <td class="ds-cmpr__td ds-cmpr__td--feature">
-              Быстрый старт (без кодинга)
-              <span class="ds-cmpr__hint">Запуск без разработчика</span>
+              Quick setup (no coding)
+              <span class="ds-cmpr__hint">Launch without a developer</span>
             </td>
-            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Ваш плагин">
+            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Your plugin">
               <span class="ds-cmpr__yes">✓</span>
-              <span class="ds-cmpr__note">Готовые сценарии</span>
+              <span class="ds-cmpr__note">Ready-made workflows</span>
             </td>
-            <td class="ds-cmpr__td" data-col="Конкурент A"><span class="ds-cmpr__mid">~</span></td>
-            <td class="ds-cmpr__td" data-col="Конкурент B"><span class="ds-cmpr__no">—</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor A"><span class="ds-cmpr__mid">~</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor B"><span class="ds-cmpr__no">—</span></td>
           </tr>
 
           <tr class="ds-cmpr__row">
             <td class="ds-cmpr__td ds-cmpr__td--feature">
-              Гибкая настройка
-              <span class="ds-cmpr__hint">Поля/шаги/логика</span>
+              Flexible configuration
+              <span class="ds-cmpr__hint">Fields/steps/logic</span>
             </td>
-            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Ваш плагин">
+            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Your plugin">
               <span class="ds-cmpr__yes">✓</span>
-              <span class="ds-cmpr__note">Расширяемо</span>
+              <span class="ds-cmpr__note">Extensible</span>
             </td>
-            <td class="ds-cmpr__td" data-col="Конкурент A"><span class="ds-cmpr__yes">✓</span></td>
-            <td class="ds-cmpr__td" data-col="Конкурент B"><span class="ds-cmpr__mid">~</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor A"><span class="ds-cmpr__yes">✓</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor B"><span class="ds-cmpr__mid">~</span></td>
           </tr>
 
           <tr class="ds-cmpr__row">
             <td class="ds-cmpr__td ds-cmpr__td--feature">
-              Скорость и лёгкость
-              <span class="ds-cmpr__hint">Минимум лишних скриптов</span>
+              Fast and lightweight
+              <span class="ds-cmpr__hint">Minimal unnecessary scripts</span>
             </td>
-            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Ваш плагин">
+            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Your plugin">
               <span class="ds-cmpr__yes">✓</span>
-              <span class="ds-cmpr__note">Оптимизировано</span>
+              <span class="ds-cmpr__note">Optimized</span>
             </td>
-            <td class="ds-cmpr__td" data-col="Конкурент A"><span class="ds-cmpr__mid">~</span></td>
-            <td class="ds-cmpr__td" data-col="Конкурент B"><span class="ds-cmpr__no">—</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor A"><span class="ds-cmpr__mid">~</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor B"><span class="ds-cmpr__no">—</span></td>
           </tr>
 
           <tr class="ds-cmpr__row">
             <td class="ds-cmpr__td ds-cmpr__td--feature">
-              Обновления и поддержка
-              <span class="ds-cmpr__hint">Реакция на баги</span>
+              Updates and support
+              <span class="ds-cmpr__hint">Bug response</span>
             </td>
-            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Ваш плагин">
+            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Your plugin">
               <span class="ds-cmpr__yes">✓</span>
-              <span class="ds-cmpr__note">Прямая связь</span>
+              <span class="ds-cmpr__note">Direct communication</span>
             </td>
-            <td class="ds-cmpr__td" data-col="Конкурент A"><span class="ds-cmpr__mid">~</span></td>
-            <td class="ds-cmpr__td" data-col="Конкурент B"><span class="ds-cmpr__mid">~</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor A"><span class="ds-cmpr__mid">~</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor B"><span class="ds-cmpr__mid">~</span></td>
           </tr>
 
           <tr class="ds-cmpr__row">
             <td class="ds-cmpr__td ds-cmpr__td--feature">
-              Цена / лицензии
-              <span class="ds-cmpr__hint">Разумная стоимость</span>
+              Pricing / licenses
+              <span class="ds-cmpr__hint">Reasonable pricing</span>
             </td>
-            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Ваш плагин">
+            <td class="ds-cmpr__td ds-cmpr__td--you" data-col="Your plugin">
               <span class="ds-cmpr__yes">✓</span>
-              <span class="ds-cmpr__note">Без подписки</span>
+              <span class="ds-cmpr__note">No subscription</span>
             </td>
-            <td class="ds-cmpr__td" data-col="Конкурент A"><span class="ds-cmpr__no">—</span></td>
-            <td class="ds-cmpr__td" data-col="Конкурент B"><span class="ds-cmpr__mid">~</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor A"><span class="ds-cmpr__no">—</span></td>
+            <td class="ds-cmpr__td" data-col="Competitor B"><span class="ds-cmpr__mid">~</span></td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <div class="ds-cmpr__legend" aria-label="Обозначения">
-      <span class="ds-cmpr__lg"><span class="ds-cmpr__yes">✓</span> есть</span>
-      <span class="ds-cmpr__lg"><span class="ds-cmpr__mid">~</span> частично</span>
-      <span class="ds-cmpr__lg"><span class="ds-cmpr__no">—</span> нет</span>
+    <div class="ds-cmpr__legend" aria-label="Legend">
+      <span class="ds-cmpr__lg"><span class="ds-cmpr__yes">✓</span> yes</span>
+      <span class="ds-cmpr__lg"><span class="ds-cmpr__mid">~</span> partially</span>
+      <span class="ds-cmpr__lg"><span class="ds-cmpr__no">—</span> no</span>
     </div>
 
     <div class="ds-cmpr__cta">
-      <a class="ds-cmpr__btn" href="#license">Выбрать лицензию</a>
-      <a class="ds-cmpr__link" href="#faq">Частые вопросы</a>
+      <a class="ds-cmpr__btn" href="#license">Choose a license</a>
+      <a class="ds-cmpr__link" href="#faq">Frequently asked questions</a>
     </div>
 
   </div>
@@ -2199,7 +2199,7 @@ if ( empty($video) ) {
   border-color: rgba(123,103,240,.25);
 }
 .ds-faq__item[open] .ds-faq__icon::after{
-  display:none; /* превращаем плюс в минус */
+  display:none; /* turn the plus into a minus */
 }
 
 /* Aside card */
@@ -2294,7 +2294,7 @@ if ( empty($video) ) {
     <header class="ds-faq__head">
       <h2 class="ds-faq__title">FAQ</h2>
       <p class="ds-faq__subtitle">
-        Ответы на частые вопросы — установка, лицензии, обновления и совместимость.
+        Answers to frequently asked questions about installation, licenses, updates, and compatibility.
       </p>
     </header>
 
@@ -2304,67 +2304,67 @@ if ( empty($video) ) {
 
         <details class="ds-faq__item" role="listitem">
           <summary class="ds-faq__q">
-            <span>Плагин работает с моей темой и конструкторами (Elementor/Gutenberg)?</span>
+            <span>Does the plugin work with my theme and page builders (Elementor/Gutenberg)?</span>
             <span class="ds-faq__icon" aria-hidden="true"></span>
           </summary>
           <div class="ds-faq__a">
-            Да. Плагин вставляется шорткодом и/или блоком, поэтому совместим с большинством тем.
-            Если у вас нестандартная тема — обычно достаточно добавить блок/шорткод в нужное место.
+            Yes. The plugin can be added using a shortcode and/or block, so it is compatible with most themes.
+            If you have a custom theme, simply add the block/shortcode where you need it.
           </div>
         </details>
 
         <details class="ds-faq__item" role="listitem">
           <summary class="ds-faq__q">
-            <span>Нужен ли программист для настройки?</span>
+            <span>Do I need a developer to set it up?</span>
             <span class="ds-faq__icon" aria-hidden="true"></span>
           </summary>
           <div class="ds-faq__a">
-            Нет. Основные настройки делаются в админке WordPress. Если нужна кастомизация под дизайн сайта —
-            можно обойтись CSS (мы даём классы/хуки), либо заказать доработку.
+            No. The main settings are managed in the WordPress admin area. If you need to customize it to match your site’s design,
+            you can use CSS (we provide classes/hooks) or request custom development.
           </div>
         </details>
 
         <details class="ds-faq__item" role="listitem">
           <summary class="ds-faq__q">
-            <span>Как работает лицензия: на домен или на количество сайтов?</span>
+            <span>How does licensing work: by domain or number of sites?</span>
             <span class="ds-faq__icon" aria-hidden="true"></span>
           </summary>
           <div class="ds-faq__a">
-            Обычно лицензии бывают на 1 сайт / 5 сайтов / безлимит. Вы можете перенести лицензию на другой домен,
-            если меняете сайт (по правилам лицензии).
+            Licenses are typically available for 1 site, 5 sites, or unlimited sites. You can transfer your license to another domain
+            if you move your site, subject to the license terms.
           </div>
         </details>
 
         <details class="ds-faq__item" role="listitem">
           <summary class="ds-faq__q">
-            <span>Обновления бесплатные? Что с поддержкой?</span>
+            <span>Are updates free? What about support?</span>
             <span class="ds-faq__icon" aria-hidden="true"></span>
           </summary>
           <div class="ds-faq__a">
-            Обновления и поддержка зависят от тарифа. Обычно это период поддержки (например, 6–12 месяцев),
-            а обновления доступны на время активной лицензии/подписки на обновления (если у вас такая модель).
+            Updates and support depend on your plan. Plans typically include a support period (such as 6–12 months),
+            while updates are available for the duration of an active license/update subscription (if applicable).
           </div>
         </details>
 
         <details class="ds-faq__item" role="listitem">
           <summary class="ds-faq__q">
-            <span>Плагин влияет на скорость сайта?</span>
+            <span>Does the plugin affect site performance?</span>
             <span class="ds-faq__icon" aria-hidden="true"></span>
           </summary>
           <div class="ds-faq__a">
-            Мы стараемся грузить только нужные скрипты на тех страницах, где используется плагин.
-            Для максимальной скорости используйте кеширование и оптимизацию изображений — как обычно для WordPress.
+            We load only the required scripts on pages where the plugin is used whenever possible.
+            For maximum performance, use caching and image optimization, as recommended for any WordPress site.
           </div>
         </details>
 
         <details class="ds-faq__item" role="listitem">
           <summary class="ds-faq__q">
-            <span>Можно ли вернуть деньги, если не подошло?</span>
+            <span>Can I get a refund if the plugin isn’t right for me?</span>
             <span class="ds-faq__icon" aria-hidden="true"></span>
           </summary>
           <div class="ds-faq__a">
-            Да, если вы соблюдаете условия возврата (например, в течение N дней с момента покупки и без злоупотреблений).
-            Уточните условия возврата на странице «Политика возвратов».
+            Yes, provided you meet the refund requirements (for example, within N days of purchase and without misuse).
+            See the “Refund Policy” page for details.
           </div>
         </details>
 
@@ -2373,16 +2373,16 @@ if ( empty($video) ) {
       <!-- Right: support card -->
       <aside class="ds-faq__aside">
         <div class="ds-faq__card">
-          <h3 class="ds-faq__cardTitle">Не нашли ответ?</h3>
+          <h3 class="ds-faq__cardTitle">Still have questions?</h3>
           <p class="ds-faq__cardText">
-            Напишите — подскажем по совместимости, установке и лицензии.
+            Contact us for help with compatibility, installation, and licensing.
           </p>
           <div class="ds-faq__ctaRow">
-            <a class="ds-faq__btn" href="#contact">Задать вопрос</a>
-            <a class="ds-faq__link" href="#docs">Документация</a>
+            <a class="ds-faq__btn" href="#contact">Ask a Question</a>
+            <a class="ds-faq__link" href="#docs">Documentation</a>
           </div>
           <div class="ds-faq__note">
-            Обычно отвечаем в течение 24 часов (в рабочие дни).
+            We typically respond within 24 hours on business days.
           </div>
         </div>
       </aside>
@@ -2398,50 +2398,50 @@ if ( empty($video) ) {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Плагин работает с моей темой и конструкторами (Elementor/Gutenberg)?",
+      "name": "Does the plugin work with my theme and page builders (Elementor/Gutenberg)?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Да. Плагин вставляется шорткодом и/или блоком, поэтому совместим с большинством тем."
+        "text": "Yes. The plugin can be added using a shortcode and/or block, so it is compatible with most themes."
       }
     },
     {
       "@type": "Question",
-      "name": "Нужен ли программист для настройки?",
+      "name": "Do I need a developer to set it up?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Нет. Основные настройки делаются в админке WordPress. Для кастомизации можно использовать CSS."
+        "text": "No. The main settings are managed in the WordPress admin area. You can use CSS for customization."
       }
     },
     {
       "@type": "Question",
-      "name": "Как работает лицензия: на домен или на количество сайтов?",
+      "name": "How does licensing work: by domain or number of sites?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Обычно лицензии бывают на 1 сайт / 5 сайтов / безлимит. Лицензию можно перенести при смене домена по правилам лицензирования."
+        "text": "Licenses are typically available for 1 site, 5 sites, or unlimited sites. You can transfer the license when changing domains, subject to the license terms."
       }
     },
     {
       "@type": "Question",
-      "name": "Обновления бесплатные? Что с поддержкой?",
+      "name": "Are updates free? What about support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Зависит от тарифа: обычно есть период поддержки, а обновления доступны на время активной лицензии."
+        "text": "It depends on the plan: plans typically include a support period, while updates are available for the duration of an active license."
       }
     },
     {
       "@type": "Question",
-      "name": "Плагин влияет на скорость сайта?",
+      "name": "Does the plugin affect site performance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Мы стараемся подключать скрипты только на страницах, где используется плагин. Для максимальной скорости используйте кеширование и оптимизацию."
+        "text": "We load scripts only on pages where the plugin is used whenever possible. For maximum performance, use caching and optimization."
       }
     },
     {
       "@type": "Question",
-      "name": "Можно ли вернуть деньги, если не подошло?",
+      "name": "Can I get a refund if the plugin isn’t right for me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Да, при соблюдении условий возврата. Уточните детали в политике возвратов."
+        "text": "Yes, provided you meet the refund requirements. See the refund policy for details."
       }
     }
   ]
@@ -2730,9 +2730,9 @@ if ( empty($video) ) {
 <section class="ds-price" id="license">
   <div class="ds-price__container">
     <header class="ds-price__head">
-      <h2 class="ds-price__title">Цены</h2>
+      <h2 class="ds-price__title">Pricing</h2>
       <p class="ds-price__subtitle">
-        Выберите лицензию под ваш проект. Обновления и поддержка — по условиям тарифа.
+        Choose the right license for your project. Updates and support are provided according to your plan terms.
       </p>
     </header>
 
@@ -2741,89 +2741,89 @@ if ( empty($video) ) {
       <!-- Plan 1 -->
       <article class="ds-price__card" role="listitem">
         <div class="ds-price__top">
-          <h3 class="ds-price__name">1 сайт</h3>
+          <h3 class="ds-price__name">1 site</h3>
           <div class="ds-price__price">
             <span class="ds-price__value">2 990 ₽</span>
-            <span class="ds-price__period">разово</span>
+            <span class="ds-price__period">one-time</span>
           </div>
-          <p class="ds-price__desc">Для одного проекта или лендинга.</p>
+          <p class="ds-price__desc">For a single project or landing page.</p>
         </div>
 
         <ul class="ds-price__list">
-          <li>Лицензия на 1 домен</li>
-          <li>Обновления: 12 месяцев</li>
-          <li>Поддержка: 6 месяцев</li>
-          <li>Без подписок</li>
+          <li>License for 1 domain</li>
+          <li>Updates: 12 months</li>
+          <li>Support: 6 months</li>
+          <li>No subscriptions</li>
         </ul>
 
         <div class="ds-price__actions">
           <a class="ds-price__btn ds-tg-buy"
    href="#"
-   data-tariff="1 сайт"
+   data-tariff="1 site"
    data-price="2 990 ₽"
-   data-domains="1 домен"
->Купить</a>
-          <a class="ds-price__link" href="#faq">Что входит?</a>
+   data-domains="1 domain"
+>Buy Now</a>
+          <a class="ds-price__link" href="#faq">What’s included?</a>
         </div>
       </article>
 
       <!-- Plan 2 (popular) -->
-      <article class="ds-price__card ds-price__card--popular" role="listitem" aria-label="Популярный тариф">
-        <div class="ds-price__ribbon">Популярный</div>
+      <article class="ds-price__card ds-price__card--popular" role="listitem" aria-label="Popular Plan">
+        <div class="ds-price__ribbon">Popular</div>
 
         <div class="ds-price__top">
-          <h3 class="ds-price__name">5 сайтов</h3>
+          <h3 class="ds-price__name">5 sites</h3>
           <div class="ds-price__price">
             <span class="ds-price__value">6 990 ₽</span>
-            <span class="ds-price__period">разово</span>
+            <span class="ds-price__period">one-time</span>
           </div>
-          <p class="ds-price__desc">Для студий, нескольких проектов и тестов.</p>
+          <p class="ds-price__desc">For studios, multiple projects, and testing.</p>
         </div>
 
         <ul class="ds-price__list">
-          <li>Лицензия до 5 доменов</li>
-          <li>Обновления: 12 месяцев</li>
-          <li>Поддержка: 12 месяцев</li>
-          <li>Приоритетная поддержка</li>
+          <li>License for up to 5 domains</li>
+          <li>Updates: 12 months</li>
+          <li>Support: 12 months</li>
+          <li>Priority support</li>
         </ul>
 
         <div class="ds-price__actions">
           <a class="ds-price__btn ds-price__btn--accent ds-tg-buy"
    href="#"
-   data-tariff="5 сайтов"
+   data-tariff="5 sites"
    data-price="6 990 ₽"
-   data-domains="до 5 доменов"
->Купить</a>
-          <a class="ds-price__link" href="#compare">Сравнение</a>
+   data-domains="up to 5 domains"
+>Buy Now</a>
+          <a class="ds-price__link" href="#compare">Comparison</a>
         </div>
       </article>
 
       <!-- Plan 3 -->
       <article class="ds-price__card" role="listitem">
         <div class="ds-price__top">
-          <h3 class="ds-price__name">Безлимит</h3>
+          <h3 class="ds-price__name">Unlimited</h3>
           <div class="ds-price__price">
             <span class="ds-price__value">12 990 ₽</span>
-            <span class="ds-price__period">разово</span>
+            <span class="ds-price__period">one-time</span>
           </div>
-          <p class="ds-price__desc">Для агентств и постоянной работы с клиентами.</p>
+          <p class="ds-price__desc">For agencies and ongoing client work.</p>
         </div>
 
         <ul class="ds-price__list">
-          <li>Неограниченно сайтов</li>
-          <li>Обновления: 12 месяцев</li>
-          <li>Поддержка: 12 месяцев</li>
-          <li>Доступ к бета-функциям</li>
+          <li>Unlimited sites</li>
+          <li>Updates: 12 months</li>
+          <li>Support: 12 months</li>
+          <li>Access to beta features</li>
         </ul>
 
         <div class="ds-price__actions">
           <a class="ds-price__btn ds-tg-buy"
    href="#"
-   data-tariff="Безлимит"
+   data-tariff="Unlimited"
    data-price="12 990 ₽"
-   data-domains="неограниченно"
->Купить</a>
-          <a class="ds-price__link" href="#contact">Задать вопрос</a>
+   data-domains="unlimited"
+>Buy Now</a>
+          <a class="ds-price__link" href="#contact">Ask a Question</a>
         </div>
       </article>
 
@@ -2836,13 +2836,13 @@ if ( empty($video) ) {
 (function () {
 
   const TG_USERNAME = "wp_devstudio";
-  const PLUGIN_NAME = "Название плагина"; // ← впиши свой плагин
+  const PLUGIN_NAME = "Plugin Name"; // ← enter your plugin name
 
   function buildMessage(data) {
-    return `Здравствуйте! Хочу купить плагин "${PLUGIN_NAME}".\n`
-         + `Тариф: ${data.tariff} (${data.domains}).\n`
-         + `Цена: ${data.price} (разово).\n\n`
-         + `Подскажите, как оплатить и получить лицензию.`;
+    return `Hello! I’d like to buy the "${PLUGIN_NAME}" plugin.\n`
+         + `Plan: ${data.tariff} (${data.domains}).\n`
+         + `Price: ${data.price} (one-time).\n\n`
+         + `Please let me know how to pay and receive my license.`;
   }
 
   document.addEventListener("click", function (e) {
@@ -3077,18 +3077,18 @@ if ( empty($video) ) {
   <div class="ds-guar__container">
 
     <header class="ds-guar__head">
-      <h2 class="ds-guar__title">Гарантии</h2>
+      <h2 class="ds-guar__title">Our Guarantees</h2>
       <p class="ds-guar__subtitle">
-        Мы продаём не “кот в мешке”, а рабочий продукт: понятные условия, обновления и поддержка.
+        We don’t sell a “pig in a poke”—we offer a proven product with clear terms, updates, and support.
       </p>
 
       <div class="ds-guar__actions">
-        <a class="ds-guar__btn" href="#license">Выбрать лицензию</a>
+        <a class="ds-guar__btn" href="#license">Choose a license</a>
         <a class="ds-guar__link" href="#faq">FAQ</a>
       </div>
 
       <div class="ds-guar__note">
-        <strong>Важно:</strong> финальные условия (срок возврата, поддержка, обновления) укажи в политике/лицензии.
+        <strong>Important:</strong> specify the final terms (refund period, support, and updates) in your policy/license agreement.
       </div>
     </header>
 
@@ -3096,56 +3096,56 @@ if ( empty($video) ) {
 
       <article class="ds-guar__card wpds-fade-item" role="listitem">
         <div class="ds-guar__icon" aria-hidden="true">💸</div>
-        <h3 class="ds-guar__cardTitle">Возврат денег</h3>
+        <h3 class="ds-guar__cardTitle">Money-Back Guarantee</h3>
         <p class="ds-guar__cardText">
-          Если продукт не подошёл — можно оформить возврат в течение N дней по правилам возврата.
+          If the product isn’t right for you, you can request a refund within N days, subject to the refund policy.
         </p>
-        <div class="ds-guar__meta">Без лишних вопросов — по регламенту</div>
+        <div class="ds-guar__meta">No unnecessary questions—handled according to our policy</div>
       </article>
 
       <article class="ds-guar__card wpds-fade-item" role="listitem">
         <div class="ds-guar__icon" aria-hidden="true">🛠️</div>
-        <h3 class="ds-guar__cardTitle">Поддержка и помощь</h3>
+        <h3 class="ds-guar__cardTitle">Support and Assistance</h3>
         <p class="ds-guar__cardText">
-          Подскажем по установке и базовой настройке, поможем разобраться с типовыми проблемами.
+          We’ll help with installation and basic setup, and assist with common issues.
         </p>
-        <div class="ds-guar__meta">Ответ обычно до 24 часов</div>
+        <div class="ds-guar__meta">Response usually within 24 hours</div>
       </article>
 
       <article class="ds-guar__card wpds-fade-item" role="listitem">
         <div class="ds-guar__icon" aria-hidden="true">🔄</div>
-        <h3 class="ds-guar__cardTitle">Обновления и фиксы</h3>
+        <h3 class="ds-guar__cardTitle">Updates and fixes</h3>
         <p class="ds-guar__cardText">
-          Регулярно обновляем совместимость с WordPress и исправляем баги — продукт “живой”.
+          We regularly update WordPress compatibility and fix bugs—the product is actively maintained.
         </p>
-        <div class="ds-guar__meta">Changelog на странице</div>
+        <div class="ds-guar__meta">Changelog on the page</div>
       </article>
 
       <article class="ds-guar__card wpds-fade-item ds-guar__card--accent" role="listitem">
         <div class="ds-guar__icon" aria-hidden="true">⚡</div>
-        <h3 class="ds-guar__cardTitle">Быстрый старт</h3>
+        <h3 class="ds-guar__cardTitle">Quick start</h3>
         <p class="ds-guar__cardText">
-          Понятная настройка и аккуратная интеграция: без “ломающих” правок темы и без лишних зависимостей.
+          Straightforward setup and seamless integration—no theme-breaking changes or unnecessary dependencies.
         </p>
-        <div class="ds-guar__meta">Установка за 10–15 минут</div>
+        <div class="ds-guar__meta">Install in 10–15 minutes</div>
       </article>
 
       <article class="ds-guar__card wpds-fade-item" role="listitem">
         <div class="ds-guar__icon" aria-hidden="true">🔒</div>
-        <h3 class="ds-guar__cardTitle">Безопасность</h3>
+        <h3 class="ds-guar__cardTitle">Security</h3>
         <p class="ds-guar__cardText">
-          Следим за совместимостью и используем стандартные практики WordPress (санитизация, nonce, роли).
+          We monitor compatibility and follow standard WordPress practices (sanitization, nonces, roles).
         </p>
-        <div class="ds-guar__meta">Аккуратный код</div>
+        <div class="ds-guar__meta">Clean code</div>
       </article>
 
       <article class="ds-guar__card wpds-fade-item" role="listitem">
         <div class="ds-guar__icon" aria-hidden="true">📄</div>
-        <h3 class="ds-guar__cardTitle">Прозрачная лицензия</h3>
+        <h3 class="ds-guar__cardTitle">Transparent licensing</h3>
         <p class="ds-guar__cardText">
-          Понятные условия: на сколько сайтов, как переносится, что входит в поддержку и обновления.
+          Clear terms: how many sites you can use it on, how to transfer it, and what support and updates include.
         </p>
-        <div class="ds-guar__meta">Ссылка на условия</div>
+        <div class="ds-guar__meta">Link to terms</div>
       </article>
 
     </div>
@@ -3413,46 +3413,46 @@ if ( empty($video) ) {
     <div class="ds-cta__box">
       <!-- Left -->
       <div class="ds-cta__content">
-        <h2 class="ds-cta__title">Готовы запустить уже сегодня?</h2>
+        <h2 class="ds-cta__title">Ready to launch today?</h2>
         <p class="ds-cta__subtitle">
-          Установите плагин, настройте за 10–15 минут и начните получать результат.
-          Если нужна помощь — подскажем по установке и совместимости.
+          Install the plugin, configure it in 10–15 minutes, and start seeing results.
+          If you need help, we’ll assist with installation and compatibility.
         </p>
 
         <div class="ds-cta__actions">
-          <a class="ds-cta__btn" href="#license">Выбрать лицензию</a>
-          <a class="ds-cta__btn ds-cta__btn--ghost" href="#demo">Посмотреть демо</a>
+          <a class="ds-cta__btn" href="#license">Choose a license</a>
+          <a class="ds-cta__btn ds-cta__btn--ghost" href="#demo">View demo</a>
         </div>
 
         <div class="ds-cta__trust">
-          <span class="ds-cta__trustItem">✅ Без подписок</span>
-          <span class="ds-cta__trustItem">✅ Обновления и фиксы</span>
-          <span class="ds-cta__trustItem">✅ Поддержка</span>
+          <span class="ds-cta__trustItem">✅ No subscriptions</span>
+          <span class="ds-cta__trustItem">✅ Updates and fixes</span>
+          <span class="ds-cta__trustItem">✅ Support</span>
         </div>
       </div>
 
       <!-- Right -->
-      <aside class="ds-cta__aside" aria-label="Что вы получаете">
+      <aside class="ds-cta__aside" aria-label="What You Get">
         <div class="ds-cta__card">
           <div class="ds-cta__cardTop">
-            <div class="ds-cta__badge">Что входит</div>
-            <div class="ds-cta__small">После покупки</div>
+            <div class="ds-cta__badge">What’s Included</div>
+            <div class="ds-cta__small">After purchase</div>
           </div>
 
           <ul class="ds-cta__list">
-            <li>Файл плагина + доступ к обновлениям</li>
-            <li>Инструкция по установке и запуску</li>
-            <li>Поддержка по типовым вопросам</li>
-            <li>Совместимость с темами/конструкторами</li>
+            <li>Plugin file + access to updates</li>
+            <li>Installation and setup guide</li>
+            <li>Support for common questions</li>
+            <li>Compatibility with themes/page builders</li>
           </ul>
 
           <div class="ds-cta__mini">
-            <span class="ds-cta__miniItem">⏱ Быстрый старт</span>
-            <span class="ds-cta__miniItem">🧩 Без кодинга</span>
-            <span class="ds-cta__miniItem">⚙️ Настройки в WP</span>
+            <span class="ds-cta__miniItem">⏱ Quick start</span>
+            <span class="ds-cta__miniItem">🧩 No coding required</span>
+            <span class="ds-cta__miniItem">⚙️ WP settings</span>
           </div>
 
-          <a class="ds-cta__link" href="#faq">Посмотреть FAQ</a>
+          <a class="ds-cta__link" href="#faq">View FAQ</a>
         </div>
       </aside>
     </div>
@@ -3465,7 +3465,7 @@ if ( empty($video) ) {
 
   <div class="container" style="max-width:1200px;margin:0 auto;padding:24px 20px;">
     <?php
-    // Ниже контент страницы (что ты введёшь в редакторе)
+    // Render the page content entered in the editor below.
     while ( have_posts() ) : the_post();
       the_content();
     endwhile;
@@ -3474,7 +3474,7 @@ if ( empty($video) ) {
 </main>
 
 <?php if (function_exists('ps_render_plugin_specs')) {
-	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => '21 июля 2026'));
+	ps_render_plugin_specs(array('version' => '1.0.0', 'wp_tested' => 'WordPress 6.6', 'wc_tested' => 'WooCommerce 9.1', 'updated' => 'July 21, 2026'));
 }
 ?>
 
